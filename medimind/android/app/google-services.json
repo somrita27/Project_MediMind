@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "186180075136",
+    "project_id": "medimind-781cc",
+    "storage_bucket": "medimind-781cc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186180075136:android:81fca049f93652fb7c3065",
+        "android_client_info": {
+          "package_name": "com.example.medi_mind"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWODb3s91uP5vFER79lOOOwJG4MwAHX74"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186180075136:android:ca708e4e0af0f26f7c3065",
+        "android_client_info": {
+          "package_name": "com.example.medimind"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWODb3s91uP5vFER79lOOOwJG4MwAHX74"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
