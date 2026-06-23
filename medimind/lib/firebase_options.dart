@@ -63,7 +63,6 @@ class DefaultFirebaseOptions {
     projectId: 'medimind-781cc',
     storageBucket: 'medimind-781cc.firebasestorage.app',
   );
-
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyBIyy-JMeC-pn3QwsfjLrMpAb-FgQdxMgw',
     appId: '1:186180075136:ios:a03ec444821dd3a37c3065',

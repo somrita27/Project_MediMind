@@ -55,15 +55,18 @@ class _RegisterScreenState extends State<RegisterScreen> {
 
   @override
   void dispose() {
-    _nameCtrl.dispose(); _emailCtrl.dispose();
-    _passCtrl.dispose(); _ageCtrl.dispose(); _allergyCtrl.dispose();
+    _nameCtrl.dispose();
+    _emailCtrl.dispose();
+    _passCtrl.dispose();
+    _ageCtrl.dispose();
+    _allergyCtrl.dispose();
     super.dispose();
   }
 
   Widget _label(String text) => Padding(
-    padding: const EdgeInsets.only(bottom: 8),
-    child: Text(text, style: AppTextStyles.labelLarge),
-  );
+        padding: const EdgeInsets.only(bottom: 8),
+        child: Text(text, style: AppTextStyles.labelLarge),
+      );
 
   @override
   Widget build(BuildContext context) {
@@ -83,26 +86,26 @@ class _RegisterScreenState extends State<RegisterScreen> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 const SizedBox(height: 8),
-                const Text('Create Account', style: AppTextStyles.headlineLarge),
+                const Text('Create Account',
+                    style: AppTextStyles.headlineLarge),
                 const SizedBox(height: 6),
                 const Text(
                   'Join MediMind and take charge of your health',
                   style: AppTextStyles.bodyMedium,
                 ),
                 const SizedBox(height: 28),
-
                 _label('Full Name'),
                 TextFormField(
                   controller: _nameCtrl,
                   textCapitalization: TextCapitalization.words,
                   decoration: const InputDecoration(
-                    hintText: 'Srijon Ghosh',
+                    hintText: 'Your full name',
                     prefixIcon: Icon(Icons.person_outline, size: 20),
                   ),
-                  validator: (v) => v == null || v.isEmpty ? 'Name is required' : null,
+                  validator: (v) =>
+                      v == null || v.isEmpty ? 'Name is required' : null,
                 ),
                 const SizedBox(height: 16),
-
                 _label('Email'),
                 TextFormField(
                   controller: _emailCtrl,
@@ -111,10 +114,11 @@ class _RegisterScreenState extends State<RegisterScreen> {
                     hintText: 'you@example.com',
                     prefixIcon: Icon(Icons.mail_outline, size: 20),
                   ),
-                  validator: (v) => v == null || !v.contains('@') ? 'Valid email required' : null,
+                  validator: (v) => v == null || !v.contains('@')
+                      ? 'Valid email required'
+                      : null,
                 ),
                 const SizedBox(height: 16),
-
                 _label('Password'),
                 TextFormField(
                   controller: _passCtrl,
@@ -124,16 +128,18 @@ class _RegisterScreenState extends State<RegisterScreen> {
                     prefixIcon: const Icon(Icons.lock_outline, size: 20),
                     suffixIcon: IconButton(
                       icon: Icon(
-                        _obscure ? Icons.visibility_off_outlined : Icons.visibility_outlined,
+                        _obscure
+                            ? Icons.visibility_off_outlined
+                            : Icons.visibility_outlined,
                         size: 20,
                       ),
                       onPressed: () => setState(() => _obscure = !_obscure),
                     ),
                   ),
-                  validator: (v) => v == null || v.length < 6 ? 'Min 6 characters' : null,
+                  validator: (v) =>
+                      v == null || v.length < 6 ? 'Min 6 characters' : null,
                 ),
                 const SizedBox(height: 16),
-
                 _label('Age'),
                 TextFormField(
                   controller: _ageCtrl,
@@ -145,12 +151,12 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   validator: (v) {
                     if (v == null || v.isEmpty) return 'Age is required';
                     final age = int.tryParse(v);
-                    if (age == null || age < 1 || age > 120) return 'Enter a valid age';
+                    if (age == null || age < 1 || age > 120)
+                      return 'Enter a valid age';
                     return null;
                   },
                 ),
                 const SizedBox(height: 16),
-
                 _label('Known Allergies (optional)'),
                 TextFormField(
                   controller: _allergyCtrl,
@@ -160,21 +166,20 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   ),
                 ),
                 const SizedBox(height: 32),
-
                 GradientButton(
                   text: 'Sign Up',
                   onPressed: _register,
                   isLoading: _loading,
                 ),
                 const SizedBox(height: 16),
-
                 Center(
                   child: GestureDetector(
                     onTap: () => context.go(AppRoutes.login),
                     child: RichText(
                       text: const TextSpan(
                         text: 'Already have an account? ',
-                        style: TextStyle(color: AppColors.textSecondary, fontSize: 14),
+                        style: TextStyle(
+                            color: AppColors.textSecondary, fontSize: 14),
                         children: [
                           TextSpan(
                             text: 'Login',
