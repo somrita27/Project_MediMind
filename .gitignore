@@ -1,0 +1,57 @@
+```gitignore
+
+# Flutter/Dart
+medimind/.dart_tool/
+medimind/.flutter-plugins
+medimind/.flutter-plugins-dependencies
+medimind/.packages
+medimind/.pub/
+medimind/build/
+
+# Flutter generated
+medimind/ios/Flutter/Flutter.framework
+medimind/ios/Flutter/App.framework
+
+# Android
+
+medimind/android/.gradle/
+medimind/android/app/debug/
+medimind/android/app/profile/
+medimind/android/app/release/
+
+# iOS / macOS
+
+medimind/ios/Pods/
+medimind/macos/Pods/
+
+# Python
+
+backend/__pycache__/
+backend/**/*.py[cod]
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.venv/
+backend/venv/
+backend/.env
+
+# Machine Learning
+
+backend/models/*.pkl
+backend/models/*.joblib
+backend/models/*.h5
+backend/models/*.pt
+backend/models/*.pth
+backend/models/*.onnx
+
+
+.ipynb_checkpoints/
+
+.vscode/
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+*.log
+```
