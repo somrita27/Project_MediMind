@@ -1,0 +1,2002 @@
+[
+  {
+    "category": "Infectious Diseases",
+    "disease": "Influenza",
+    "symptoms": "Fever, chills, body aches, fatigue, cough, sore throat, runny nose",
+    "medicine": "Oseltamivir (Tamiflu) 75mg",
+    "frequency": "2x/day",
+    "time": "8:00 AM (Morning) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Rest, hydration, avoid contact with others; annual flu vaccine recommended"
+  },
+  {
+    "category": "Infectious Diseases",
+    "disease": "COVID-19",
+    "symptoms": "Fever, dry cough, fatigue, loss of taste/smell, breathlessness",
+    "medicine": "Nirmatrelvir/Ritonavir (Paxlovid) 300mg/100mg",
+    "frequency": "2x/day",
+    "time": "8:00 AM (Morning) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Isolation, mask use, hydration, monitor O2 saturation; vaccination strongly advised"
+  },
+  {
+    "category": "Infectious Diseases",
+    "disease": "Tuberculosis",
+    "symptoms": "Persistent cough >3 weeks, hemoptysis, night sweats, weight loss, fever",
+    "medicine": "Isoniazid + Rifampicin + Pyrazinamide + Ethambutol (HRZE)",
+    "frequency": "1x/day",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Complete full course; DOT (Directly Observed Therapy) recommended; avoid alcohol"
+  },
+  {
+    "category": "Infectious Diseases",
+    "disease": "Pneumonia",
+    "symptoms": "High fever, productive cough, chest pain, dyspnea, fatigue",
+    "medicine": "Amoxicillin-Clavulanate 875mg OR Azithromycin 500mg",
+    "frequency": "2x/day (Amox) / 1x/day (Azithro)",
+    "time": "8:00 AM (Morning) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Rest, hydration, follow-up chest X-ray; hospitalize if SpO2 <94%"
+  },
+  {
+    "category": "Infectious Diseases",
+    "disease": "Malaria",
+    "symptoms": "Cyclical fever, chills, sweating, headache, vomiting, anemia",
+    "medicine": "Artemether + Lumefantrine (Coartem) 20/120mg",
+    "frequency": "2x/day",
+    "time": "8:00 AM (Morning) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Avoid mosquito exposure, use nets and repellents; test before treatment"
+  },
+  {
+    "category": "Infectious Diseases",
+    "disease": "Dengue Fever",
+    "symptoms": "High fever, severe headache, retro-orbital pain, rash, myalgia, thrombocytopenia",
+    "medicine": "No antiviral; Paracetamol 500mg for fever",
+    "frequency": "3–4x/day",
+    "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "AVOID Aspirin/NSAIDs (bleeding risk); monitor platelets; IV fluids if needed"
+  },
+  {
+    "category": "Infectious Diseases",
+    "disease": "Typhoid Fever",
+    "symptoms": "Sustained fever, abdominal pain, rose spots, constipation/diarrhea, headache",
+    "medicine": "Ceftriaxone 2g IV OR Azithromycin 1g oral",
+    "frequency": "1x/day",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Boil drinking water, hand hygiene; typhoid vaccine available"
+  },
+  {
+    "category": "Infectious Diseases",
+    "disease": "Cholera",
+    "symptoms": "Profuse watery diarrhea ('rice water'), vomiting, rapid dehydration",
+    "medicine": "ORS (Oral Rehydration Salts) + Doxycycline 300mg (single dose)",
+    "frequency": "Continuous ORS / Single dose antibiotic",
+    "time": "Continuous (administered throughout the day)",
+    "duration_days": "",
+    "precautions": "Strict water/food hygiene; IV fluids for severe cases; cholera vaccine"
+  },
+  {
+    "category": "Infectious Diseases",
+    "disease": "Hepatitis B",
+    "symptoms": "Jaundice, fatigue, abdominal pain, dark urine, nausea",
+    "medicine": "Tenofovir 300mg OR Entecavir 0.5mg (chronic phase)",
+    "frequency": "1x/day",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Avoid alcohol; hepatitis B vaccine for contacts; monitor liver function"
+  },
+  {
+    "category": "Infectious Diseases",
+    "disease": "Hepatitis C",
+    "symptoms": "Fatigue, jaundice, right upper quadrant pain, dark urine",
+    "medicine": "Sofosbuvir + Velpatasvir (Epclusa) 400/100mg",
+    "frequency": "1x/day",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Avoid alcohol; no vaccine available; screen close contacts"
+  },
+  {
+    "category": "Infectious Diseases",
+    "disease": "HIV/AIDS",
+    "symptoms": "Acute: flu-like illness; Chronic: weight loss, recurrent infections, night sweats",
+    "medicine": "ART: Tenofovir + Emtricitabine + Efavirenz (TDF/FTC/EFV)",
+    "frequency": "1x/day",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Condom use, no needle sharing, PrEP for prevention; regular CD4/viral load monitoring"
+  },
+  {
+    "category": "Infectious Diseases",
+    "disease": "Syphilis",
+    "symptoms": "Primary: painless chancre; Secondary: rash, flu-like; Tertiary: organ damage",
+    "medicine": "Benzathine Penicillin G 2.4 million units IM",
+    "frequency": "Single dose (primary/secondary); 3 doses weekly (tertiary)",
+    "time": "8:00 AM (Morning) (one-time dose)",
+    "duration_days": "",
+    "precautions": "Partner notification and treatment; avoid sexual contact until healed"
+  },
+  {
+    "category": "Infectious Diseases",
+    "disease": "Gonorrhea",
+    "symptoms": "Urethral/vaginal discharge, dysuria, pelvic pain; often asymptomatic in women",
+    "medicine": "Ceftriaxone 500mg IM + Azithromycin 1g oral",
+    "frequency": "Single dose",
+    "time": "8:00 AM (Morning) (one-time dose)",
+    "duration_days": "",
+    "precautions": "Treat partner simultaneously; screen for co-infections; avoid unprotected sex"
+  },
+  {
+    "category": "Infectious Diseases",
+    "disease": "Chlamydia",
+    "symptoms": "Often asymptomatic; dysuria, discharge, pelvic inflammatory disease",
+    "medicine": "Azithromycin 1g OR Doxycycline 100mg",
+    "frequency": "Single dose / 2x/day",
+    "time": "8:00 AM (Morning) (one-time dose)",
+    "duration_days": "",
+    "precautions": "Treat partner; abstain from sex for 7 days post-treatment"
+  },
+  {
+    "category": "Infectious Diseases",
+    "disease": "Leprosy",
+    "symptoms": "Hypopigmented skin patches, loss of sensation, peripheral nerve thickening",
+    "medicine": "Dapsone 100mg + Rifampicin 600mg + Clofazimine 50mg (MDT)",
+    "frequency": "Daily (monthly supervised Rifampicin)",
+    "time": "8:00 AM (Morning) (daily, supervised monthly)",
+    "duration_days": "",
+    "precautions": "Complete full MDT course; prevent disability; educate family; notify contacts"
+  },
+  {
+    "category": "Infectious Diseases",
+    "disease": "Meningitis",
+    "symptoms": "Sudden severe headache, stiff neck, photophobia, fever, petechial rash",
+    "medicine": "Ceftriaxone 2g IV",
+    "frequency": "2x/day",
+    "time": "8:00 AM (Morning) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Medical emergency; meningococcal vaccine; prophylaxis for close contacts (Rifampicin)"
+  },
+  {
+    "category": "Infectious Diseases",
+    "disease": "Tetanus",
+    "symptoms": "Muscle rigidity, trismus (lockjaw), spasms, autonomic dysfunction",
+    "medicine": "Metronidazole 500mg + Tetanus Immunoglobulin (TIG) 3000–6000 IU",
+    "frequency": "3x/day (Metro) / Single dose (TIG)",
+    "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Wound debridement; ICU care often needed; tetanus vaccine (TT/Tdap) prevention"
+  },
+  {
+    "category": "Infectious Diseases",
+    "disease": "Whooping Cough (Pertussis)",
+    "symptoms": "Paroxysmal cough with inspiratory 'whoop', post-tussive vomiting, cyanosis",
+    "medicine": "Azithromycin 500mg (day 1), then 250mg",
+    "frequency": "1x/day",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Isolate patient; DTaP/Tdap vaccination; prophylaxis for household contacts"
+  },
+  {
+    "category": "Infectious Diseases",
+    "disease": "Ringworm",
+    "symptoms": "Circular scaly itchy rash with clear center, hair loss (scalp)",
+    "medicine": "Clotrimazole 1% cream OR Terbinafine 1% cream (topical)",
+    "frequency": "2x/day",
+    "time": "8:00 AM (Morning) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Keep area dry; avoid sharing personal items; wash clothing/bedding"
+  },
+  {
+    "category": "Infectious Diseases",
+    "disease": "Candidiasis",
+    "symptoms": "White patches (oral), vaginal itching/discharge, skin rash in folds",
+    "medicine": "Fluconazole 150mg (systemic) OR Clotrimazole pessary (vaginal)",
+    "frequency": "Single dose / 1x/day",
+    "time": "8:00 AM (Morning) (one-time dose)",
+    "duration_days": "",
+    "precautions": "Keep skin dry; manage blood sugar in diabetics; probiotics may help"
+  },
+  {
+    "category": "Cardiovascular Diseases",
+    "disease": "Hypertension",
+    "symptoms": "Headache, dizziness, blurred vision, nosebleeds (often asymptomatic)",
+    "medicine": "Amlodipine 5–10mg OR Enalapril 5–10mg",
+    "frequency": "1x/day",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Low-sodium diet (<2g/day), exercise, reduce alcohol, monitor BP daily"
+  },
+  {
+    "category": "Cardiovascular Diseases",
+    "disease": "Coronary Artery Disease",
+    "symptoms": "Chest pain/tightness, exertional dyspnea, palpitations, fatigue",
+    "medicine": "Aspirin 75mg + Atorvastatin 40mg + Bisoprolol 5mg",
+    "frequency": "1x/day each",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Smoking cessation, cardiac diet, regular exercise, stress management"
+  },
+  {
+    "category": "Cardiovascular Diseases",
+    "disease": "Heart Failure",
+    "symptoms": "Dyspnea, orthopnea, bilateral leg edema, fatigue, reduced exercise tolerance",
+    "medicine": "Furosemide 40mg + Enalapril 5mg + Carvedilol 3.125mg",
+    "frequency": "1–2x/day",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Fluid restriction (<1.5L/day), daily weight monitoring, low-sodium diet"
+  },
+  {
+    "category": "Cardiovascular Diseases",
+    "disease": "Atrial Fibrillation",
+    "symptoms": "Palpitations, irregular pulse, dyspnea, dizziness, fatigue",
+    "medicine": "Bisoprolol 5mg + Rivaroxaban 20mg (anticoagulation)",
+    "frequency": "1x/day",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Avoid caffeine/alcohol triggers; monitor INR if on Warfarin; fall precautions"
+  },
+  {
+    "category": "Cardiovascular Diseases",
+    "disease": "Deep Vein Thrombosis",
+    "symptoms": "Unilateral leg swelling, redness, warmth, calf pain",
+    "medicine": "Rivaroxaban 15mg (initial) then 20mg",
+    "frequency": "2x/day (first 3wks) then 1x/day",
+    "time": "8:00 AM (Morning) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Leg elevation, compression stockings, early ambulation, hydration"
+  },
+  {
+    "category": "Cardiovascular Diseases",
+    "disease": "Pulmonary Embolism",
+    "symptoms": "Sudden dyspnea, pleuritic chest pain, hemoptysis, tachycardia, hypoxia",
+    "medicine": "Heparin IV (initial) then Rivaroxaban 15mg",
+    "frequency": "Continuous IV / 2x/day oral",
+    "time": "Continuous (administered throughout the day)",
+    "duration_days": "",
+    "precautions": "Medical emergency; absolute rest initially; anticoagulation compliance critical"
+  },
+  {
+    "category": "Cardiovascular Diseases",
+    "disease": "Hyperlipidemia",
+    "symptoms": "Usually asymptomatic; may cause xanthelasma, corneal arcus",
+    "medicine": "Atorvastatin 20–40mg OR Rosuvastatin 10–20mg",
+    "frequency": "1x/day (evening)",
+    "time": "6:00 PM (Evening)",
+    "duration_days": "",
+    "precautions": "Low-fat diet, regular exercise, avoid trans fats, monitor LFTs"
+  },
+  {
+    "category": "Cardiovascular Diseases",
+    "disease": "Angina",
+    "symptoms": "Chest pressure/tightness on exertion, jaw/arm radiation, relieved by rest",
+    "medicine": "GTN (Glyceryl Trinitrate) sublingual spray + Bisoprolol 5mg",
+    "frequency": "PRN (GTN) / 1x/day (Bisoprolol)",
+    "time": "As needed (PRN) — typically Morning or Night when symptoms occur",
+    "duration_days": "",
+    "precautions": "Avoid triggers, carry GTN always, seek ER if pain >20 min (possible MI)"
+  },
+  {
+    "category": "Cardiovascular Diseases",
+    "disease": "Peripheral Artery Disease",
+    "symptoms": "Claudication, leg pain at rest, non-healing ulcers, cold extremities",
+    "medicine": "Aspirin 75mg + Clopidogrel 75mg + Atorvastatin 40mg",
+    "frequency": "1x/day each",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Smoking cessation (critical), wound care, supervised walking program"
+  },
+  {
+    "category": "Cardiovascular Diseases",
+    "disease": "Myocardial Infarction (post-treatment)",
+    "symptoms": "Post-MI: fatigue, reduced exercise capacity (acute: crushing chest pain)",
+    "medicine": "Aspirin 75mg + Atorvastatin 40mg + Bisoprolol 5mg + Ramipril 5mg",
+    "frequency": "1x/day each",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Cardiac rehab, smoking cessation, dietary changes, psychological support"
+  },
+  {
+    "category": "Respiratory Diseases",
+    "disease": "Asthma",
+    "symptoms": "Wheeze, breathlessness, chest tightness, nocturnal cough",
+    "medicine": "Salbutamol (SABA) inhaler 100mcg + Beclomethasone (ICS) 200mcg",
+    "frequency": "PRN (rescue) / 2x/day (preventer)",
+    "time": "As needed (PRN) — typically Morning or Night when symptoms occur",
+    "duration_days": "",
+    "precautions": "Avoid triggers (dust, smoke, allergens); have rescue inhaler always; annual review"
+  },
+  {
+    "category": "Respiratory Diseases",
+    "disease": "COPD",
+    "symptoms": "Progressive dyspnea, chronic productive cough, wheeze, reduced exercise tolerance",
+    "medicine": "Tiotropium (LAMA) 18mcg inhaler + Salbutamol PRN",
+    "frequency": "1x/day (Tio) + PRN",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Smoking cessation (most important); pulmonary rehab; annual influenza vaccine"
+  },
+  {
+    "category": "Respiratory Diseases",
+    "disease": "Allergic Rhinitis",
+    "symptoms": "Sneezing, nasal congestion, watery rhinorrhea, itchy eyes/nose",
+    "medicine": "Cetirizine 10mg + Fluticasone nasal spray 50mcg/spray",
+    "frequency": "1x/day + 2 sprays/nostril 1x/day",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Avoid allergens; saline nasal irrigation; allergy testing may guide treatment"
+  },
+  {
+    "category": "Respiratory Diseases",
+    "disease": "Sinusitis",
+    "symptoms": "Facial pain/pressure, nasal congestion, purulent discharge, headache",
+    "medicine": "Amoxicillin-Clavulanate 875mg (if bacterial) + Fluticasone spray",
+    "frequency": "2x/day + 1x/day",
+    "time": "8:00 AM (Morning) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Steam inhalation, saline rinses, avoid cold air; most cases viral – no antibiotics"
+  },
+  {
+    "category": "Respiratory Diseases",
+    "disease": "Bronchitis",
+    "symptoms": "Productive cough, low-grade fever, wheeze, chest discomfort",
+    "medicine": "Usually supportive: Paracetamol 500mg + Salbutamol inhaler (if wheeze)",
+    "frequency": "3x/day + PRN",
+    "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Hydration, humidifier, honey-lemon; antibiotics only if bacterial superinfection"
+  },
+  {
+    "category": "Respiratory Diseases",
+    "disease": "Pulmonary Hypertension",
+    "symptoms": "Dyspnea on exertion, fatigue, syncope, right heart failure signs",
+    "medicine": "Sildenafil 20mg OR Bosentan 125mg (specialist-initiated)",
+    "frequency": "3x/day / 2x/day",
+    "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Avoid high altitude, excessive exertion; O2 supplementation; specialist follow-up"
+  },
+  {
+    "category": "Respiratory Diseases",
+    "disease": "Cystic Fibrosis",
+    "symptoms": "Chronic productive cough, recurrent lung infections, malabsorption, failure to thrive",
+    "medicine": "Ivacaftor/Lumacaftor (Orkambi) + Dornase alfa (nebulized)",
+    "frequency": "2x/day + 1x/day",
+    "time": "8:00 AM (Morning) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Chest physiotherapy, high-calorie diet, enzyme supplements, annual reviews"
+  },
+  {
+    "category": "Respiratory Diseases",
+    "disease": "Interstitial Lung Disease",
+    "symptoms": "Progressive dyspnea, dry cough, bilateral crackles, finger clubbing",
+    "medicine": "Pirfenidone 267mg (IPF) OR Nintedanib 150mg",
+    "frequency": "3x/day / 2x/day",
+    "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Pulmonary rehab, O2 therapy, avoid lung toxins; lung transplant evaluation"
+  },
+  {
+    "category": "Respiratory Diseases",
+    "disease": "Sleep Apnea",
+    "symptoms": "Loud snoring, witnessed apneas, daytime somnolence, morning headache",
+    "medicine": "CPAP therapy (primary) + Weight loss; Modafinil 200mg (if residual sleepiness)",
+    "frequency": "Nightly CPAP + 1x/day (if Modafinil)",
+    "time": "9:00 PM (Night) (nightly)",
+    "duration_days": "",
+    "precautions": "Weight reduction, positional therapy, avoid alcohol/sedatives before bed"
+  },
+  {
+    "category": "Respiratory Diseases",
+    "disease": "Tuberculous Pleurisy",
+    "symptoms": "Fever, pleuritic chest pain, dyspnea, pleural effusion on imaging",
+    "medicine": "Isoniazid + Rifampicin + Pyrazinamide + Ethambutol (same as TB)",
+    "frequency": "1x/day",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Same as pulmonary TB; therapeutic thoracocentesis if large effusion; pyridoxine supplement"
+  },
+  {
+    "category": "Endocrine & Metabolic Disorders",
+    "disease": "Type 1 Diabetes",
+    "symptoms": "Polydipsia, polyuria, weight loss, fatigue, DKA in acute cases",
+    "medicine": "Insulin (Basal: Glargine 10-30U) + (Bolus: Aspart/Lispro per meal)",
+    "frequency": "1x/day (basal) + 3x/day with meals",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Carbohydrate counting, glucose monitoring, sick-day rules, hypoglycemia management kit"
+  },
+  {
+    "category": "Endocrine & Metabolic Disorders",
+    "disease": "Type 2 Diabetes",
+    "symptoms": "Often asymptomatic early; polyuria, fatigue, blurred vision, recurrent infections",
+    "medicine": "Metformin 500–1000mg + lifestyle modification",
+    "frequency": "2x/day (with meals)",
+    "time": "8:00 AM (Morning) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Low glycemic index diet, regular exercise, weight loss, monitor HbA1c every 3 months"
+  },
+  {
+    "category": "Endocrine & Metabolic Disorders",
+    "disease": "Hypothyroidism",
+    "symptoms": "Fatigue, weight gain, cold intolerance, constipation, bradycardia, dry skin",
+    "medicine": "Levothyroxine 50–100mcg",
+    "frequency": "1x/day (morning, fasting)",
+    "time": "6:30 AM (Early Morning, fasting)",
+    "duration_days": "",
+    "precautions": "Take 30–60 min before breakfast; avoid calcium/iron supplements within 4 hours; monitor TSH"
+  },
+  {
+    "category": "Endocrine & Metabolic Disorders",
+    "disease": "Hyperthyroidism",
+    "symptoms": "Weight loss, palpitations, heat intolerance, tremor, exophthalmos (Graves')",
+    "medicine": "Carbimazole 10–20mg OR Propylthiouracil 100mg",
+    "frequency": "3x/day",
+    "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Avoid iodine-rich foods; monitor thyroid function; consider radioiodine/surgery for relapse"
+  },
+  {
+    "category": "Endocrine & Metabolic Disorders",
+    "disease": "Cushing Syndrome",
+    "symptoms": "Moon face, central obesity, purple striae, hypertension, hyperglycemia",
+    "medicine": "Ketoconazole 200mg (medical management) or surgical if adenoma",
+    "frequency": "2–3x/day",
+    "time": "8:00 AM (Morning) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Investigate cause (exogenous vs endogenous); taper exogenous steroids gradually"
+  },
+  {
+    "category": "Endocrine & Metabolic Disorders",
+    "disease": "Addison Disease",
+    "symptoms": "Fatigue, hyperpigmentation, hypotension, weight loss, salt craving",
+    "medicine": "Hydrocortisone 20mg/day + Fludrocortisone 0.1mg",
+    "frequency": "2–3x/day (Hydrocort) / 1x/day (Fludro)",
+    "time": "8:00 AM (Morning) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Carry steroid emergency card; sick-day rules (double dose); medical alert bracelet"
+  },
+  {
+    "category": "Endocrine & Metabolic Disorders",
+    "disease": "PCOS",
+    "symptoms": "Irregular periods, hirsutism, acne, weight gain, infertility",
+    "medicine": "Metformin 500mg + Combined OCP (for regulation) + Spironolactone (hirsutism)",
+    "frequency": "2x/day / 1x/day / 1x/day",
+    "time": "8:00 AM (Morning) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Weight loss (5–10% improves symptoms), low GI diet, regular exercise"
+  },
+  {
+    "category": "Endocrine & Metabolic Disorders",
+    "disease": "Osteoporosis",
+    "symptoms": "Often asymptomatic; fragility fractures (wrist, hip, vertebra), back pain",
+    "medicine": "Alendronate 70mg (weekly) + Calcium 1000mg + Vitamin D3 1000IU",
+    "frequency": "Weekly / 1x/day / 1x/day",
+    "time": "8:00 AM (Morning) (once weekly)",
+    "duration_days": "",
+    "precautions": "Weight-bearing exercise, fall prevention, adequate protein intake, avoid smoking/alcohol"
+  },
+  {
+    "category": "Endocrine & Metabolic Disorders",
+    "disease": "Gout",
+    "symptoms": "Sudden severe joint pain (often big toe), redness, swelling, warmth",
+    "medicine": "Indomethacin 50mg (acute) OR Colchicine 0.5mg; Allopurinol 100–300mg (prevention)",
+    "frequency": "3x/day (acute) / 2–3x/day / 1x/day (prevention)",
+    "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Low-purine diet (avoid red meat, alcohol, seafood), adequate hydration (>2L/day)"
+  },
+  {
+    "category": "Endocrine & Metabolic Disorders",
+    "disease": "Obesity",
+    "symptoms": "BMI >30, dyspnea on exertion, sleep apnea, joint pain, psychosocial impact",
+    "medicine": "Orlistat 120mg (with meals) OR Semaglutide 0.5–2.4mg (weekly)",
+    "frequency": "3x/day (Orlistat) / Weekly injection",
+    "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Caloric deficit diet, regular exercise (150+ min/week), behavioral therapy, sleep hygiene"
+  },
+  {
+    "category": "Gastrointestinal Diseases",
+    "disease": "GERD",
+    "symptoms": "Heartburn, regurgitation, belching, dysphagia, nocturnal cough, hoarseness",
+    "medicine": "Omeprazole 20mg OR Pantoprazole 40mg",
+    "frequency": "1x/day (30 min before breakfast)",
+    "time": "7:00 AM (Morning, before breakfast)",
+    "duration_days": "",
+    "precautions": "Avoid lying down after meals, elevate bed head, avoid trigger foods (coffee, spicy, fatty)"
+  },
+  {
+    "category": "Gastrointestinal Diseases",
+    "disease": "Peptic Ulcer Disease",
+    "symptoms": "Epigastric pain (hunger pain / night pain), bloating, nausea, hematemesis",
+    "medicine": "Triple therapy: Omeprazole 20mg + Amoxicillin 1g + Clarithromycin 500mg",
+    "frequency": "2x/day each (if H. pylori +ve)",
+    "time": "8:00 AM (Morning) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Avoid NSAIDs, aspirin, alcohol, smoking; test and treat H. pylori"
+  },
+  {
+    "category": "Gastrointestinal Diseases",
+    "disease": "Gastritis",
+    "symptoms": "Epigastric discomfort, nausea, bloating, loss of appetite",
+    "medicine": "Pantoprazole 40mg + Antacid (Aluminium hydroxide + Mg hydroxide)",
+    "frequency": "1x/day + 3x/day (after meals & bedtime)",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Avoid NSAIDs, alcohol, spicy food, coffee; small frequent meals"
+  },
+  {
+    "category": "Gastrointestinal Diseases",
+    "disease": "IBS",
+    "symptoms": "Abdominal pain, bloating, alternating diarrhea/constipation, mucus in stool",
+    "medicine": "Mebeverine 135mg (antispasmodic) + Loperamide (IBS-D) OR Ispaghula (IBS-C)",
+    "frequency": "3x/day before meals",
+    "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Low-FODMAP diet, stress management, regular mealtimes, probiotic trial"
+  },
+  {
+    "category": "Gastrointestinal Diseases",
+    "disease": "Crohn's Disease",
+    "symptoms": "Abdominal cramping, chronic diarrhea (may be bloody), weight loss, perianal disease",
+    "medicine": "Mesalazine 800mg (mild) OR Azathioprine 2mg/kg/day (moderate)",
+    "frequency": "3x/day / 1x/day",
+    "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "No smoking (worsens Crohn's); regular colonoscopy; nutrition support if malnourished"
+  },
+  {
+    "category": "Gastrointestinal Diseases",
+    "disease": "Ulcerative Colitis",
+    "symptoms": "Bloody diarrhea, tenesmus, urgency, cramping, fatigue, anemia",
+    "medicine": "Mesalazine 1.2g + Prednisolone (flare) 40mg",
+    "frequency": "3x/day + 1x/day (taper)",
+    "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Regular colonoscopy for cancer screening; stress management; avoid NSAIDs"
+  },
+  {
+    "category": "Gastrointestinal Diseases",
+    "disease": "Constipation",
+    "symptoms": "Infrequent stools (<3/week), straining, hard stools, incomplete evacuation",
+    "medicine": "Lactulose 15ml OR Bisacodyl 5mg (short-term) OR Ispaghula husk",
+    "frequency": "2x/day / 1x/day (bedtime)",
+    "time": "8:00 AM (Morning) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "High-fiber diet, 2L water daily, regular exercise, respond to urge promptly"
+  },
+  {
+    "category": "Gastrointestinal Diseases",
+    "disease": "Diarrhea",
+    "symptoms": "Loose watery stools, abdominal cramps, nausea, risk of dehydration",
+    "medicine": "ORS continuously + Loperamide 2mg (non-bloody) + Zinc 20mg (children)",
+    "frequency": "PRN ORS / after each loose stool",
+    "time": "As needed (PRN) — typically Morning or Night when symptoms occur",
+    "duration_days": "",
+    "precautions": "AVOID Loperamide in bloody/febrile diarrhea; food hygiene; hand washing"
+  },
+  {
+    "category": "Gastrointestinal Diseases",
+    "disease": "Hemorrhoids",
+    "symptoms": "Rectal bleeding (bright red), perianal itching, prolapse, anal discomfort",
+    "medicine": "Hydrocortisone cream 1% (external) + Lignocaine gel (analgesia)",
+    "frequency": "2–3x/day",
+    "time": "8:00 AM (Morning) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "High-fiber diet, adequate fluids, avoid straining, sitz baths, weight management"
+  },
+  {
+    "category": "Gastrointestinal Diseases",
+    "disease": "Pancreatitis",
+    "symptoms": "Severe epigastric pain radiating to back, nausea, vomiting, elevated amylase/lipase",
+    "medicine": "IV fluids + Tramadol 50–100mg (analgesia) + NPO initially then gradual feeding",
+    "frequency": "6-hourly (pain) / Continuous IV fluids",
+    "time": "Continuous (administered throughout the day)",
+    "duration_days": "",
+    "precautions": "Avoid alcohol absolutely; low-fat diet; treat gallstones; monitor blood glucose"
+  },
+  {
+    "category": "Neurological Disorders",
+    "disease": "Epilepsy",
+    "symptoms": "Seizures (tonic-clonic, absence, focal), post-ictal confusion, tongue biting",
+    "medicine": "Sodium Valproate 200–500mg OR Lamotrigine 25–100mg",
+    "frequency": "2x/day",
+    "time": "8:00 AM (Morning) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Never stop medication abruptly; avoid triggers (alcohol, sleep deprivation); driving restrictions"
+  },
+  {
+    "category": "Neurological Disorders",
+    "disease": "Migraine",
+    "symptoms": "Unilateral throbbing headache, nausea, photophobia, phonophobia, aura",
+    "medicine": "Sumatriptan 50mg (acute) + Propranolol 40mg (prophylaxis)",
+    "frequency": "PRN (max 2 doses/24hr) / 2x/day",
+    "time": "As needed (PRN) — typically Morning or Night when symptoms occur",
+    "duration_days": "",
+    "precautions": "Identify and avoid triggers (hormones, stress, foods); headache diary; dark quiet room during attack"
+  },
+  {
+    "category": "Neurological Disorders",
+    "disease": "Parkinson's Disease",
+    "symptoms": "Resting tremor, rigidity, bradykinesia, postural instability, micrographia",
+    "medicine": "Levodopa/Carbidopa 100/25mg + Ropinirole 0.25mg (early)",
+    "frequency": "3x/day / 3x/day",
+    "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Physiotherapy, occupational therapy, fall prevention, speech therapy; DBS if advanced"
+  },
+  {
+    "category": "Neurological Disorders",
+    "disease": "Alzheimer's Disease",
+    "symptoms": "Progressive memory loss, language problems, disorientation, behavioral changes",
+    "medicine": "Donepezil 5–10mg OR Memantine 10mg (moderate-severe)",
+    "frequency": "1x/day (evening)",
+    "time": "6:00 PM (Evening)",
+    "duration_days": "",
+    "precautions": "Cognitive stimulation, safe environment, carer support, advance care planning"
+  },
+  {
+    "category": "Neurological Disorders",
+    "disease": "Multiple Sclerosis",
+    "symptoms": "Optic neuritis, diplopia, weakness, sensory changes, ataxia, fatigue",
+    "medicine": "Interferon beta-1a 30mcg IM (relapsing) OR Ocrelizumab 600mg IV (PPMS)",
+    "frequency": "Weekly injection / Every 6 months IV",
+    "time": "8:00 AM (Morning) (once weekly)",
+    "duration_days": "",
+    "precautions": "Physiotherapy, fatigue management, temperature awareness, psychological support"
+  },
+  {
+    "category": "Neurological Disorders",
+    "disease": "Neuropathic Pain",
+    "symptoms": "Burning, shooting, electric shock-like pain; allodynia, hyperalgesia",
+    "medicine": "Pregabalin 75mg OR Duloxetine 30mg + Amitriptyline 10mg (adjunct)",
+    "frequency": "2x/day / 1x/day / 1x/day (at night)",
+    "time": "8:00 AM (Morning) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Pain diary; TENS therapy; address underlying cause; sleep hygiene; psychological support"
+  },
+  {
+    "category": "Neurological Disorders",
+    "disease": "Trigeminal Neuralgia",
+    "symptoms": "Sudden, severe electric shock-like facial pain triggered by chewing/talking/touch",
+    "medicine": "Carbamazepine 100–200mg",
+    "frequency": "3x/day (titrate up slowly)",
+    "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Avoid triggers (cold wind, chewing hard foods); surgical MVD if medication fails"
+  },
+  {
+    "category": "Neurological Disorders",
+    "disease": "Restless Legs Syndrome",
+    "symptoms": "Irresistible urge to move legs, worse at rest/evening, creeping/crawling sensations",
+    "medicine": "Pramipexole 0.125mg OR Ropinirole 0.25mg (at night)",
+    "frequency": "1x/day (2–3 hrs before sleep)",
+    "time": "10:00 PM (Night, before bed)",
+    "duration_days": "",
+    "precautions": "Iron supplementation if ferritin <75; avoid caffeine/alcohol; regular exercise; leg stretches"
+  },
+  {
+    "category": "Neurological Disorders",
+    "disease": "Essential Tremor",
+    "symptoms": "Action tremor (hands), head nodding, voice tremor; worse with voluntary movement",
+    "medicine": "Propranolol 40mg OR Primidone 50mg",
+    "frequency": "2x/day / 1–2x/day",
+    "time": "8:00 AM (Morning) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Avoid caffeine; weighted utensils; avoid stress; alcohol transiently helps but avoid dependency"
+  },
+  {
+    "category": "Neurological Disorders",
+    "disease": "Myasthenia Gravis",
+    "symptoms": "Ptosis, diplopia, dysarthria, dysphagia, proximal limb weakness, fatigable muscle weakness",
+    "medicine": "Pyridostigmine 60mg + Prednisolone 20–60mg (immunosuppression)",
+    "frequency": "4–6x/day / 1x/day",
+    "time": "8:00 AM (Morning), 1:00 PM (Afternoon), 6:00 PM (Evening) & 10:00 PM (Night, before bed)",
+    "duration_days": "",
+    "precautions": "Avoid aminoglycosides, beta-blockers, fluoroquinolones (worsen MG); myasthenic crisis management"
+  },
+  {
+    "category": "Mental Health Disorders",
+    "disease": "Depression",
+    "symptoms": "Persistent low mood, anhedonia, fatigue, sleep disturbance, hopelessness, suicidal ideation",
+    "medicine": "Sertraline 50mg OR Fluoxetine 20mg",
+    "frequency": "1x/day (morning)",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Psychotherapy (CBT), regular exercise, social support, safety plan if SI; adequate sleep"
+  },
+  {
+    "category": "Mental Health Disorders",
+    "disease": "Generalized Anxiety Disorder",
+    "symptoms": "Excessive worry, tension, restlessness, fatigue, sleep disturbance, irritability",
+    "medicine": "Sertraline 50mg OR Escitalopram 10mg + Buspirone 5mg",
+    "frequency": "1x/day + 3x/day",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "CBT (gold standard), mindfulness, regular exercise, limit caffeine; relaxation techniques"
+  },
+  {
+    "category": "Mental Health Disorders",
+    "disease": "Bipolar Disorder",
+    "symptoms": "Mania: elevated mood, decreased need for sleep; Depression: low mood, hopelessness; psychosis",
+    "medicine": "Lithium 400mg OR Valproate 500mg (mood stabilizer)",
+    "frequency": "2–3x/day",
+    "time": "8:00 AM (Morning) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Monitor lithium levels; avoid alcohol; regular sleep schedule; early warning sign recognition"
+  },
+  {
+    "category": "Mental Health Disorders",
+    "disease": "Schizophrenia",
+    "symptoms": "Hallucinations, delusions, disorganized thinking, negative symptoms (alogia, avolition)",
+    "medicine": "Risperidone 2–6mg OR Olanzapine 10mg",
+    "frequency": "1–2x/day",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Medication adherence is critical; psychoeducation; community mental health support; occupational therapy"
+  },
+  {
+    "category": "Mental Health Disorders",
+    "disease": "OCD",
+    "symptoms": "Intrusive unwanted thoughts (obsessions) + repetitive behaviors (compulsions) to reduce anxiety",
+    "medicine": "Sertraline 100–200mg OR Fluvoxamine 100–300mg",
+    "frequency": "1–2x/day",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "ERP (Exposure and Response Prevention) therapy is most effective; avoid OCD-accommodating behaviors"
+  },
+  {
+    "category": "Mental Health Disorders",
+    "disease": "Panic Disorder",
+    "symptoms": "Recurrent unexpected panic attacks: palpitations, sweating, trembling, derealization, fear of dying",
+    "medicine": "Sertraline 50mg (maintenance) + Clonazepam 0.25mg (acute, short-term)",
+    "frequency": "1x/day / PRN",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "CBT (panic-focused), breathing exercises, avoid caffeine; benzodiazepine dependence risk"
+  },
+  {
+    "category": "Mental Health Disorders",
+    "disease": "PTSD",
+    "symptoms": "Flashbacks, nightmares, hypervigilance, avoidance, emotional numbing, sleep disturbance",
+    "medicine": "Sertraline 50–200mg OR Paroxetine 20–60mg",
+    "frequency": "1x/day",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Trauma-focused CBT, EMDR therapy; avoid substance use; safety and stability first"
+  },
+  {
+    "category": "Mental Health Disorders",
+    "disease": "ADHD",
+    "symptoms": "Inattention, hyperactivity, impulsivity, poor organization, forgetfulness, low frustration tolerance",
+    "medicine": "Methylphenidate 5–10mg OR Atomoxetine 40–80mg",
+    "frequency": "2–3x/day (Methyl) / 1x/day (Atomoxetine)",
+    "time": "8:00 AM (Morning) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Behavioral therapy, structured routines, classroom/work accommodations; monitor growth in children"
+  },
+  {
+    "category": "Mental Health Disorders",
+    "disease": "Insomnia",
+    "symptoms": "Difficulty falling/staying asleep, early awakening, daytime fatigue, impaired functioning",
+    "medicine": "Melatonin 2–5mg (short-term) OR Zolpidem 5mg (short-term only, max 2 weeks)",
+    "frequency": "1x/day (30 min before bed)",
+    "time": "10:00 PM (Night, before bed)",
+    "duration_days": "",
+    "precautions": "CBT-I (gold standard); sleep hygiene (no screens, regular schedule); avoid caffeine after 2pm"
+  },
+  {
+    "category": "Mental Health Disorders",
+    "disease": "Social Anxiety Disorder",
+    "symptoms": "Fear of social situations, blushing, trembling, sweating, avoidance, anticipatory anxiety",
+    "medicine": "Sertraline 50mg OR Escitalopram 10mg + Propranolol 10–20mg (situational)",
+    "frequency": "1x/day / PRN before social events",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "CBT with exposure therapy; graduated exposure hierarchy; social skills training"
+  },
+  {
+    "category": "Autoimmune & Rheumatologic Diseases",
+    "disease": "Rheumatoid Arthritis",
+    "symptoms": "Symmetric joint swelling/pain/morning stiffness (>1hr), fatigue, nodules",
+    "medicine": "Methotrexate 7.5–25mg (weekly) + Folic acid 5mg + NSAIDs (flare)",
+    "frequency": "Weekly / 1x/week (separate day) / PRN",
+    "time": "8:00 AM (Morning) (once weekly)",
+    "duration_days": "",
+    "precautions": "Monitor CBC/LFTs monthly; avoid live vaccines; folic acid reduces MTX side effects"
+  },
+  {
+    "category": "Autoimmune & Rheumatologic Diseases",
+    "disease": "SLE",
+    "symptoms": "Butterfly rash, photosensitivity, arthralgia, renal disease, serositis, hair loss",
+    "medicine": "Hydroxychloroquine 200–400mg + Prednisolone 5–30mg (active disease)",
+    "frequency": "1x/day / 1x/day",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Strict sun protection (SPF50+); monitor organ involvement; avoid estrogen OCP in active disease"
+  },
+  {
+    "category": "Autoimmune & Rheumatologic Diseases",
+    "disease": "Psoriasis",
+    "symptoms": "Well-demarcated silvery scaly plaques, scalp/elbow/knee involvement, nail pitting",
+    "medicine": "Betamethasone valerate 0.1% cream (mild) OR Methotrexate (moderate-severe)",
+    "frequency": "2x/day (topical) / Weekly (systemic)",
+    "time": "8:00 AM (Morning) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Emollient use, avoid trauma (Koebner phenomenon), phototherapy, stress reduction"
+  },
+  {
+    "category": "Autoimmune & Rheumatologic Diseases",
+    "disease": "Psoriatic Arthritis",
+    "symptoms": "Arthritis (DIP joints), dactylitis, enthesitis, nail changes, psoriatic skin lesions",
+    "medicine": "Methotrexate 15–25mg (weekly) OR Adalimumab 40mg (biologic, fortnightly)",
+    "frequency": "Weekly MTX / Biweekly Adalimumab",
+    "time": "8:00 AM (Morning) (once weekly)",
+    "duration_days": "",
+    "precautions": "Monitor joint damage with X-ray; physiotherapy; smoking cessation; weight management"
+  },
+  {
+    "category": "Autoimmune & Rheumatologic Diseases",
+    "disease": "Ankylosing Spondylitis",
+    "symptoms": "Inflammatory back pain (worse with rest, better with exercise), sacroiliac joint pain, stiffness",
+    "medicine": "Naproxen 500mg OR Etoricoxib 90mg (NSAIDs first-line) + physiotherapy",
+    "frequency": "2x/day / 1x/day",
+    "time": "8:00 AM (Morning) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Daily spinal exercise/physiotherapy critical; sleep prone; posture awareness; avoid smoking"
+  },
+  {
+    "category": "Autoimmune & Rheumatologic Diseases",
+    "disease": "Sjögren Syndrome",
+    "symptoms": "Dry eyes, dry mouth, fatigue, parotid swelling, arthralgia",
+    "medicine": "Hydroxychloroquine 200mg + Artificial tears + Pilocarpine 5mg (secretagogue)",
+    "frequency": "1x/day / 4–6x/day / 3x/day",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Regular dental care (caries risk); sip water frequently; avoid antihistamines/diuretics"
+  },
+  {
+    "category": "Autoimmune & Rheumatologic Diseases",
+    "disease": "Vasculitis",
+    "symptoms": "Fever, weight loss, organ-specific features (rash, hematuria, sinusitis, mononeuritis multiplex)",
+    "medicine": "Prednisolone 1mg/kg/day + Cyclophosphamide (severe, induction)",
+    "frequency": "1x/day / Pulsed IV monthly",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Monitor ANCA; renal function; infection screening before immunosuppression; BP control"
+  },
+  {
+    "category": "Autoimmune & Rheumatologic Diseases",
+    "disease": "Dermatomyositis",
+    "symptoms": "Proximal muscle weakness, heliotrope rash, Gottron's papules, dysphagia",
+    "medicine": "Prednisolone 1mg/kg/day + Methotrexate 10–20mg (steroid-sparing)",
+    "frequency": "1x/day / Weekly",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Malignancy screening; physiotherapy; sun protection; monitor muscle enzymes (CK, LDH)"
+  },
+  {
+    "category": "Autoimmune & Rheumatologic Diseases",
+    "disease": "Scleroderma",
+    "symptoms": "Raynaud's, skin thickening, dysphagia, ILD, pulmonary hypertension, renal crisis",
+    "medicine": "Nifedipine 10–30mg (Raynaud's) + Methotrexate (skin) + Omeprazole (GERD)",
+    "frequency": "3x/day / Weekly / 1x/day",
+    "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Hand warmers for Raynaud's; monitor BP (renal crisis); physiotherapy; esophageal dilation"
+  },
+  {
+    "category": "Autoimmune & Rheumatologic Diseases",
+    "disease": "Polymyalgia Rheumatica",
+    "symptoms": "Bilateral shoulder/hip girdle pain and stiffness (>45 min morning stiffness), elderly patients",
+    "medicine": "Prednisolone 15mg (initial) – slow taper",
+    "frequency": "1x/day",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Calcium + Vitamin D supplementation; bone protection; monitor ESR/CRP; screen for GCA"
+  },
+  {
+    "category": "Other Common Conditions",
+    "disease": "Acne Vulgaris",
+    "symptoms": "Comedones (blackheads/whiteheads), papules, pustules, nodules, scarring",
+    "medicine": "Benzoyl peroxide 5% gel (mild) OR Adapalene 0.1% (retinoid) + Clindamycin 1% gel",
+    "frequency": "1–2x/day (topical)",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Avoid picking/squeezing; gentle non-comedogenic skincare; sunscreen with topical retinoids"
+  },
+  {
+    "category": "Other Common Conditions",
+    "disease": "Eczema (Atopic Dermatitis)",
+    "symptoms": "Intensely itchy, dry, inflamed skin; eczematous patches; worse with triggers",
+    "medicine": "Emollient (multiple daily) + Hydrocortisone 1% (flare) OR Tacrolimus 0.1% (sensitive areas)",
+    "frequency": "At least 2–3x/day (emollient) / 1–2x/day (steroid during flare)",
+    "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night) (primary medicine); see notes for others",
+    "duration_days": "",
+    "precautions": "Avoid triggers (soaps, dust mites, stress); wet wrap therapy; antihistamine for itch at night"
+  },
+  {
+    "category": "Other Common Conditions",
+    "disease": "Glaucoma",
+    "symptoms": "Often asymptomatic (open angle); acute angle closure: severe eye pain, headache, halos, nausea",
+    "medicine": "Timolol 0.5% eye drops + Latanoprost 0.005% eye drops",
+    "frequency": "2x/day (Timolol) + 1x/day at night (Latanoprost)",
+    "time": "8:00 AM (Morning) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Regular eye pressure monitoring; compliance critical (no symptoms = still taking drops); driving check"
+  },
+  {
+    "category": "Other Common Conditions",
+    "disease": "BPH",
+    "symptoms": "Weak urinary stream, hesitancy, frequency, nocturia, incomplete bladder emptying",
+    "medicine": "Tamsulosin 0.4mg (alpha-blocker) OR Finasteride 5mg (5-ARI for large gland)",
+    "frequency": "1x/day (30 min after same meal)",
+    "time": "8:30 AM (Morning, after breakfast)",
+    "duration_days": "",
+    "precautions": "Limit fluids before bedtime; avoid antihistamines/decongestants; bladder training exercises"
+  },
+  {
+    "category": "Other Common Conditions",
+    "disease": "Overactive Bladder",
+    "symptoms": "Urgency, urge urinary incontinence, frequency >8x/day, nocturia",
+    "medicine": "Solifenacin 5mg OR Tolterodine 4mg (extended release)",
+    "frequency": "1x/day",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Bladder training, pelvic floor exercises, fluid management (not restriction), reduce caffeine"
+  },
+  {
+    "category": "Other Common Conditions",
+    "disease": "Erectile Dysfunction",
+    "symptoms": "Inability to achieve/maintain erection sufficient for sexual intercourse",
+    "medicine": "Sildenafil 50mg OR Tadalafil 10mg (or 5mg daily)",
+    "frequency": "PRN (1–4 hrs before) / Daily (Tadalafil 5mg)",
+    "time": "As needed (PRN) — typically Morning or Night when symptoms occur",
+    "duration_days": "",
+    "precautions": "Treat cardiovascular risk factors; psychosexual therapy; avoid with nitrates (hypotension risk)"
+  },
+  {
+    "category": "Other Common Conditions",
+    "disease": "Iron Deficiency Anemia",
+    "symptoms": "Fatigue, pallor, exertional dyspnea, koilonychia (spoon nails), pica",
+    "medicine": "Ferrous sulfate 200mg (65mg elemental iron)",
+    "frequency": "2–3x/day (with Vitamin C)",
+    "time": "8:00 AM (Morning) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Take on empty stomach or with Vitamin C for better absorption; avoid tea/coffee within 1hr; treat cause"
+  },
+  {
+    "category": "Other Common Conditions",
+    "disease": "Vitamin D Deficiency",
+    "symptoms": "Bone pain, muscle weakness, fatigue, depression, recurrent infections",
+    "medicine": "Cholecalciferol (Vitamin D3) 1000–4000 IU/day OR weekly high-dose",
+    "frequency": "1x/day (daily) OR 1x/week (high dose)",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Sun exposure 15–30 min daily; dietary sources (oily fish, eggs); adequate calcium co-supplementation"
+  },
+  {
+    "category": "Other Common Conditions",
+    "disease": "Seasonal Allergies",
+    "symptoms": "Sneezing, runny/itchy nose, watery/red eyes, congestion, post-nasal drip (seasonal pattern)",
+    "medicine": "Cetirizine 10mg OR Fexofenadine 120mg + Fluticasone nasal spray 50mcg",
+    "frequency": "1x/day + 2 sprays/nostril 1x/day",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Monitor pollen count, keep windows closed during high pollen; shower after outdoor activities; sunglasses"
+  },
+  {
+    "category": "Other Common Conditions",
+    "disease": "Motion Sickness",
+    "symptoms": "Nausea, vomiting, dizziness, pallor, cold sweats triggered by motion/travel",
+    "medicine": "Hyoscine (Scopolamine) 0.3mg OR Promethazine 25mg OR Cinnarizine 25mg",
+    "frequency": "1x/day (Hyoscine 30–60 min before travel)",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Sit in front seat/boat center; focus on horizon; avoid reading; fresh air; ginger (natural option)"
+  },
+  {
+    "category": "Blood & Hematological Disorders",
+    "disease": "Sickle Cell Disease",
+    "symptoms": "Vaso-occlusive pain crises, hemolytic anemia, dactylitis, acute chest syndrome, stroke risk, splenomegaly",
+    "medicine": "Hydroxyurea 15–35mg/kg/day + Folic acid 5mg",
+    "frequency": "1x/day each",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Hydration (3L/day), avoid cold/hypoxia, annual transcranial Doppler, penicillin prophylaxis in children"
+  },
+  {
+    "category": "Blood & Hematological Disorders",
+    "disease": "Thalassemia",
+    "symptoms": "Severe anemia (major), pallor, splenomegaly, skeletal deformities, growth retardation, jaundice",
+    "medicine": "Deferoxamine (iron chelation) 20–40mg/kg SC OR Deferasirox 20mg/kg oral + Folic acid",
+    "frequency": "8–10 hrs infusion nightly / 1x/day (Deferasirox)",
+    "time": "9:00 PM (Night) (nightly)",
+    "duration_days": "",
+    "precautions": "Regular blood transfusions (major); monitor ferritin/iron; genetic counseling for family"
+  },
+  {
+    "category": "Blood & Hematological Disorders",
+    "disease": "Aplastic Anemia",
+    "symptoms": "Fatigue, pallor, petechiae, easy bruising, recurrent infections, bleeding gums",
+    "medicine": "Cyclosporine 5mg/kg/day + Anti-thymocyte globulin (ATG) IV (hospital) + Eltrombopag 150mg",
+    "frequency": "2x/day (Cyclosporine) / 1x/day (Eltrombopag)",
+    "time": "8:00 AM (Morning) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Avoid NSAIDs/aspirin; infection prevention; BMT if severe & young; growth factor support"
+  },
+  {
+    "category": "Blood & Hematological Disorders",
+    "disease": "Hemophilia A",
+    "symptoms": "Prolonged bleeding after injury, spontaneous hemarthroses, deep muscle hematomas, intracranial bleed risk",
+    "medicine": "Factor VIII concentrate (recombinant) 20–50 IU/kg",
+    "frequency": "On demand (bleeding) OR 3x/week (prophylaxis)",
+    "time": "As needed (PRN) — typically Morning or Night when symptoms occur",
+    "duration_days": "",
+    "precautions": "AVOID aspirin/NSAIDs; wear medical alert bracelet; physiotherapy for joint disease; inhibitor screening"
+  },
+  {
+    "category": "Blood & Hematological Disorders",
+    "disease": "Hemophilia B",
+    "symptoms": "Similar to Hemophilia A: prolonged bleeding, hemarthroses, muscle hematomas",
+    "medicine": "Factor IX concentrate 25–50 IU/kg (on demand) OR Emicizumab SC (if inhibitors)",
+    "frequency": "2–3x/week prophylaxis",
+    "time": "8:00 AM (Morning) (on prophylaxis days, 2–3x weekly)",
+    "duration_days": "",
+    "precautions": "Same precautions as Hemophilia A; emicizumab is SC once weekly/fortnightly alternative"
+  },
+  {
+    "category": "Blood & Hematological Disorders",
+    "disease": "Polycythemia Vera",
+    "symptoms": "Plethoric facies, pruritus after bathing, headache, dizziness, thrombosis risk, splenomegaly",
+    "medicine": "Hydroxyurea 500–1000mg + Aspirin 75mg + Phlebotomy (target Hct <45%)",
+    "frequency": "1–2x/day (Hydroxyurea) / 1x/day (Aspirin)",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Monitor CBC regularly; adequate hydration; avoid iron supplements; JAK inhibitor (Ruxolitinib) if refractory"
+  },
+  {
+    "category": "Blood & Hematological Disorders",
+    "disease": "Essential Thrombocythemia",
+    "symptoms": "Headache, visual changes, tingling, thrombosis (arterial/venous), bleeding, splenomegaly",
+    "medicine": "Hydroxyurea 500mg + Aspirin 75mg (low-risk may need only aspirin)",
+    "frequency": "2x/day (Hydroxyurea) / 1x/day (Aspirin)",
+    "time": "8:00 AM (Morning) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Monitor platelet count; cardiovascular risk factor control; avoid pregnancy on Hydroxyurea"
+  },
+  {
+    "category": "Blood & Hematological Disorders",
+    "disease": "ITP",
+    "symptoms": "Petechiae, easy bruising, mucosal bleeding, menorrhagia; thrombocytopenia on CBC",
+    "medicine": "Prednisolone 1mg/kg/day (first-line) OR IVIG 1g/kg (acute/severe)",
+    "frequency": "1x/day (Prednisolone) / Single course IV (IVIG)",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Avoid NSAIDs; fall/trauma precautions; monitor platelet count; rituximab/splenectomy if chronic refractory"
+  },
+  {
+    "category": "Blood & Hematological Disorders",
+    "disease": "Pernicious Anemia",
+    "symptoms": "Megaloblastic anemia, glossitis, subacute combined degeneration of cord, fatigue, paresthesia",
+    "medicine": "Hydroxocobalamin 1mg IM (loading) then maintenance + Folic acid 5mg",
+    "frequency": "Loading: alternate days x6 / Maintenance: every 3 months (IM)",
+    "time": "8:00 AM (Morning) (on scheduled dosing day)",
+    "duration_days": "",
+    "precautions": "Vegan diet supplementation; monitor neurological status; gastric cancer risk – endoscopy screening"
+  },
+  {
+    "category": "Blood & Hematological Disorders",
+    "disease": "Hemolytic Anemia",
+    "symptoms": "Jaundice, pallor, dark urine (hemoglobinuria), splenomegaly, fatigue, gallstones",
+    "medicine": "Prednisolone 1–2mg/kg/day (autoimmune) + Folic acid 5mg",
+    "frequency": "1x/day each",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Identify and treat underlying cause; avoid triggers (G6PD: oxidant drugs); Rituximab if refractory"
+  },
+  {
+    "category": "Kidney & Urinary Disorders",
+    "disease": "Chronic Kidney Disease",
+    "symptoms": "Fatigue, edema, hypertension, nausea, pallor, oliguria, pruritus in advanced stages",
+    "medicine": "Ramipril 5–10mg + Furosemide 40mg + Sevelamer 800mg (phosphate binder) + Erythropoietin (if anemic)",
+    "frequency": "1x/day / 1–2x/day / 3x/day with meals",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Protein restriction (0.8g/kg/day), low potassium/phosphate diet, fluid restriction, BP <130/80, smoking cessation"
+  },
+  {
+    "category": "Kidney & Urinary Disorders",
+    "disease": "Acute Kidney Injury",
+    "symptoms": "Oliguria/anuria, fluid retention, elevated creatinine/BUN, electrolyte disturbances, encephalopathy",
+    "medicine": "IV Fluids (crystalloid) + Furosemide 40–80mg IV (if fluid overload) + treat underlying cause",
+    "frequency": "Continuous IV / As needed",
+    "time": "As needed (PRN) — typically Morning or Night when symptoms occur",
+    "duration_days": "",
+    "precautions": "Monitor urine output hourly; strict I/O chart; avoid nephrotoxins (NSAIDs, contrast, aminoglycosides)"
+  },
+  {
+    "category": "Kidney & Urinary Disorders",
+    "disease": "Nephrotic Syndrome",
+    "symptoms": "Severe proteinuria, pitting edema, hypoalbuminemia, hyperlipidemia, frothy urine",
+    "medicine": "Prednisolone 60mg/m² (or 1mg/kg) + Furosemide 40mg + Atorvastatin 20mg",
+    "frequency": "1x/day / 1–2x/day / 1x/day",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Low-salt low-fat diet; albumin IV if severe; anticoagulation if albumin <20g/L; infection vigilance"
+  },
+  {
+    "category": "Kidney & Urinary Disorders",
+    "disease": "Nephritic Syndrome",
+    "symptoms": "Hematuria (cola-colored urine), hypertension, oliguria, proteinuria, edema",
+    "medicine": "Furosemide 40mg + Prednisolone (if immune-mediated) + Amlodipine 5mg (BP control)",
+    "frequency": "1–2x/day / 1x/day",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Identify cause (post-streptococcal, IgA, ANCA); renal biopsy may be needed; restrict salt/fluid"
+  },
+  {
+    "category": "Kidney & Urinary Disorders",
+    "disease": "Kidney Stones",
+    "symptoms": "Severe colicky flank/groin pain (loin to groin), hematuria, nausea, vomiting, dysuria",
+    "medicine": "Diclofenac 75mg OR Ketorolac 30mg (analgesia) + Tamsulosin 0.4mg (alpha-blocker for passage)",
+    "frequency": "2x/day (Diclofenac) / 1x/day (Tamsulosin)",
+    "time": "8:00 AM (Morning) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "High fluid intake (>2.5L/day); dietary oxalate restriction (calcium oxalate stones); citrate supplements"
+  },
+  {
+    "category": "Kidney & Urinary Disorders",
+    "disease": "Urinary Tract Infection",
+    "symptoms": "Dysuria, frequency, urgency, suprapubic pain, cloudy/foul-smelling urine; no fever (uncomplicated)",
+    "medicine": "Nitrofurantoin 100mg (modified release) OR Trimethoprim 200mg",
+    "frequency": "2x/day / 2x/day",
+    "time": "8:00 AM (Morning) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Increase fluid intake; post-coital voiding; wipe front to back; avoid spermicides; cranberry as adjunct"
+  },
+  {
+    "category": "Kidney & Urinary Disorders",
+    "disease": "Pyelonephritis",
+    "symptoms": "Fever, rigors, flank pain, costovertebral angle tenderness, dysuria, nausea/vomiting",
+    "medicine": "Ciprofloxacin 500mg OR Co-amoxiclav 625mg (oral, outpatient) / Ceftriaxone 1g IV (inpatient)",
+    "frequency": "2x/day (Cipro) / 3x/day (Co-amox)",
+    "time": "8:00 AM (Morning) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "High fluid intake; urine culture-guided therapy; imaging if no improvement in 48–72 hrs"
+  },
+  {
+    "category": "Kidney & Urinary Disorders",
+    "disease": "Interstitial Cystitis",
+    "symptoms": "Chronic pelvic pain, urinary urgency/frequency, dyspareunia, no proven infection",
+    "medicine": "Amitriptyline 25–75mg (at night) + Pentosan polysulfate 100mg",
+    "frequency": "1x/day (night) / 3x/day",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Bladder training; avoid trigger foods (caffeine, acidic foods, alcohol); stress management; pelvic floor physio"
+  },
+  {
+    "category": "Kidney & Urinary Disorders",
+    "disease": "Stress Urinary Incontinence",
+    "symptoms": "Urine leakage with coughing, sneezing, laughing, exercise; no urgency",
+    "medicine": "Duloxetine 40mg (pharmacological) — first-line is pelvic floor exercises",
+    "frequency": "2x/day (if medication used)",
+    "time": "8:00 AM (Morning) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Pelvic floor (Kegel) exercises (gold standard – 3 sets x 10 daily); weight loss; caffeine reduction; bladder diary"
+  },
+  {
+    "category": "Kidney & Urinary Disorders",
+    "disease": "Hyperkalemia",
+    "symptoms": "Muscle weakness, palpitations, peaked T-waves on ECG, nausea; cardiac arrest if severe",
+    "medicine": "Calcium gluconate 10% IV (cardiac protection) + Insulin + Dextrose (shift K⁺) + Sodium zirconium cyclosilicate 10g",
+    "frequency": "Stat IV / Stat IV / 3x/day (oral binder)",
+    "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night) (primary medicine); see notes for others",
+    "duration_days": "",
+    "precautions": "STOP ACE inhibitors/ARBs/potassium-sparing diuretics; low-potassium diet; avoid NSAIDs; dialysis if severe"
+  },
+  {
+    "category": "Liver & Gallbladder Diseases",
+    "disease": "Fatty Liver Disease",
+    "symptoms": "Often asymptomatic; RUQ discomfort, fatigue, hepatomegaly; elevated ALT/AST",
+    "medicine": "No specific drug approved — Vitamin E 800IU (non-diabetic NASH) + Lifestyle modification",
+    "frequency": "1x/day",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Weight loss (>5–10%), exercise 150 min/week, avoid alcohol, control diabetes/lipids"
+  },
+  {
+    "category": "Liver & Gallbladder Diseases",
+    "disease": "NASH",
+    "symptoms": "Fatigue, RUQ pain, hepatomegaly; elevated LFTs; can progress to cirrhosis",
+    "medicine": "Vitamin E 800IU + Pioglitazone 30mg (if T2DM) + Semaglutide (off-label, emerging)",
+    "frequency": "1x/day each",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Same as fatty liver; biopsy-confirmed staging guides therapy; statin safe for lipids"
+  },
+  {
+    "category": "Liver & Gallbladder Diseases",
+    "disease": "Cirrhosis",
+    "symptoms": "Jaundice, ascites, spider nevi, palmar erythema, caput medusae, hepatic encephalopathy, variceal bleeding",
+    "medicine": "Spironolactone 100mg + Furosemide 40mg (ascites) + Propranolol 40mg (varices prophylaxis) + Lactulose 15ml (encephalopathy)",
+    "frequency": "1x/day / 1x/day / 2x/day / 2–3x/day",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Absolute alcohol abstinence; low-sodium diet (<2g/day); monitor for HCC (US every 6 months); vaccination (Hep A/B)"
+  },
+  {
+    "category": "Liver & Gallbladder Diseases",
+    "disease": "Autoimmune Hepatitis",
+    "symptoms": "Fatigue, jaundice, arthralgia, elevated transaminases, elevated IgG, positive ANA/ASMA",
+    "medicine": "Prednisolone 40mg (induction) + Azathioprine 50mg (maintenance/steroid-sparing)",
+    "frequency": "1x/day each",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Monitor LFTs and CBC; avoid alcohol; screen for osteoporosis (long-term steroid); check TPMT before Azathioprine"
+  },
+  {
+    "category": "Liver & Gallbladder Diseases",
+    "disease": "Primary Biliary Cholangitis",
+    "symptoms": "Pruritus, fatigue, jaundice (late), xanthelasma, osteoporosis; positive AMA",
+    "medicine": "Ursodeoxycholic acid (UDCA) 13–15mg/kg/day + Obeticholic acid 5mg (if inadequate UDCA response)",
+    "frequency": "1–2x/day (UDCA) / 1x/day (OCA)",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Fat-soluble vitamin supplementation (A,D,E,K); cholestyramine for pruritus; bone density monitoring"
+  },
+  {
+    "category": "Liver & Gallbladder Diseases",
+    "disease": "Primary Sclerosing Cholangitis",
+    "symptoms": "Fatigue, pruritus, jaundice, RUQ pain, recurrent cholangitis, associated IBD",
+    "medicine": "No proven disease-modifying drug; UDCA 15–20mg/kg (controversial) + Ciprofloxacin (cholangitis episodes)",
+    "frequency": "1–2x/day (UDCA) / 2x/day (Cipro during episodes)",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Annual colonoscopy (IBD/CRC risk); MRCP surveillance; liver transplant evaluation; cholangiocarcinoma screening"
+  },
+  {
+    "category": "Liver & Gallbladder Diseases",
+    "disease": "Gallstones",
+    "symptoms": "Often asymptomatic; biliary colic (RUQ pain after fatty meals), nausea, vomiting",
+    "medicine": "Ursodeoxycholic acid 8–10mg/kg (for small cholesterol stones – dissolution) + Diclofenac 75mg (analgesia for colic)",
+    "frequency": "2x/day (UDCA) / 2x/day (PRN pain)",
+    "time": "8:00 AM (Morning) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Low-fat diet; surgical cholecystectomy preferred for symptomatic stones; avoid rapid weight loss"
+  },
+  {
+    "category": "Liver & Gallbladder Diseases",
+    "disease": "Cholecystitis",
+    "symptoms": "Severe RUQ pain, fever, positive Murphy's sign, nausea, jaundice if obstructed",
+    "medicine": "Co-amoxiclav 625mg OR Ciprofloxacin 500mg + Metronidazole 500mg (antibiotics)",
+    "frequency": "3x/day / 2x/day + 3x/day",
+    "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "NPO initially; IV fluids; cholecystectomy (definitive); avoid fatty foods; analgesia with diclofenac"
+  },
+  {
+    "category": "Liver & Gallbladder Diseases",
+    "disease": "Hepatic Encephalopathy",
+    "symptoms": "Confusion, asterixis (flapping tremor), altered consciousness, fetor hepaticus, hyperammonemia",
+    "medicine": "Lactulose 30–60ml (titrate to 2–3 soft stools/day) + Rifaximin 550mg",
+    "frequency": "2–4x/day (Lactulose) / 2x/day (Rifaximin)",
+    "time": "8:00 AM (Morning) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Identify precipitants (infection, GI bleed, constipation, diuretics); protein-adequate diet; monitor ammonia"
+  },
+  {
+    "category": "Liver & Gallbladder Diseases",
+    "disease": "Wilson Disease",
+    "symptoms": "Liver disease (hepatitis/cirrhosis), Kayser-Fleischer rings, neuropsychiatric symptoms, hemolytic anemia",
+    "medicine": "D-Penicillamine 250–500mg (initial chelation) OR Trientine 300–400mg (if intolerant) + Zinc acetate 50mg (maintenance)",
+    "frequency": "4x/day (D-Penicillamine) / 2–3x/day (Trientine) / 3x/day (Zinc)",
+    "time": "8:00 AM (Morning), 1:00 PM (Afternoon), 6:00 PM (Evening) & 10:00 PM (Night, before bed)",
+    "duration_days": "",
+    "precautions": "Low copper diet (avoid shellfish, liver, chocolate, nuts); monitor 24hr urine copper; eye exams; pyridoxine with D-Penicillamine"
+  },
+  {
+    "category": "Eye Disorders",
+    "disease": "Cataract (pre-surgical)",
+    "symptoms": "Blurred/cloudy vision, glare/halos around lights, faded colors, frequent prescription changes",
+    "medicine": "Artificial tears (lubricant drops) — no medication reverses cataracts; surgical extraction is definitive",
+    "frequency": "4–6x/day (lubricants PRN)",
+    "time": "8:00 AM (Morning), 1:00 PM (Afternoon), 6:00 PM (Evening) & 10:00 PM (Night, before bed)",
+    "duration_days": "",
+    "precautions": "Strong reading glasses, anti-glare lenses, adequate lighting; avoid driving at night; plan surgical referral"
+  },
+  {
+    "category": "Eye Disorders",
+    "disease": "Conjunctivitis",
+    "symptoms": "Red eye, discharge (watery-viral / purulent-bacterial), itching, foreign body sensation, crusting",
+    "medicine": "Chloramphenicol 0.5% drops (bacterial) OR Olopatadine 0.1% (allergic) / Viral: supportive only",
+    "frequency": "4x/day (bacterial) / 2x/day (allergic)",
+    "time": "8:00 AM (Morning), 1:00 PM (Afternoon), 6:00 PM (Evening) & 10:00 PM (Night, before bed)",
+    "duration_days": "",
+    "precautions": "Hand hygiene (highly contagious); avoid contact lenses; do not share towels/pillowcases"
+  },
+  {
+    "category": "Eye Disorders",
+    "disease": "Dry Eye Syndrome",
+    "symptoms": "Gritty/burning sensation, intermittent blurry vision, light sensitivity, excessive tearing (reflex)",
+    "medicine": "Carboxymethylcellulose 0.5% drops (artificial tears) + Cyclosporine 0.05% drops (Restasis, chronic)",
+    "frequency": "4–6x/day (drops) / 2x/day (Cyclosporine)",
+    "time": "8:00 AM (Morning), 1:00 PM (Afternoon), 6:00 PM (Evening) & 10:00 PM (Night, before bed)",
+    "duration_days": "",
+    "precautions": "Screen breaks (20-20-20 rule), humidifier, omega-3 supplements, avoid smoky environments"
+  },
+  {
+    "category": "Eye Disorders",
+    "disease": "Uveitis",
+    "symptoms": "Red painful eye, photophobia, blurred vision, floaters; ciliary flush; hypopyon in severe cases",
+    "medicine": "Prednisolone acetate 1% eye drops + Cyclopentolate 1% (mydriatic to prevent synechiae)",
+    "frequency": "Hourly (acute) tapering / 3x/day",
+    "time": "Every hour as directed (acute phase) — then taper",
+    "duration_days": "",
+    "precautions": "Urgent ophthalmic referral; systemic workup for underlying cause (HLA-B27, TB, sarcoid, syphilis)"
+  },
+  {
+    "category": "Eye Disorders",
+    "disease": "Keratitis",
+    "symptoms": "Severe eye pain, photophobia, lacrimation, reduced vision, corneal opacity/infiltrate",
+    "medicine": "Ofloxacin 0.3% drops (bacterial) OR Natamycin 5% (fungal) OR Acyclovir eye ointment (HSV)",
+    "frequency": "Hourly initially then taper (bacterial) / 6x/day",
+    "time": "Every hour as directed (acute phase) — then taper",
+    "duration_days": "",
+    "precautions": "Ophthalmologic emergency; stop contact lens use; avoid steroid drops until cause confirmed"
+  },
+  {
+    "category": "Eye Disorders",
+    "disease": "Blepharitis",
+    "symptoms": "Lid margin redness/crusting, gritty eyes, morning lid sticking, recurrent styes, loss of eyelashes",
+    "medicine": "Lid hygiene (warm compress + lid scrubs) + Chloramphenicol ointment 1% (if bacterial) + Artificial tears",
+    "frequency": "2x/day (hygiene routine)",
+    "time": "8:00 AM (Morning) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Warm compresses 5–10 min daily followed by lid massage and lid scrubs; omega-3 supplements help"
+  },
+  {
+    "category": "Eye Disorders",
+    "disease": "Diabetic Retinopathy",
+    "symptoms": "Blurred vision, floaters, dark spots, visual field loss (late); often asymptomatic early",
+    "medicine": "Ranibizumab/Bevacizumab intravitreal injections (DME/PDR) + strict glycemic control",
+    "frequency": "Monthly injections (loading) then PRN",
+    "time": "8:00 AM (Morning) (monthly dose)",
+    "duration_days": "",
+    "precautions": "Strict HbA1c <7%, BP <130/80; annual dilated fundoscopy; laser photocoagulation; stop smoking"
+  },
+  {
+    "category": "Eye Disorders",
+    "disease": "Macular Degeneration",
+    "symptoms": "Central vision loss, metamorphopsia (distorted vision), scotoma, difficulty reading",
+    "medicine": "Ranibizumab 0.5mg OR Aflibercept 2mg intravitreal injections (wet AMD); Supplements: AREDS2 (dry AMD)",
+    "frequency": "Monthly injections (wet) / Daily supplements (dry)",
+    "time": "8:00 AM (Morning) (monthly dose)",
+    "duration_days": "",
+    "precautions": "Amsler grid self-monitoring; smoking cessation (major risk factor); sunglasses with UV protection; low vision aids"
+  },
+  {
+    "category": "Eye Disorders",
+    "disease": "Ocular Hypertension",
+    "symptoms": "Elevated IOP (>21 mmHg) without optic nerve damage or visual field loss; often asymptomatic",
+    "medicine": "Latanoprost 0.005% drops (first-line prostaglandin analogue)",
+    "frequency": "1x/day (evening)",
+    "time": "6:00 PM (Evening)",
+    "duration_days": "",
+    "precautions": "Regular IOP monitoring (every 6 months); visual field testing annually; compliance is critical"
+  },
+  {
+    "category": "Eye Disorders",
+    "disease": "Retinal Vein Occlusion",
+    "symptoms": "Sudden painless visual loss/blurring (central) or sector visual field loss (branch); flame hemorrhages on fundus",
+    "medicine": "Ranibizumab/Bevacizumab intravitreal injections (macular edema) + treat systemic risk factors",
+    "frequency": "Monthly loading injections then PRN",
+    "time": "8:00 AM (Morning) (monthly dose)",
+    "duration_days": "",
+    "precautions": "Control BP, diabetes, hyperlipidemia; aspirin 75mg; screen for thrombophilia; no proven acute treatment"
+  },
+  {
+    "category": "Ear, Nose & Throat Disorders",
+    "disease": "Otitis Media",
+    "symptoms": "Ear pain, fever, hearing loss, irritability (children), otorrhea if perforated",
+    "medicine": "Amoxicillin 500mg (if bacterial) / Watchful waiting first 48–72hrs in mild cases + Paracetamol",
+    "frequency": "3x/day / PRN analgesia",
+    "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Analgesia first; avoid water entry; decongestants not recommended in children; referral if recurrent (>3/6 months)"
+  },
+  {
+    "category": "Ear, Nose & Throat Disorders",
+    "disease": "Otitis Externa",
+    "symptoms": "Severe ear pain (worse on pinna traction), itching, discharge, conductive hearing loss",
+    "medicine": "Acetic acid 2% spray OR Sofradex drops (dexamethasone + framycetin + gramicidin)",
+    "frequency": "3–4x/day",
+    "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Keep ear dry (cotton wool with Vaseline when showering); avoid cotton buds; ear wick if canal swollen"
+  },
+  {
+    "category": "Ear, Nose & Throat Disorders",
+    "disease": "Ménière's Disease",
+    "symptoms": "Episodic vertigo (minutes to hours), unilateral sensorineural hearing loss, tinnitus, aural fullness",
+    "medicine": "Betahistine 16mg (prophylaxis) + Prochlorperazine 5mg (acute attack)",
+    "frequency": "3x/day (Betahistine) / 3x/day PRN (Prochlorperazine)",
+    "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Low-salt diet (<1.5g/day); avoid caffeine/alcohol; vestibular rehab; fall safety during attacks"
+  },
+  {
+    "category": "Ear, Nose & Throat Disorders",
+    "disease": "Tinnitus",
+    "symptoms": "Persistent ringing/buzzing/hissing in ears; may cause sleep disturbance, anxiety, concentration issues",
+    "medicine": "No curative drug; Betahistine 8–16mg (trial) + Melatonin 2mg (sleep) + Cognitive support",
+    "frequency": "3x/day (Betahistine) / 1x/day at night (Melatonin)",
+    "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Sound therapy (white noise); TRT (Tinnitus Retraining Therapy); hearing aids if hearing loss; avoid loud noise"
+  },
+  {
+    "category": "Ear, Nose & Throat Disorders",
+    "disease": "Laryngitis",
+    "symptoms": "Hoarseness, aphonia, dry cough, sore/scratchy throat, odynophagia; low-grade fever (infective)",
+    "medicine": "Supportive: Paracetamol 500mg + steam inhalation; Omeprazole if LPR related",
+    "frequency": "3–4x/day (Paracetamol)",
+    "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Voice rest (do not whisper); stay hydrated; avoid irritants (smoking, alcohol); humidified air; ENT if >3 weeks"
+  },
+  {
+    "category": "Ear, Nose & Throat Disorders",
+    "disease": "Tonsillitis",
+    "symptoms": "Sore throat, dysphagia, swollen tonsils with exudate, fever, cervical lymphadenopathy",
+    "medicine": "Amoxicillin 500mg (bacterial/Group A Strep) OR Clarithromycin (if penicillin allergic) + Paracetamol",
+    "frequency": "3x/day / 2x/day / PRN",
+    "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "AVOID Ampicillin/Amoxicillin if mononucleosis suspected (causes rash); tonsillectomy if recurrent (≥7/yr)"
+  },
+  {
+    "category": "Ear, Nose & Throat Disorders",
+    "disease": "Pharyngitis",
+    "symptoms": "Sore throat, odynophagia, fever, pharyngeal erythema; mostly viral",
+    "medicine": "Paracetamol 500mg + Benzydamine spray (topical analgesic) / Amoxicillin if Centor score ≥3",
+    "frequency": "3–4x/day / 3x/day",
+    "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Gargle warm salt water; adequate hydration; throat swab to guide antibiotic use (avoid overuse)"
+  },
+  {
+    "category": "Ear, Nose & Throat Disorders",
+    "disease": "Nasal Polyps",
+    "symptoms": "Bilateral nasal obstruction, anosmia, rhinorrhea, post-nasal drip; associated with asthma/aspirin sensitivity",
+    "medicine": "Mometasone furoate nasal spray 200mcg/day + Dupilumab 300mg SC (if biologic eligible)",
+    "frequency": "2 sprays/nostril 1x/day / Biweekly injection",
+    "time": "8:00 AM (Morning) (once weekly)",
+    "duration_days": "",
+    "precautions": "Avoid aspirin/NSAIDs (if NSAID-exacerbated respiratory disease); saline irrigation; surgical polypectomy if unresponsive"
+  },
+  {
+    "category": "Ear, Nose & Throat Disorders",
+    "disease": "Epiglottitis",
+    "symptoms": "Medical emergency: rapid onset high fever, stridor, drooling, dysphagia, 'tripod' posture, muffled voice",
+    "medicine": "Ceftriaxone 2g IV + Dexamethasone 0.1–0.6mg/kg IV (airway protection)",
+    "frequency": "1–2x/day IV",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "DO NOT examine throat without airway support; secure airway first; Hib vaccine prevention"
+  },
+  {
+    "category": "Ear, Nose & Throat Disorders",
+    "disease": "Vestibular Neuritis",
+    "symptoms": "Sudden severe vertigo, nausea/vomiting, gait instability; no hearing loss; follows viral URTI",
+    "medicine": "Prochlorperazine 5mg (acute vestibular sedative) + Prednisolone 50mg (early, if within 72hrs)",
+    "frequency": "3x/day (Prochlorperazine short-term) / 1x/day (Prednisolone tapering)",
+    "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Vestibular rehabilitation exercises (Cawthorne-Cooksey); early mobilization; fall precautions; avoid driving during acute phase"
+  },
+  {
+    "category": "Skin Disorders",
+    "disease": "Rosacea",
+    "symptoms": "Facial flushing, persistent erythema, papulopustules, telangiectasia, rhinophyma (late); triggered by sun/heat/alcohol",
+    "medicine": "Metronidazole 0.75% gel + Azelaic acid 15% gel (topical) / Doxycycline 40mg (papulopustular)",
+    "frequency": "2x/day (topical) / 1x/day (Doxycycline)",
+    "time": "8:00 AM (Morning) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Sun protection (SPF50+ daily); avoid triggers (heat, alcohol, spicy food); gentle skincare; laser for erythema/telangiectasia"
+  },
+  {
+    "category": "Skin Disorders",
+    "disease": "Seborrheic Dermatitis",
+    "symptoms": "Greasy yellowish scales on scalp/face/nasolabial folds, itching, erythema, dandruff",
+    "medicine": "Ketoconazole 2% shampoo/cream + Hydrocortisone 1% cream (face, short-term)",
+    "frequency": "2–3x/week (shampoo) / 2x/day (cream)",
+    "time": "8:00 AM (Morning) & 9:00 PM (Night) (primary medicine); see notes for others",
+    "duration_days": "",
+    "precautions": "Maintenance use 1–2x/month to prevent recurrence; avoid harsh soaps; stress management"
+  },
+  {
+    "category": "Skin Disorders",
+    "disease": "Vitiligo",
+    "symptoms": "Depigmented white patches (hands, face, genitalia, bony prominences); cosmetically distressing; no systemic symptoms",
+    "medicine": "Tacrolimus 0.1% ointment (face/folds) OR Clobetasol 0.05% cream (body) + Ruxolitinib 1.5% cream (newer topical JAK-i)",
+    "frequency": "2x/day",
+    "time": "8:00 AM (Morning) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Strict sun protection of depigmented areas (burn easily); cosmetic camouflage; NB-UVB phototherapy; psychological support"
+  },
+  {
+    "category": "Skin Disorders",
+    "disease": "Hidradenitis Suppurativa",
+    "symptoms": "Recurrent painful nodules/abscesses in axillae/groin/inframammary areas, sinus tracts, scarring",
+    "medicine": "Clindamycin 1% lotion (topical, mild) + Doxycycline 100mg (oral, moderate) / Adalimumab 40mg (severe, biologic)",
+    "frequency": "2x/day (topical) / 2x/day (Doxy) / Biweekly SC (Adalimumab)",
+    "time": "8:00 AM (Morning) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Weight loss; stop smoking (significant trigger); warm compresses; antiseptic washes; surgical drainage if abscess"
+  },
+  {
+    "category": "Skin Disorders",
+    "disease": "Impetigo",
+    "symptoms": "Honey-colored crusted lesions (non-bullous) or fluid-filled bullae (bullous) around face/extremities",
+    "medicine": "Fusidic acid 2% cream (localized) OR Flucloxacillin 500mg (extensive/systemic)",
+    "frequency": "3x/day (topical) / 4x/day (oral)",
+    "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Keep lesions covered; good hand hygiene; avoid school/work until crusts cleared; clean shared items"
+  },
+  {
+    "category": "Skin Disorders",
+    "disease": "Cellulitis",
+    "symptoms": "Unilateral spreading erythema, warmth, swelling, tenderness, fever; usually lower limbs",
+    "medicine": "Flucloxacillin 500mg (mild-moderate) OR Amoxicillin-Clavulanate 625mg / Benzylpenicillin IV (severe)",
+    "frequency": "4x/day / 3x/day",
+    "time": "8:00 AM (Morning), 1:00 PM (Afternoon), 6:00 PM (Evening) & 10:00 PM (Night, before bed)",
+    "duration_days": "",
+    "precautions": "Mark erythema border to monitor spread; elevate limb; moisturize to prevent fissures; treat tinea pedis as portal"
+  },
+  {
+    "category": "Skin Disorders",
+    "disease": "Scabies",
+    "symptoms": "Intense nocturnal pruritus, burrows (finger webs/wrists/genitalia), papular rash, secondary infection",
+    "medicine": "Permethrin 5% cream (from neck down) + Oral Ivermectin 200mcg/kg (if extensive/crusted)",
+    "frequency": "Single application (repeat at 7 days) / Single dose (repeat at 14 days)",
+    "time": "8:00 AM (Morning) (application, repeat as scheduled)",
+    "duration_days": "",
+    "precautions": "Treat all household contacts simultaneously; wash all clothing/bedding at 60°C; vacuum furniture"
+  },
+  {
+    "category": "Skin Disorders",
+    "disease": "Urticaria",
+    "symptoms": "Transient itchy wheals (hives), angioedema, dermographism; acute <6 weeks / chronic >6 weeks",
+    "medicine": "Cetirizine 10mg OR Fexofenadine 180mg (non-sedating first-line) / Omalizumab 300mg (chronic refractory)",
+    "frequency": "1x/day / Monthly SC (Omalizumab)",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Identify and avoid triggers; adrenaline auto-injector if risk of anaphylaxis; avoid aspirin/NSAIDs/ACE-inhibitors"
+  },
+  {
+    "category": "Skin Disorders",
+    "disease": "Contact Dermatitis",
+    "symptoms": "Erythema, vesicles, weeping, pruritus at site of contact (allergic) or irritant exposure; clear borders",
+    "medicine": "Hydrocortisone 1% cream (mild) OR Betamethasone valerate 0.1% (moderate-severe) + Emollient",
+    "frequency": "2x/day (steroid) / 3–4x/day (emollient)",
+    "time": "8:00 AM (Morning) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Identify and avoid causative allergen/irritant; patch testing; protective gloves; barrier cream"
+  },
+  {
+    "category": "Skin Disorders",
+    "disease": "Alopecia Areata",
+    "symptoms": "Well-circumscribed patches of non-scarring hair loss; exclamation mark hairs at patch margins; nail pitting",
+    "medicine": "Intralesional Triamcinolone 10mg/mL (patches) OR Topical Minoxidil 5% + Baricitinib 4mg (severe)",
+    "frequency": "Every 4–6 weeks (injection) / 2x/day (Minoxidil) / 1x/day (Baricitinib)",
+    "time": "8:00 AM (Morning) (on scheduled dosing day)",
+    "duration_days": "",
+    "precautions": "Psychological support; wigs/hairpieces; avoid mechanical trauma; spontaneous remission possible in 50%"
+  },
+  {
+    "category": "Women's Health Disorders",
+    "disease": "Endometriosis",
+    "symptoms": "Severe dysmenorrhea, dyspareunia, chronic pelvic pain, dyschezia, infertility, menorrhagia",
+    "medicine": "Combined OCP (continuous) OR Norethindrone acetate 5mg / Dienogest 2mg + NSAID (pain)",
+    "frequency": "1x/day (hormonal) / PRN (NSAID)",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Laparoscopic diagnosis/treatment; pain diary; physiotherapy; surgical excision for severe disease/infertility"
+  },
+  {
+    "category": "Women's Health Disorders",
+    "disease": "Uterine Fibroids",
+    "symptoms": "Menorrhagia, pelvic pressure, urinary frequency/urgency, dysmenorrhea, subfertility",
+    "medicine": "Tranexamic acid 1g (menorrhagia) + Ulipristal acetate (Esmya) 5mg OR GnRH agonist (Leuprorelin) pre-surgery",
+    "frequency": "3x/day during menses / 1x/day (3 months)",
+    "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Iron supplementation for anemia; NSAIDs for pain; myomectomy/hysterectomy if severe; uterine artery embolization"
+  },
+  {
+    "category": "Women's Health Disorders",
+    "disease": "Pelvic Inflammatory Disease",
+    "symptoms": "Lower abdominal pain, fever, cervical motion tenderness, mucopurulent discharge, dyspareunia",
+    "medicine": "Ceftriaxone 500mg IM (single) + Doxycycline 100mg + Metronidazole 400mg",
+    "frequency": "Single IM / 2x/day + 2x/day",
+    "time": "8:00 AM (Morning) & 9:00 PM (Night) (primary medicine); see notes for others",
+    "duration_days": "",
+    "precautions": "Treat partner; avoid sex until course completed; IUCD removal if not settling; check for chlamydia/gonorrhea"
+  },
+  {
+    "category": "Women's Health Disorders",
+    "disease": "Menorrhagia",
+    "symptoms": "Heavy menstrual bleeding (>80ml/cycle), prolonged periods >7 days, flooding, passage of clots",
+    "medicine": "Tranexamic acid 1g + Mefenamic acid 500mg (during menses) / Levonorgestrel-IUS (Mirena) long-term",
+    "frequency": "3x/day each (during period) / IUS long-term",
+    "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Iron supplementation; treat underlying cause (fibroids, PCOS, coagulation disorders); endometrial biopsy if >40yrs"
+  },
+  {
+    "category": "Women's Health Disorders",
+    "disease": "PMDD",
+    "symptoms": "Severe mood swings, irritability, depression, anxiety, bloating, breast tenderness, fatigue premenstrually",
+    "medicine": "Sertraline 50mg (continuous or luteal phase only) OR Combined OCP (Drospirenone-containing)",
+    "frequency": "1x/day",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Symptom diary (2+ cycles to confirm); regular exercise; calcium 1200mg/day supplements; CBT"
+  },
+  {
+    "category": "Women's Health Disorders",
+    "disease": "Vaginitis",
+    "symptoms": "Vaginal discharge (colour/odour varies by cause), itching, burning, odour",
+    "medicine": "Metronidazole 400mg (BV) OR Clotrimazole pessary (Candida) OR Doxycycline (atrophic: Estradiol cream)",
+    "frequency": "2x/day (Metro) / Single dose (Clotrimazole)",
+    "time": "8:00 AM (Morning) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Microscopy/pH testing to confirm cause; avoid douching; cotton underwear; treat partner for Trichomonas"
+  },
+  {
+    "category": "Women's Health Disorders",
+    "disease": "Vulvovaginal Candidiasis",
+    "symptoms": "Thick white cottage-cheese discharge, intense vulval itching, burning, dyspareunia, erythema",
+    "medicine": "Clotrimazole 500mg pessary (single) OR Fluconazole 150mg oral",
+    "frequency": "Single dose (pessary or oral)",
+    "time": "8:00 AM (Morning) (one-time dose)",
+    "duration_days": "",
+    "precautions": "Avoid tight synthetic clothing; control blood sugar (diabetics); probiotics; recurrent (>4/yr) needs prophylactic fluconazole"
+  },
+  {
+    "category": "Women's Health Disorders",
+    "disease": "Menopausal Symptoms",
+    "symptoms": "Hot flushes, night sweats, vaginal dryness, mood changes, sleep disturbance, urinary symptoms",
+    "medicine": "HRT: Estradiol patch 50mcg + Norethisterone 1mg (if uterus intact) / Vagifem vaginal tablets",
+    "frequency": "Twice weekly patch + 1x/day oral / Vagifem 1x/day initially",
+    "time": "8:00 AM (Morning) (once weekly)",
+    "duration_days": "",
+    "precautions": "Annual breast exam/mammogram; bone density monitoring; SSRIs (Venlafaxine) if HRT contraindicated; lifestyle measures"
+  },
+  {
+    "category": "Women's Health Disorders",
+    "disease": "Dysmenorrhea",
+    "symptoms": "Crampy lower abdominal pain at start of menstruation, radiation to back/thighs, nausea, diarrhea",
+    "medicine": "Ibuprofen 400mg OR Mefenamic acid 500mg (start 1–2 days before period)",
+    "frequency": "3x/day (with food)",
+    "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Heat application (hot water bottle); regular exercise; exclude secondary causes (endometriosis, fibroids); OCP effective for primary dysmenorrhea"
+  },
+  {
+    "category": "Women's Health Disorders",
+    "disease": "Infertility (certain causes)",
+    "symptoms": "Inability to conceive after 12 months unprotected intercourse; PCOS, ovulatory dysfunction, hypothyroidism causes",
+    "medicine": "Clomifene citrate 50–100mg (ovulation induction – PCOS/anovulation) OR Letrozole 2.5–5mg",
+    "frequency": "1x/day on days 2–6 of cycle (Clomifene) / 1x/day (Letrozole)",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Optimize BMI; treat thyroid/hormonal disorders; folate 400mcg/day; lifestyle modification; referral for IUI/IVF"
+  },
+  {
+    "category": "Pediatric Disorders",
+    "disease": "Hand, Foot and Mouth Disease",
+    "symptoms": "Fever, oral ulcers, vesicular rash on hands/feet/buttocks; mainly in children <5 years; Coxsackievirus",
+    "medicine": "Supportive: Paracetamol/Ibuprofen (fever/pain) + Oral gel (e.g., Lidocaine gel) for oral ulcers",
+    "frequency": "3–4x/day as needed",
+    "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Isolate from school/daycare; hand hygiene; cool fluids/ice lollies; monitor hydration; no specific antiviral"
+  },
+  {
+    "category": "Pediatric Disorders",
+    "disease": "Croup",
+    "symptoms": "Barking ('seal-like') cough, inspiratory stridor, hoarseness, low-grade fever; worse at night; under 5 years",
+    "medicine": "Dexamethasone 0.15–0.6mg/kg oral (single dose) + Nebulized Budesonide (moderate-severe) / Nebulized Adrenaline (severe)",
+    "frequency": "Single dose (Dexa) / Once (Budesonide) / Repeat PRN (Adrenaline)",
+    "time": "8:00 AM (Morning) (one-time dose)",
+    "duration_days": "",
+    "precautions": "Cool mist/night air; calm the child (agitation worsens stridor); emergency if severe respiratory distress"
+  },
+  {
+    "category": "Pediatric Disorders",
+    "disease": "RSV Infection",
+    "symptoms": "Runny nose, cough, wheeze, tachypnea, feeding difficulty, hypoxia; severe in infants <6 months",
+    "medicine": "Supportive: Nasal saline drops + Suction + Paracetamol + Oxygen if SpO2 <92%",
+    "frequency": "PRN feeds/suctioning / 4x/day Paracetamol",
+    "time": "As needed (PRN) — typically Morning or Night when symptoms occur",
+    "duration_days": "",
+    "precautions": "Palivizumab prophylaxis for high-risk infants; hand hygiene; breastfeeding protective; no bronchodilators in infants"
+  },
+  {
+    "category": "Pediatric Disorders",
+    "disease": "Scarlet Fever",
+    "symptoms": "Sandpaper rash (trunk first), strawberry tongue, pharyngitis, fever, circumoral pallor, Pastia's lines",
+    "medicine": "Amoxicillin 50mg/kg/day OR Phenoxymethylpenicillin + Paracetamol (fever)",
+    "frequency": "3x/day (Amoxicillin) / PRN (Paracetamol)",
+    "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Notifiable disease; exclude from school for 24 hrs after starting antibiotics; treat to prevent rheumatic fever/glomerulonephritis"
+  },
+  {
+    "category": "Pediatric Disorders",
+    "disease": "Pinworm Infection",
+    "symptoms": "Perianal/nocturnal itching, disturbed sleep, visible worms around anus at night; irritability",
+    "medicine": "Mebendazole 100mg (>2yrs) OR Albendazole 400mg (single dose; repeat at 2 weeks)",
+    "frequency": "Single dose (x2, 2 weeks apart)",
+    "time": "8:00 AM (Morning) (one-time dose)",
+    "duration_days": "",
+    "precautions": "Treat ALL household members simultaneously; wash bedding/underwear daily; cut fingernails short; hand hygiene"
+  },
+  {
+    "category": "Pediatric Disorders",
+    "disease": "Kawasaki Disease",
+    "symptoms": "Fever >5 days + 4 of: bilateral conjunctivitis, rash, oral changes (strawberry tongue), cervical lymphadenopathy, hand/foot changes",
+    "medicine": "IVIG 2g/kg IV (single infusion) + Aspirin 30–50mg/kg/day (high dose, then reduce)",
+    "frequency": "Single infusion (IVIG) / 4x/day (Aspirin) then taper",
+    "time": "8:00 AM (Morning), 1:00 PM (Afternoon), 6:00 PM (Evening) & 10:00 PM (Night, before bed) (primary medicine); see notes for others",
+    "duration_days": "",
+    "precautions": "Echocardiogram to assess coronary aneurysms; monitor ESR/CRP; long-term cardiology follow-up if coronary involvement"
+  },
+  {
+    "category": "Pediatric Disorders",
+    "disease": "Juvenile Idiopathic Arthritis",
+    "symptoms": "Joint swelling/pain/morning stiffness (>6 weeks in children <16yrs); fever, rash (systemic JIA); uveitis risk",
+    "medicine": "Naproxen 5–10mg/kg/dose (NSAIDs) + Methotrexate 10–15mg/m² (disease-modifying) + Etanercept (biologic if refractory)",
+    "frequency": "2x/day (Naproxen) / Weekly (MTX) / Weekly SC (Etanercept)",
+    "time": "8:00 AM (Morning) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Annual slit-lamp exam (uveitis screening); physiotherapy; occupational therapy; school accommodations; growth monitoring"
+  },
+  {
+    "category": "Pediatric Disorders",
+    "disease": "Febrile Seizures",
+    "symptoms": "Brief (<15 min) tonic-clonic seizure with fever in child 6 months–5 years; no CNS infection",
+    "medicine": "Diazepam rectal 5–10mg (if seizure >5 min) / Midazolam buccal 0.3mg/kg + Paracetamol (fever management)",
+    "frequency": "PRN (Diazepam – rescue only) / PRN (Paracetamol)",
+    "time": "As needed (PRN) — typically Morning or Night when symptoms occur",
+    "duration_days": "",
+    "precautions": "Lay child on side (recovery position); do NOT restrain; fever management; LP to exclude meningitis if <18 months; parental education"
+  },
+  {
+    "category": "Pediatric Disorders",
+    "disease": "Pediatric Constipation",
+    "symptoms": "Infrequent hard stools (<3/week), straining, painful defecation, abdominal pain, soiling (overflow incontinence)",
+    "medicine": "Macrogol (PEG 4000) 0.5–1g/kg (disimpaction) then maintenance dose + Lactulose 1–3ml/kg",
+    "frequency": "1–2x/day (Macrogol) / 2x/day (Lactulose)",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "High-fiber diet, adequate fluids (for age), regular toilet routine after meals, positive reinforcement; exclude Hirschsprung's"
+  },
+  {
+    "category": "Pediatric Disorders",
+    "disease": "Pediatric Asthma",
+    "symptoms": "Wheeze, cough (worse at night/exercise), breathlessness, chest tightness; episodic; triggered by URTI/allergens",
+    "medicine": "Salbutamol 100mcg inhaler (2–4 puffs via spacer, PRN) + Beclomethasone 50–100mcg (preventer)",
+    "frequency": "PRN (Salbutamol) / 2x/day (Beclomethasone)",
+    "time": "As needed (PRN) — typically Morning or Night when symptoms occur",
+    "duration_days": "",
+    "precautions": "Use spacer always; written asthma action plan; trigger avoidance; annual review; influenza vaccine"
+  },
+  {
+    "category": "Cancer & Oncology Conditions",
+    "disease": "Breast Cancer",
+    "symptoms": "Painless breast lump, skin dimpling/peau d'orange, nipple discharge/inversion, axillary lymphadenopathy",
+    "medicine": "Tamoxifen 20mg (premenopausal, hormone receptor +ve) OR Letrozole 2.5mg (postmenopausal) + Chemotherapy (as per protocol)",
+    "frequency": "1x/day (endocrine) / Cyclical IV (chemo)",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Breast self-examination; annual mammography; genetic testing (BRCA); bone density monitoring on AI; adherence critical"
+  },
+  {
+    "category": "Cancer & Oncology Conditions",
+    "disease": "Lung Cancer",
+    "symptoms": "Persistent cough, hemoptysis, dyspnea, weight loss, hoarseness, chest pain, Horner's syndrome",
+    "medicine": "Erlotinib/Osimertinib (EGFR+) OR Pembrolizumab (high PD-L1) / Carboplatin + Paclitaxel (chemo)",
+    "frequency": "1x/day (oral targeted) / 3-weekly IV cycles",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Smoking cessation; palliative care integration; nutritional support; CT surveillance; molecular testing before treatment"
+  },
+  {
+    "category": "Cancer & Oncology Conditions",
+    "disease": "Colorectal Cancer",
+    "symptoms": "Change in bowel habit, rectal bleeding, abdominal pain, weight loss, iron-deficiency anemia, tenesmus",
+    "medicine": "Capecitabine 1250mg/m² (adjuvant oral) OR FOLFOX/FOLFIRI (IV regimen) + Bevacizumab (metastatic)",
+    "frequency": "2x/day days 1–14 (Cape) / 2-weekly IV cycles",
+    "time": "8:00 AM (Morning) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Colonoscopy surveillance post-resection; high-fiber diet; CEA monitoring; genetic testing (Lynch syndrome)"
+  },
+  {
+    "category": "Cancer & Oncology Conditions",
+    "disease": "Prostate Cancer",
+    "symptoms": "Often asymptomatic (early); urinary symptoms, bone pain (metastatic), elevated PSA",
+    "medicine": "Enzalutamide 160mg OR Abiraterone 1000mg + Prednisolone 5mg (CRPC) / Leuprorelin 3-monthly SC (ADT)",
+    "frequency": "1x/day (Enza) / 1x/day (Abira) / 3-monthly injection",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Bone protection (Zoledronic acid, Denosumab); monitor PSA; bone density; cardiovascular risk on ADT"
+  },
+  {
+    "category": "Cancer & Oncology Conditions",
+    "disease": "Leukemia",
+    "symptoms": "Fatigue, pallor, recurrent infections, bruising/bleeding, lymphadenopathy, bone pain, splenomegaly",
+    "medicine": "Imatinib 400mg (CML) / ATRA + Arsenic trioxide (APL) / R-CHOP (B-cell) / Daunorubicin + Cytarabine (AML induction)",
+    "frequency": "1x/day (Imatinib) / Protocol-based IV cycles",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Infection prevention (neutropenic precautions); mouth care; blood product support; fertility preservation before chemo"
+  },
+  {
+    "category": "Cancer & Oncology Conditions",
+    "disease": "Lymphoma",
+    "symptoms": "Painless lymphadenopathy, B symptoms (fever, night sweats, weight loss), fatigue, pruritus",
+    "medicine": "R-CHOP (rituximab+cyclophosphamide+doxorubicin+vincristine+prednisolone) / ABVD (Hodgkin's)",
+    "frequency": "3-weekly cycles (6 cycles standard)",
+    "time": "8:00 AM (Morning) (once weekly)",
+    "duration_days": "",
+    "precautions": "Infection prevention; G-CSF support; cardiac monitoring (anthracyclines); surveillance PET-CT; fertility preservation"
+  },
+  {
+    "category": "Cancer & Oncology Conditions",
+    "disease": "Multiple Myeloma",
+    "symptoms": "Bone pain (CRAB: hyperCalcemia, Renal failure, Anemia, Bone lesions), fatigue, recurrent infections",
+    "medicine": "Bortezomib + Lenalidomide + Dexamethasone (VRd) induction / Daratumumab-based (newer)",
+    "frequency": "Weekly SC (Bortezomib) + Daily (Len) + Weekly (Dexa) – 4-week cycles",
+    "time": "8:00 AM (Morning) (Daily dose); 9:00 PM (Night) (Weekly doses on cycle days)",
+    "duration_days": "",
+    "precautions": "Bone protection (Zoledronic acid); VTE prophylaxis on Lenalidomide; infection prophylaxis; hydration for renal protection"
+  },
+  {
+    "category": "Cancer & Oncology Conditions",
+    "disease": "Ovarian Cancer",
+    "symptoms": "Abdominal bloating/distension, pelvic pain, early satiety, urinary frequency, weight changes, elevated CA-125",
+    "medicine": "Carboplatin AUC5 + Paclitaxel 175mg/m² IV + Bevacizumab (advanced) / Olaparib (BRCA mutated maintenance)",
+    "frequency": "3-weekly IV cycles / 1x/day (Olaparib maintenance)",
+    "time": "8:00 AM (Morning) (once weekly)",
+    "duration_days": "",
+    "precautions": "CA-125 and CT monitoring; genetic counseling (BRCA); secondary surgical cytoreduction; nutritional support"
+  },
+  {
+    "category": "Cancer & Oncology Conditions",
+    "disease": "Thyroid Cancer",
+    "symptoms": "Neck lump, dysphagia, hoarseness, cervical lymphadenopathy; most are well-differentiated papillary",
+    "medicine": "Levothyroxine (TSH suppression: 0.1–0.5 mU/L) post-thyroidectomy / Radioactive iodine (I-131) ablation",
+    "frequency": "1x/day (Levothyroxine – lifelong)",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Post-RAI diet (low iodine before); annual thyroglobulin and neck ultrasound; Cabozantinib/Sorafenib for advanced"
+  },
+  {
+    "category": "Cancer & Oncology Conditions",
+    "disease": "Melanoma",
+    "symptoms": "Changing mole (ABCDE: Asymmetry, Border irregularity, Color variation, Diameter >6mm, Evolution), bleeding, pruritus",
+    "medicine": "Pembrolizumab 200mg IV (adjuvant/advanced) OR BRAF+: Dabrafenib + Trametinib (targeted therapy)",
+    "frequency": "3-weekly IV / 2x/day + 1x/day (targeted)",
+    "time": "8:00 AM (Morning) (once weekly)",
+    "duration_days": "",
+    "precautions": "Sun protection (SPF50+ always); annual full-body skin exam; dermatoscopy surveillance; sentinel lymph node biopsy"
+  },
+  {
+    "category": "Genetic, Rare & Miscellaneous Disorders",
+    "disease": "Marfan Syndrome",
+    "symptoms": "Tall stature, arachnodactyly, lens dislocation, aortic root dilation/dissection risk, pectus excavatum, joint hypermobility",
+    "medicine": "Losartan 25–100mg OR Atenolol 25–100mg (aortic root protection)",
+    "frequency": "1x/day (Losartan) / 1x/day (Atenolol)",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Annual echo (aortic root monitoring); avoid contact sports/strenuous exercise; ophthalmology follow-up; genetic counseling"
+  },
+  {
+    "category": "Genetic, Rare & Miscellaneous Disorders",
+    "disease": "Huntington Disease",
+    "symptoms": "Chorea, cognitive decline, psychiatric symptoms (depression, irritability), dysphagia, weight loss; autosomal dominant",
+    "medicine": "Tetrabenazine 12.5–25mg (chorea) + Sertraline (depression) + Clonazepam (anxiety/sleep)",
+    "frequency": "2–3x/day / 1x/day / 1x/day (at night)",
+    "time": "8:00 AM (Morning) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "No disease-modifying treatment yet; multidisciplinary team care; genetic counseling for family; speech therapy; physiotherapy; advance care planning"
+  },
+  {
+    "category": "Genetic, Rare & Miscellaneous Disorders",
+    "disease": "ALS",
+    "symptoms": "Progressive limb weakness, fasciculations, dysarthria, dysphagia, respiratory failure; UMN+LMN signs",
+    "medicine": "Riluzole 50mg + Edaravone 60mg IV (infusion cycles) + symptomatic (Baclofen for spasticity)",
+    "frequency": "2x/day (Riluzole) / 14-day cycles then 14 days off (Edaravone)",
+    "time": "8:00 AM (Morning) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Multidisciplinary team; PEG (feeding) when dysphagia severe; NIV for respiratory support; advance directives early; palliative care"
+  },
+  {
+    "category": "Genetic, Rare & Miscellaneous Disorders",
+    "disease": "Fabry Disease",
+    "symptoms": "Acroparesthesia (burning pain in hands/feet), angiokeratomas, hypohidrosis, corneal verticillata, renal/cardiac involvement",
+    "medicine": "Agalsidase beta (Fabrazyme) 1mg/kg IV infusion OR Migalastat 123mg (if amenable mutation)",
+    "frequency": "Every 2 weeks (IV) / Every other day (Migalastat)",
+    "time": "8:00 AM (Morning) (on scheduled dosing day)",
+    "duration_days": "",
+    "precautions": "Analgesics (carbamazepine) for pain crises; renal monitoring; cardiology; avoid triggers (heat, exercise); genetic counseling"
+  },
+  {
+    "category": "Genetic, Rare & Miscellaneous Disorders",
+    "disease": "Gaucher Disease",
+    "symptoms": "Splenomegaly, hepatomegaly, bone pain/crises, anemia, thrombocytopenia; Ashkenazi Jewish association",
+    "medicine": "Imiglucerase (Cerezyme) IV infusion 60U/kg OR Eliglustat 84mg oral (substrate reduction therapy)",
+    "frequency": "Every 2 weeks (IV) / 2x/day (oral)",
+    "time": "8:00 AM (Morning) (on scheduled dosing day)",
+    "duration_days": "",
+    "precautions": "Monitor CBC, ferritin, chitotriosidase; orthopedic management (bone crises); splenectomy rarely needed now; genetic counseling"
+  },
+  {
+    "category": "Genetic, Rare & Miscellaneous Disorders",
+    "disease": "Paget Disease of Bone",
+    "symptoms": "Bone pain, bone deformity (bowed tibia, enlarged skull), warmth over bone, elevated ALP; may be asymptomatic",
+    "medicine": "Zoledronic acid 5mg IV (single infusion – highly effective) OR Risedronate 30mg oral (alternative)",
+    "frequency": "Single IV infusion / 1x/day",
+    "time": "8:00 AM (Morning) (primary medicine); see notes for others",
+    "duration_days": "",
+    "precautions": "Calcium 1000mg + Vitamin D 800IU supplementation; hearing assessment (skull involvement); monitor ALP to assess response"
+  },
+  {
+    "category": "Genetic, Rare & Miscellaneous Disorders",
+    "disease": "Sarcoidosis",
+    "symptoms": "Dyspnea, cough, bilateral hilar lymphadenopathy, erythema nodosum, uveitis, hypercalcemia, fatigue, lupus pernio",
+    "medicine": "Prednisolone 20–40mg (symptomatic disease) + Methotrexate 10–15mg/week (steroid-sparing)",
+    "frequency": "1x/day (Prednisolone) / Weekly (MTX)",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Many cases remit spontaneously; avoid calcium/vitamin D supplementation (hypercalcemia risk); organ-specific monitoring (lungs, eyes, heart)"
+  },
+  {
+    "category": "Genetic, Rare & Miscellaneous Disorders",
+    "disease": "Behçet Disease",
+    "symptoms": "Recurrent oral ulcers (pathognomonic), genital ulcers, uveitis, skin lesions (pseudofolliculitis), arthritis, CNS involvement",
+    "medicine": "Colchicine 0.5–1mg (oral ulcers/arthritis) + Azathioprine 2.5mg/kg/day (systemic) / Infliximab (severe)",
+    "frequency": "2x/day (Colchicine) / 1x/day (Azathioprine)",
+    "time": "8:00 AM (Morning) & 9:00 PM (Night)",
+    "duration_days": "",
+    "precautions": "Topical steroids for oral/genital ulcers; ophthalmology for uveitis; anticoagulation for vascular disease; avoid pathergy triggers"
+  },
+  {
+    "category": "Genetic, Rare & Miscellaneous Disorders",
+    "disease": "Chronic Fatigue Syndrome",
+    "symptoms": "Profound fatigue >6 months not relieved by rest, post-exertional malaise, cognitive impairment ('brain fog'), sleep disturbance, orthostatic intolerance",
+    "medicine": "No curative drug; Low-dose Amitriptyline 10–25mg (sleep/pain) + Melatonin 2mg + Fludrocortisone 0.1mg (if POTS component)",
+    "frequency": "1x/day at night (Amitriptyline) / 1x/day (Melatonin) / 1x/day (Fludrocortisone)",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Pacing (energy management – most important); avoid boom-bust cycle; graded activity (not aggressive GET); cognitive support; MDT approach; psychological support"
+  },
+  {
+    "category": "Genetic, Rare & Miscellaneous Disorders",
+    "disease": "Fibromyalgia",
+    "symptoms": "Widespread musculoskeletal pain, allodynia, fatigue, non-restorative sleep, cognitive difficulties, IBS, headache",
+    "medicine": "Duloxetine 60mg + Pregabalin 75–150mg + Low-dose Amitriptyline 10–25mg (at night)",
+    "frequency": "1x/day (Duloxetine) / 2x/day (Pregabalin) / 1x/day at night (Amitriptyline)",
+    "time": "8:00 AM (Morning)",
+    "duration_days": "",
+    "precautions": "Aerobic exercise (most evidence-based intervention); CBT; sleep hygiene; patient education; avoid opioids; multidisciplinary pain management"
+  }
+]
