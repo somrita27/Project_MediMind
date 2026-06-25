@@ -6,7 +6,7 @@
     "medicine": "Oseltamivir (Tamiflu) 75mg",
     "frequency": "2x/day",
     "time": "8:00 AM (Morning) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "5",
     "precautions": "Rest, hydration, avoid contact with others; annual flu vaccine recommended"
   },
   {
@@ -16,7 +16,7 @@
     "medicine": "Nirmatrelvir/Ritonavir (Paxlovid) 300mg/100mg",
     "frequency": "2x/day",
     "time": "8:00 AM (Morning) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "5",
     "precautions": "Isolation, mask use, hydration, monitor O2 saturation; vaccination strongly advised"
   },
   {
@@ -26,7 +26,7 @@
     "medicine": "Isoniazid + Rifampicin + Pyrazinamide + Ethambutol (HRZE)",
     "frequency": "1x/day",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "180 (6 months)",
     "precautions": "Complete full course; DOT (Directly Observed Therapy) recommended; avoid alcohol"
   },
   {
@@ -36,7 +36,7 @@
     "medicine": "Amoxicillin-Clavulanate 875mg OR Azithromycin 500mg",
     "frequency": "2x/day (Amox) / 1x/day (Azithro)",
     "time": "8:00 AM (Morning) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "7–14",
     "precautions": "Rest, hydration, follow-up chest X-ray; hospitalize if SpO2 <94%"
   },
   {
@@ -46,7 +46,7 @@
     "medicine": "Artemether + Lumefantrine (Coartem) 20/120mg",
     "frequency": "2x/day",
     "time": "8:00 AM (Morning) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "3",
     "precautions": "Avoid mosquito exposure, use nets and repellents; test before treatment"
   },
   {
@@ -56,7 +56,7 @@
     "medicine": "No antiviral; Paracetamol 500mg for fever",
     "frequency": "3–4x/day",
     "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "5–7",
     "precautions": "AVOID Aspirin/NSAIDs (bleeding risk); monitor platelets; IV fluids if needed"
   },
   {
@@ -66,7 +66,7 @@
     "medicine": "Ceftriaxone 2g IV OR Azithromycin 1g oral",
     "frequency": "1x/day",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "10–14",
     "precautions": "Boil drinking water, hand hygiene; typhoid vaccine available"
   },
   {
@@ -76,7 +76,7 @@
     "medicine": "ORS (Oral Rehydration Salts) + Doxycycline 300mg (single dose)",
     "frequency": "Continuous ORS / Single dose antibiotic",
     "time": "Continuous (administered throughout the day)",
-    "duration_days": "",
+    "duration_days": "3–5",
     "precautions": "Strict water/food hygiene; IV fluids for severe cases; cholera vaccine"
   },
   {
@@ -86,7 +86,7 @@
     "medicine": "Tenofovir 300mg OR Entecavir 0.5mg (chronic phase)",
     "frequency": "1x/day",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "Long-term / lifelong",
     "precautions": "Avoid alcohol; hepatitis B vaccine for contacts; monitor liver function"
   },
   {
@@ -96,7 +96,7 @@
     "medicine": "Sofosbuvir + Velpatasvir (Epclusa) 400/100mg",
     "frequency": "1x/day",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "84 (12 weeks)",
     "precautions": "Avoid alcohol; no vaccine available; screen close contacts"
   },
   {
@@ -106,7 +106,7 @@
     "medicine": "ART: Tenofovir + Emtricitabine + Efavirenz (TDF/FTC/EFV)",
     "frequency": "1x/day",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "Lifelong",
     "precautions": "Condom use, no needle sharing, PrEP for prevention; regular CD4/viral load monitoring"
   },
   {
@@ -116,7 +116,7 @@
     "medicine": "Benzathine Penicillin G 2.4 million units IM",
     "frequency": "Single dose (primary/secondary); 3 doses weekly (tertiary)",
     "time": "8:00 AM (Morning) (one-time dose)",
-    "duration_days": "",
+    "duration_days": "1 / 21",
     "precautions": "Partner notification and treatment; avoid sexual contact until healed"
   },
   {
@@ -126,7 +126,7 @@
     "medicine": "Ceftriaxone 500mg IM + Azithromycin 1g oral",
     "frequency": "Single dose",
     "time": "8:00 AM (Morning) (one-time dose)",
-    "duration_days": "",
+    "duration_days": "1",
     "precautions": "Treat partner simultaneously; screen for co-infections; avoid unprotected sex"
   },
   {
@@ -136,7 +136,7 @@
     "medicine": "Azithromycin 1g OR Doxycycline 100mg",
     "frequency": "Single dose / 2x/day",
     "time": "8:00 AM (Morning) (one-time dose)",
-    "duration_days": "",
+    "duration_days": "1 / 7",
     "precautions": "Treat partner; abstain from sex for 7 days post-treatment"
   },
   {
@@ -146,7 +146,7 @@
     "medicine": "Dapsone 100mg + Rifampicin 600mg + Clofazimine 50mg (MDT)",
     "frequency": "Daily (monthly supervised Rifampicin)",
     "time": "8:00 AM (Morning) (daily, supervised monthly)",
-    "duration_days": "",
+    "duration_days": "180–365 (PB) / 730 (MB)",
     "precautions": "Complete full MDT course; prevent disability; educate family; notify contacts"
   },
   {
@@ -156,7 +156,7 @@
     "medicine": "Ceftriaxone 2g IV",
     "frequency": "2x/day",
     "time": "8:00 AM (Morning) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "10–14",
     "precautions": "Medical emergency; meningococcal vaccine; prophylaxis for close contacts (Rifampicin)"
   },
   {
@@ -166,7 +166,7 @@
     "medicine": "Metronidazole 500mg + Tetanus Immunoglobulin (TIG) 3000–6000 IU",
     "frequency": "3x/day (Metro) / Single dose (TIG)",
     "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "10–14",
     "precautions": "Wound debridement; ICU care often needed; tetanus vaccine (TT/Tdap) prevention"
   },
   {
@@ -176,7 +176,7 @@
     "medicine": "Azithromycin 500mg (day 1), then 250mg",
     "frequency": "1x/day",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "5",
     "precautions": "Isolate patient; DTaP/Tdap vaccination; prophylaxis for household contacts"
   },
   {
@@ -186,7 +186,7 @@
     "medicine": "Clotrimazole 1% cream OR Terbinafine 1% cream (topical)",
     "frequency": "2x/day",
     "time": "8:00 AM (Morning) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "14–28",
     "precautions": "Keep area dry; avoid sharing personal items; wash clothing/bedding"
   },
   {
@@ -196,7 +196,7 @@
     "medicine": "Fluconazole 150mg (systemic) OR Clotrimazole pessary (vaginal)",
     "frequency": "Single dose / 1x/day",
     "time": "8:00 AM (Morning) (one-time dose)",
-    "duration_days": "",
+    "duration_days": "1 / 7",
     "precautions": "Keep skin dry; manage blood sugar in diabetics; probiotics may help"
   },
   {
@@ -206,7 +206,7 @@
     "medicine": "Amlodipine 5–10mg OR Enalapril 5–10mg",
     "frequency": "1x/day",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "Long-term",
     "precautions": "Low-sodium diet (<2g/day), exercise, reduce alcohol, monitor BP daily"
   },
   {
@@ -216,7 +216,7 @@
     "medicine": "Aspirin 75mg + Atorvastatin 40mg + Bisoprolol 5mg",
     "frequency": "1x/day each",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "Long-term",
     "precautions": "Smoking cessation, cardiac diet, regular exercise, stress management"
   },
   {
@@ -226,7 +226,7 @@
     "medicine": "Furosemide 40mg + Enalapril 5mg + Carvedilol 3.125mg",
     "frequency": "1–2x/day",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "Long-term",
     "precautions": "Fluid restriction (<1.5L/day), daily weight monitoring, low-sodium diet"
   },
   {
@@ -236,7 +236,7 @@
     "medicine": "Bisoprolol 5mg + Rivaroxaban 20mg (anticoagulation)",
     "frequency": "1x/day",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "Long-term",
     "precautions": "Avoid caffeine/alcohol triggers; monitor INR if on Warfarin; fall precautions"
   },
   {
@@ -246,7 +246,7 @@
     "medicine": "Rivaroxaban 15mg (initial) then 20mg",
     "frequency": "2x/day (first 3wks) then 1x/day",
     "time": "8:00 AM (Morning) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "21 days then 90+ days",
     "precautions": "Leg elevation, compression stockings, early ambulation, hydration"
   },
   {
@@ -256,7 +256,7 @@
     "medicine": "Heparin IV (initial) then Rivaroxaban 15mg",
     "frequency": "Continuous IV / 2x/day oral",
     "time": "Continuous (administered throughout the day)",
-    "duration_days": "",
+    "duration_days": "3–6 months",
     "precautions": "Medical emergency; absolute rest initially; anticoagulation compliance critical"
   },
   {
@@ -266,7 +266,7 @@
     "medicine": "Atorvastatin 20–40mg OR Rosuvastatin 10–20mg",
     "frequency": "1x/day (evening)",
     "time": "6:00 PM (Evening)",
-    "duration_days": "",
+    "duration_days": "Long-term",
     "precautions": "Low-fat diet, regular exercise, avoid trans fats, monitor LFTs"
   },
   {
@@ -276,7 +276,7 @@
     "medicine": "GTN (Glyceryl Trinitrate) sublingual spray + Bisoprolol 5mg",
     "frequency": "PRN (GTN) / 1x/day (Bisoprolol)",
     "time": "As needed (PRN) — typically Morning or Night when symptoms occur",
-    "duration_days": "",
+    "duration_days": "PRN / Long-term",
     "precautions": "Avoid triggers, carry GTN always, seek ER if pain >20 min (possible MI)"
   },
   {
@@ -286,7 +286,7 @@
     "medicine": "Aspirin 75mg + Clopidogrel 75mg + Atorvastatin 40mg",
     "frequency": "1x/day each",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "Long-term",
     "precautions": "Smoking cessation (critical), wound care, supervised walking program"
   },
   {
@@ -296,7 +296,7 @@
     "medicine": "Aspirin 75mg + Atorvastatin 40mg + Bisoprolol 5mg + Ramipril 5mg",
     "frequency": "1x/day each",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "Long-term / lifelong",
     "precautions": "Cardiac rehab, smoking cessation, dietary changes, psychological support"
   },
   {
@@ -306,7 +306,7 @@
     "medicine": "Salbutamol (SABA) inhaler 100mcg + Beclomethasone (ICS) 200mcg",
     "frequency": "PRN (rescue) / 2x/day (preventer)",
     "time": "As needed (PRN) — typically Morning or Night when symptoms occur",
-    "duration_days": "",
+    "duration_days": "PRN / Long-term",
     "precautions": "Avoid triggers (dust, smoke, allergens); have rescue inhaler always; annual review"
   },
   {
@@ -316,7 +316,7 @@
     "medicine": "Tiotropium (LAMA) 18mcg inhaler + Salbutamol PRN",
     "frequency": "1x/day (Tio) + PRN",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "Long-term",
     "precautions": "Smoking cessation (most important); pulmonary rehab; annual influenza vaccine"
   },
   {
@@ -326,7 +326,7 @@
     "medicine": "Cetirizine 10mg + Fluticasone nasal spray 50mcg/spray",
     "frequency": "1x/day + 2 sprays/nostril 1x/day",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "Seasonal or long-term",
     "precautions": "Avoid allergens; saline nasal irrigation; allergy testing may guide treatment"
   },
   {
@@ -336,7 +336,7 @@
     "medicine": "Amoxicillin-Clavulanate 875mg (if bacterial) + Fluticasone spray",
     "frequency": "2x/day + 1x/day",
     "time": "8:00 AM (Morning) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "7–10 (antibiotic) / 21 (spray)",
     "precautions": "Steam inhalation, saline rinses, avoid cold air; most cases viral – no antibiotics"
   },
   {
@@ -346,7 +346,7 @@
     "medicine": "Usually supportive: Paracetamol 500mg + Salbutamol inhaler (if wheeze)",
     "frequency": "3x/day + PRN",
     "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "7–10",
     "precautions": "Hydration, humidifier, honey-lemon; antibiotics only if bacterial superinfection"
   },
   {
@@ -356,7 +356,7 @@
     "medicine": "Sildenafil 20mg OR Bosentan 125mg (specialist-initiated)",
     "frequency": "3x/day / 2x/day",
     "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "Long-term",
     "precautions": "Avoid high altitude, excessive exertion; O2 supplementation; specialist follow-up"
   },
   {
@@ -366,7 +366,7 @@
     "medicine": "Ivacaftor/Lumacaftor (Orkambi) + Dornase alfa (nebulized)",
     "frequency": "2x/day + 1x/day",
     "time": "8:00 AM (Morning) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "Lifelong",
     "precautions": "Chest physiotherapy, high-calorie diet, enzyme supplements, annual reviews"
   },
   {
@@ -376,7 +376,7 @@
     "medicine": "Pirfenidone 267mg (IPF) OR Nintedanib 150mg",
     "frequency": "3x/day / 2x/day",
     "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "Long-term",
     "precautions": "Pulmonary rehab, O2 therapy, avoid lung toxins; lung transplant evaluation"
   },
   {
@@ -386,7 +386,7 @@
     "medicine": "CPAP therapy (primary) + Weight loss; Modafinil 200mg (if residual sleepiness)",
     "frequency": "Nightly CPAP + 1x/day (if Modafinil)",
     "time": "9:00 PM (Night) (nightly)",
-    "duration_days": "",
+    "duration_days": "Long-term",
     "precautions": "Weight reduction, positional therapy, avoid alcohol/sedatives before bed"
   },
   {
@@ -396,7 +396,7 @@
     "medicine": "Isoniazid + Rifampicin + Pyrazinamide + Ethambutol (same as TB)",
     "frequency": "1x/day",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "180 (6 months)",
     "precautions": "Same as pulmonary TB; therapeutic thoracocentesis if large effusion; pyridoxine supplement"
   },
   {
@@ -406,7 +406,7 @@
     "medicine": "Insulin (Basal: Glargine 10-30U) + (Bolus: Aspart/Lispro per meal)",
     "frequency": "1x/day (basal) + 3x/day with meals",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "Lifelong",
     "precautions": "Carbohydrate counting, glucose monitoring, sick-day rules, hypoglycemia management kit"
   },
   {
@@ -416,7 +416,7 @@
     "medicine": "Metformin 500–1000mg + lifestyle modification",
     "frequency": "2x/day (with meals)",
     "time": "8:00 AM (Morning) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "Long-term",
     "precautions": "Low glycemic index diet, regular exercise, weight loss, monitor HbA1c every 3 months"
   },
   {
@@ -426,7 +426,7 @@
     "medicine": "Levothyroxine 50–100mcg",
     "frequency": "1x/day (morning, fasting)",
     "time": "6:30 AM (Early Morning, fasting)",
-    "duration_days": "",
+    "duration_days": "Lifelong",
     "precautions": "Take 30–60 min before breakfast; avoid calcium/iron supplements within 4 hours; monitor TSH"
   },
   {
@@ -436,7 +436,7 @@
     "medicine": "Carbimazole 10–20mg OR Propylthiouracil 100mg",
     "frequency": "3x/day",
     "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "18–24 months",
     "precautions": "Avoid iodine-rich foods; monitor thyroid function; consider radioiodine/surgery for relapse"
   },
   {
@@ -446,7 +446,7 @@
     "medicine": "Ketoconazole 200mg (medical management) or surgical if adenoma",
     "frequency": "2–3x/day",
     "time": "8:00 AM (Morning) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "As per specialist",
     "precautions": "Investigate cause (exogenous vs endogenous); taper exogenous steroids gradually"
   },
   {
@@ -456,7 +456,7 @@
     "medicine": "Hydrocortisone 20mg/day + Fludrocortisone 0.1mg",
     "frequency": "2–3x/day (Hydrocort) / 1x/day (Fludro)",
     "time": "8:00 AM (Morning) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "Lifelong",
     "precautions": "Carry steroid emergency card; sick-day rules (double dose); medical alert bracelet"
   },
   {
@@ -466,7 +466,7 @@
     "medicine": "Metformin 500mg + Combined OCP (for regulation) + Spironolactone (hirsutism)",
     "frequency": "2x/day / 1x/day / 1x/day",
     "time": "8:00 AM (Morning) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "Long-term",
     "precautions": "Weight loss (5–10% improves symptoms), low GI diet, regular exercise"
   },
   {
@@ -476,7 +476,7 @@
     "medicine": "Alendronate 70mg (weekly) + Calcium 1000mg + Vitamin D3 1000IU",
     "frequency": "Weekly / 1x/day / 1x/day",
     "time": "8:00 AM (Morning) (once weekly)",
-    "duration_days": "",
+    "duration_days": "Long-term",
     "precautions": "Weight-bearing exercise, fall prevention, adequate protein intake, avoid smoking/alcohol"
   },
   {
@@ -486,7 +486,7 @@
     "medicine": "Indomethacin 50mg (acute) OR Colchicine 0.5mg; Allopurinol 100–300mg (prevention)",
     "frequency": "3x/day (acute) / 2–3x/day / 1x/day (prevention)",
     "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "Acute: 5–7 / Prevention: Long-term",
     "precautions": "Low-purine diet (avoid red meat, alcohol, seafood), adequate hydration (>2L/day)"
   },
   {
@@ -496,7 +496,7 @@
     "medicine": "Orlistat 120mg (with meals) OR Semaglutide 0.5–2.4mg (weekly)",
     "frequency": "3x/day (Orlistat) / Weekly injection",
     "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "Long-term",
     "precautions": "Caloric deficit diet, regular exercise (150+ min/week), behavioral therapy, sleep hygiene"
   },
   {
@@ -506,7 +506,7 @@
     "medicine": "Omeprazole 20mg OR Pantoprazole 40mg",
     "frequency": "1x/day (30 min before breakfast)",
     "time": "7:00 AM (Morning, before breakfast)",
-    "duration_days": "",
+    "duration_days": "4–8 weeks (then PRN)",
     "precautions": "Avoid lying down after meals, elevate bed head, avoid trigger foods (coffee, spicy, fatty)"
   },
   {
@@ -516,7 +516,7 @@
     "medicine": "Triple therapy: Omeprazole 20mg + Amoxicillin 1g + Clarithromycin 500mg",
     "frequency": "2x/day each (if H. pylori +ve)",
     "time": "8:00 AM (Morning) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "14 (H. pylori) then PPI 4–8 wks",
     "precautions": "Avoid NSAIDs, aspirin, alcohol, smoking; test and treat H. pylori"
   },
   {
@@ -526,7 +526,7 @@
     "medicine": "Pantoprazole 40mg + Antacid (Aluminium hydroxide + Mg hydroxide)",
     "frequency": "1x/day + 3x/day (after meals & bedtime)",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "4–6 weeks",
     "precautions": "Avoid NSAIDs, alcohol, spicy food, coffee; small frequent meals"
   },
   {
@@ -536,7 +536,7 @@
     "medicine": "Mebeverine 135mg (antispasmodic) + Loperamide (IBS-D) OR Ispaghula (IBS-C)",
     "frequency": "3x/day before meals",
     "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "Long-term (symptom-guided)",
     "precautions": "Low-FODMAP diet, stress management, regular mealtimes, probiotic trial"
   },
   {
@@ -546,7 +546,7 @@
     "medicine": "Mesalazine 800mg (mild) OR Azathioprine 2mg/kg/day (moderate)",
     "frequency": "3x/day / 1x/day",
     "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "Long-term",
     "precautions": "No smoking (worsens Crohn's); regular colonoscopy; nutrition support if malnourished"
   },
   {
@@ -556,7 +556,7 @@
     "medicine": "Mesalazine 1.2g + Prednisolone (flare) 40mg",
     "frequency": "3x/day + 1x/day (taper)",
     "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "Maintenance long-term / Prednisolone 4–6 wks",
     "precautions": "Regular colonoscopy for cancer screening; stress management; avoid NSAIDs"
   },
   {
@@ -566,7 +566,7 @@
     "medicine": "Lactulose 15ml OR Bisacodyl 5mg (short-term) OR Ispaghula husk",
     "frequency": "2x/day / 1x/day (bedtime)",
     "time": "8:00 AM (Morning) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "Short-term (then dietary adjustment)",
     "precautions": "High-fiber diet, 2L water daily, regular exercise, respond to urge promptly"
   },
   {
@@ -576,7 +576,7 @@
     "medicine": "ORS continuously + Loperamide 2mg (non-bloody) + Zinc 20mg (children)",
     "frequency": "PRN ORS / after each loose stool",
     "time": "As needed (PRN) — typically Morning or Night when symptoms occur",
-    "duration_days": "",
+    "duration_days": "3–5 (or until resolved)",
     "precautions": "AVOID Loperamide in bloody/febrile diarrhea; food hygiene; hand washing"
   },
   {
@@ -586,7 +586,7 @@
     "medicine": "Hydrocortisone cream 1% (external) + Lignocaine gel (analgesia)",
     "frequency": "2–3x/day",
     "time": "8:00 AM (Morning) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "7–14",
     "precautions": "High-fiber diet, adequate fluids, avoid straining, sitz baths, weight management"
   },
   {
@@ -596,7 +596,7 @@
     "medicine": "IV fluids + Tramadol 50–100mg (analgesia) + NPO initially then gradual feeding",
     "frequency": "6-hourly (pain) / Continuous IV fluids",
     "time": "Continuous (administered throughout the day)",
-    "duration_days": "",
+    "duration_days": "Acute: 5–10 (hospital-based)",
     "precautions": "Avoid alcohol absolutely; low-fat diet; treat gallstones; monitor blood glucose"
   },
   {
@@ -606,7 +606,7 @@
     "medicine": "Sodium Valproate 200–500mg OR Lamotrigine 25–100mg",
     "frequency": "2x/day",
     "time": "8:00 AM (Morning) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "Lifelong",
     "precautions": "Never stop medication abruptly; avoid triggers (alcohol, sleep deprivation); driving restrictions"
   },
   {
@@ -616,7 +616,7 @@
     "medicine": "Sumatriptan 50mg (acute) + Propranolol 40mg (prophylaxis)",
     "frequency": "PRN (max 2 doses/24hr) / 2x/day",
     "time": "As needed (PRN) — typically Morning or Night when symptoms occur",
-    "duration_days": "",
+    "duration_days": "PRN / Long-term",
     "precautions": "Identify and avoid triggers (hormones, stress, foods); headache diary; dark quiet room during attack"
   },
   {
@@ -626,7 +626,7 @@
     "medicine": "Levodopa/Carbidopa 100/25mg + Ropinirole 0.25mg (early)",
     "frequency": "3x/day / 3x/day",
     "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "Lifelong",
     "precautions": "Physiotherapy, occupational therapy, fall prevention, speech therapy; DBS if advanced"
   },
   {
@@ -636,7 +636,7 @@
     "medicine": "Donepezil 5–10mg OR Memantine 10mg (moderate-severe)",
     "frequency": "1x/day (evening)",
     "time": "6:00 PM (Evening)",
-    "duration_days": "",
+    "duration_days": "Lifelong (disease-modifying not yet available)",
     "precautions": "Cognitive stimulation, safe environment, carer support, advance care planning"
   },
   {
@@ -646,7 +646,7 @@
     "medicine": "Interferon beta-1a 30mcg IM (relapsing) OR Ocrelizumab 600mg IV (PPMS)",
     "frequency": "Weekly injection / Every 6 months IV",
     "time": "8:00 AM (Morning) (once weekly)",
-    "duration_days": "",
+    "duration_days": "Lifelong",
     "precautions": "Physiotherapy, fatigue management, temperature awareness, psychological support"
   },
   {
@@ -656,7 +656,7 @@
     "medicine": "Pregabalin 75mg OR Duloxetine 30mg + Amitriptyline 10mg (adjunct)",
     "frequency": "2x/day / 1x/day / 1x/day (at night)",
     "time": "8:00 AM (Morning) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "Long-term",
     "precautions": "Pain diary; TENS therapy; address underlying cause; sleep hygiene; psychological support"
   },
   {
@@ -666,7 +666,7 @@
     "medicine": "Carbamazepine 100–200mg",
     "frequency": "3x/day (titrate up slowly)",
     "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "Long-term",
     "precautions": "Avoid triggers (cold wind, chewing hard foods); surgical MVD if medication fails"
   },
   {
@@ -676,7 +676,7 @@
     "medicine": "Pramipexole 0.125mg OR Ropinirole 0.25mg (at night)",
     "frequency": "1x/day (2–3 hrs before sleep)",
     "time": "10:00 PM (Night, before bed)",
-    "duration_days": "",
+    "duration_days": "Long-term",
     "precautions": "Iron supplementation if ferritin <75; avoid caffeine/alcohol; regular exercise; leg stretches"
   },
   {
@@ -686,7 +686,7 @@
     "medicine": "Propranolol 40mg OR Primidone 50mg",
     "frequency": "2x/day / 1–2x/day",
     "time": "8:00 AM (Morning) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "Long-term",
     "precautions": "Avoid caffeine; weighted utensils; avoid stress; alcohol transiently helps but avoid dependency"
   },
   {
@@ -696,7 +696,7 @@
     "medicine": "Pyridostigmine 60mg + Prednisolone 20–60mg (immunosuppression)",
     "frequency": "4–6x/day / 1x/day",
     "time": "8:00 AM (Morning), 1:00 PM (Afternoon), 6:00 PM (Evening) & 10:00 PM (Night, before bed)",
-    "duration_days": "",
+    "duration_days": "Lifelong",
     "precautions": "Avoid aminoglycosides, beta-blockers, fluoroquinolones (worsen MG); myasthenic crisis management"
   },
   {
@@ -706,7 +706,7 @@
     "medicine": "Sertraline 50mg OR Fluoxetine 20mg",
     "frequency": "1x/day (morning)",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "Minimum 6 months (first episode)",
     "precautions": "Psychotherapy (CBT), regular exercise, social support, safety plan if SI; adequate sleep"
   },
   {
@@ -716,7 +716,7 @@
     "medicine": "Sertraline 50mg OR Escitalopram 10mg + Buspirone 5mg",
     "frequency": "1x/day + 3x/day",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "6–12 months",
     "precautions": "CBT (gold standard), mindfulness, regular exercise, limit caffeine; relaxation techniques"
   },
   {
@@ -726,7 +726,7 @@
     "medicine": "Lithium 400mg OR Valproate 500mg (mood stabilizer)",
     "frequency": "2–3x/day",
     "time": "8:00 AM (Morning) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "Lifelong",
     "precautions": "Monitor lithium levels; avoid alcohol; regular sleep schedule; early warning sign recognition"
   },
   {
@@ -736,7 +736,7 @@
     "medicine": "Risperidone 2–6mg OR Olanzapine 10mg",
     "frequency": "1–2x/day",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "Lifelong",
     "precautions": "Medication adherence is critical; psychoeducation; community mental health support; occupational therapy"
   },
   {
@@ -746,7 +746,7 @@
     "medicine": "Sertraline 100–200mg OR Fluvoxamine 100–300mg",
     "frequency": "1–2x/day",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "12+ months",
     "precautions": "ERP (Exposure and Response Prevention) therapy is most effective; avoid OCD-accommodating behaviors"
   },
   {
@@ -756,7 +756,7 @@
     "medicine": "Sertraline 50mg (maintenance) + Clonazepam 0.25mg (acute, short-term)",
     "frequency": "1x/day / PRN",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "6–12 months / Short-term only",
     "precautions": "CBT (panic-focused), breathing exercises, avoid caffeine; benzodiazepine dependence risk"
   },
   {
@@ -766,7 +766,7 @@
     "medicine": "Sertraline 50–200mg OR Paroxetine 20–60mg",
     "frequency": "1x/day",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "12+ months",
     "precautions": "Trauma-focused CBT, EMDR therapy; avoid substance use; safety and stability first"
   },
   {
@@ -776,7 +776,7 @@
     "medicine": "Methylphenidate 5–10mg OR Atomoxetine 40–80mg",
     "frequency": "2–3x/day (Methyl) / 1x/day (Atomoxetine)",
     "time": "8:00 AM (Morning) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "Long-term (reassess annually)",
     "precautions": "Behavioral therapy, structured routines, classroom/work accommodations; monitor growth in children"
   },
   {
@@ -786,7 +786,7 @@
     "medicine": "Melatonin 2–5mg (short-term) OR Zolpidem 5mg (short-term only, max 2 weeks)",
     "frequency": "1x/day (30 min before bed)",
     "time": "10:00 PM (Night, before bed)",
-    "duration_days": "",
+    "duration_days": "Short-term (2–4 weeks)",
     "precautions": "CBT-I (gold standard); sleep hygiene (no screens, regular schedule); avoid caffeine after 2pm"
   },
   {
@@ -796,7 +796,7 @@
     "medicine": "Sertraline 50mg OR Escitalopram 10mg + Propranolol 10–20mg (situational)",
     "frequency": "1x/day / PRN before social events",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "6–12+ months",
     "precautions": "CBT with exposure therapy; graduated exposure hierarchy; social skills training"
   },
   {
@@ -806,7 +806,7 @@
     "medicine": "Methotrexate 7.5–25mg (weekly) + Folic acid 5mg + NSAIDs (flare)",
     "frequency": "Weekly / 1x/week (separate day) / PRN",
     "time": "8:00 AM (Morning) (once weekly)",
-    "duration_days": "",
+    "duration_days": "Long-term",
     "precautions": "Monitor CBC/LFTs monthly; avoid live vaccines; folic acid reduces MTX side effects"
   },
   {
@@ -816,7 +816,7 @@
     "medicine": "Hydroxychloroquine 200–400mg + Prednisolone 5–30mg (active disease)",
     "frequency": "1x/day / 1x/day",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "Lifelong / Taper as possible",
     "precautions": "Strict sun protection (SPF50+); monitor organ involvement; avoid estrogen OCP in active disease"
   },
   {
@@ -826,7 +826,7 @@
     "medicine": "Betamethasone valerate 0.1% cream (mild) OR Methotrexate (moderate-severe)",
     "frequency": "2x/day (topical) / Weekly (systemic)",
     "time": "8:00 AM (Morning) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "Long-term",
     "precautions": "Emollient use, avoid trauma (Koebner phenomenon), phototherapy, stress reduction"
   },
   {
@@ -836,7 +836,7 @@
     "medicine": "Methotrexate 15–25mg (weekly) OR Adalimumab 40mg (biologic, fortnightly)",
     "frequency": "Weekly MTX / Biweekly Adalimumab",
     "time": "8:00 AM (Morning) (once weekly)",
-    "duration_days": "",
+    "duration_days": "Long-term",
     "precautions": "Monitor joint damage with X-ray; physiotherapy; smoking cessation; weight management"
   },
   {
@@ -846,7 +846,7 @@
     "medicine": "Naproxen 500mg OR Etoricoxib 90mg (NSAIDs first-line) + physiotherapy",
     "frequency": "2x/day / 1x/day",
     "time": "8:00 AM (Morning) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "Long-term",
     "precautions": "Daily spinal exercise/physiotherapy critical; sleep prone; posture awareness; avoid smoking"
   },
   {
@@ -856,7 +856,7 @@
     "medicine": "Hydroxychloroquine 200mg + Artificial tears + Pilocarpine 5mg (secretagogue)",
     "frequency": "1x/day / 4–6x/day / 3x/day",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "Long-term",
     "precautions": "Regular dental care (caries risk); sip water frequently; avoid antihistamines/diuretics"
   },
   {
@@ -866,7 +866,7 @@
     "medicine": "Prednisolone 1mg/kg/day + Cyclophosphamide (severe, induction)",
     "frequency": "1x/day / Pulsed IV monthly",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "Induction: 3–6 months then maintenance",
     "precautions": "Monitor ANCA; renal function; infection screening before immunosuppression; BP control"
   },
   {
@@ -876,7 +876,7 @@
     "medicine": "Prednisolone 1mg/kg/day + Methotrexate 10–20mg (steroid-sparing)",
     "frequency": "1x/day / Weekly",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "Long-term (taper slowly)",
     "precautions": "Malignancy screening; physiotherapy; sun protection; monitor muscle enzymes (CK, LDH)"
   },
   {
@@ -886,7 +886,7 @@
     "medicine": "Nifedipine 10–30mg (Raynaud's) + Methotrexate (skin) + Omeprazole (GERD)",
     "frequency": "3x/day / Weekly / 1x/day",
     "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "Long-term",
     "precautions": "Hand warmers for Raynaud's; monitor BP (renal crisis); physiotherapy; esophageal dilation"
   },
   {
@@ -896,7 +896,7 @@
     "medicine": "Prednisolone 15mg (initial) – slow taper",
     "frequency": "1x/day",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "12–24 months (slow taper)",
     "precautions": "Calcium + Vitamin D supplementation; bone protection; monitor ESR/CRP; screen for GCA"
   },
   {
@@ -906,7 +906,7 @@
     "medicine": "Benzoyl peroxide 5% gel (mild) OR Adapalene 0.1% (retinoid) + Clindamycin 1% gel",
     "frequency": "1–2x/day (topical)",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "8–12 weeks (then maintenance)",
     "precautions": "Avoid picking/squeezing; gentle non-comedogenic skincare; sunscreen with topical retinoids"
   },
   {
@@ -916,7 +916,7 @@
     "medicine": "Emollient (multiple daily) + Hydrocortisone 1% (flare) OR Tacrolimus 0.1% (sensitive areas)",
     "frequency": "At least 2–3x/day (emollient) / 1–2x/day (steroid during flare)",
     "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night) (primary medicine); see notes for others",
-    "duration_days": "",
+    "duration_days": "Long-term (emollient) / Short-term (steroid)",
     "precautions": "Avoid triggers (soaps, dust mites, stress); wet wrap therapy; antihistamine for itch at night"
   },
   {
@@ -926,7 +926,7 @@
     "medicine": "Timolol 0.5% eye drops + Latanoprost 0.005% eye drops",
     "frequency": "2x/day (Timolol) + 1x/day at night (Latanoprost)",
     "time": "8:00 AM (Morning) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "Lifelong",
     "precautions": "Regular eye pressure monitoring; compliance critical (no symptoms = still taking drops); driving check"
   },
   {
@@ -936,7 +936,7 @@
     "medicine": "Tamsulosin 0.4mg (alpha-blocker) OR Finasteride 5mg (5-ARI for large gland)",
     "frequency": "1x/day (30 min after same meal)",
     "time": "8:30 AM (Morning, after breakfast)",
-    "duration_days": "",
+    "duration_days": "Long-term",
     "precautions": "Limit fluids before bedtime; avoid antihistamines/decongestants; bladder training exercises"
   },
   {
@@ -946,7 +946,7 @@
     "medicine": "Solifenacin 5mg OR Tolterodine 4mg (extended release)",
     "frequency": "1x/day",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "8–12 weeks then review",
     "precautions": "Bladder training, pelvic floor exercises, fluid management (not restriction), reduce caffeine"
   },
   {
@@ -956,7 +956,7 @@
     "medicine": "Sildenafil 50mg OR Tadalafil 10mg (or 5mg daily)",
     "frequency": "PRN (1–4 hrs before) / Daily (Tadalafil 5mg)",
     "time": "As needed (PRN) — typically Morning or Night when symptoms occur",
-    "duration_days": "",
+    "duration_days": "PRN / Long-term",
     "precautions": "Treat cardiovascular risk factors; psychosexual therapy; avoid with nitrates (hypotension risk)"
   },
   {
@@ -966,7 +966,7 @@
     "medicine": "Ferrous sulfate 200mg (65mg elemental iron)",
     "frequency": "2–3x/day (with Vitamin C)",
     "time": "8:00 AM (Morning) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "3–6 months (until stores replenished)",
     "precautions": "Take on empty stomach or with Vitamin C for better absorption; avoid tea/coffee within 1hr; treat cause"
   },
   {
@@ -976,7 +976,7 @@
     "medicine": "Cholecalciferol (Vitamin D3) 1000–4000 IU/day OR weekly high-dose",
     "frequency": "1x/day (daily) OR 1x/week (high dose)",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "8–12 weeks loading then maintenance",
     "precautions": "Sun exposure 15–30 min daily; dietary sources (oily fish, eggs); adequate calcium co-supplementation"
   },
   {
@@ -986,7 +986,7 @@
     "medicine": "Cetirizine 10mg OR Fexofenadine 120mg + Fluticasone nasal spray 50mcg",
     "frequency": "1x/day + 2 sprays/nostril 1x/day",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "During allergy season (4–8 weeks)",
     "precautions": "Monitor pollen count, keep windows closed during high pollen; shower after outdoor activities; sunglasses"
   },
   {
@@ -996,7 +996,7 @@
     "medicine": "Hyoscine (Scopolamine) 0.3mg OR Promethazine 25mg OR Cinnarizine 25mg",
     "frequency": "1x/day (Hyoscine 30–60 min before travel)",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "PRN during travel",
     "precautions": "Sit in front seat/boat center; focus on horizon; avoid reading; fresh air; ginger (natural option)"
   },
   {
@@ -1006,7 +1006,7 @@
     "medicine": "Hydroxyurea 15–35mg/kg/day + Folic acid 5mg",
     "frequency": "1x/day each",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "Lifelong",
     "precautions": "Hydration (3L/day), avoid cold/hypoxia, annual transcranial Doppler, penicillin prophylaxis in children"
   },
   {
@@ -1016,7 +1016,7 @@
     "medicine": "Deferoxamine (iron chelation) 20–40mg/kg SC OR Deferasirox 20mg/kg oral + Folic acid",
     "frequency": "8–10 hrs infusion nightly / 1x/day (Deferasirox)",
     "time": "9:00 PM (Night) (nightly)",
-    "duration_days": "",
+    "duration_days": "Lifelong",
     "precautions": "Regular blood transfusions (major); monitor ferritin/iron; genetic counseling for family"
   },
   {
@@ -1026,7 +1026,7 @@
     "medicine": "Cyclosporine 5mg/kg/day + Anti-thymocyte globulin (ATG) IV (hospital) + Eltrombopag 150mg",
     "frequency": "2x/day (Cyclosporine) / 1x/day (Eltrombopag)",
     "time": "8:00 AM (Morning) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "6+ months",
     "precautions": "Avoid NSAIDs/aspirin; infection prevention; BMT if severe & young; growth factor support"
   },
   {
@@ -1036,7 +1036,7 @@
     "medicine": "Factor VIII concentrate (recombinant) 20–50 IU/kg",
     "frequency": "On demand (bleeding) OR 3x/week (prophylaxis)",
     "time": "As needed (PRN) — typically Morning or Night when symptoms occur",
-    "duration_days": "",
+    "duration_days": "Lifelong",
     "precautions": "AVOID aspirin/NSAIDs; wear medical alert bracelet; physiotherapy for joint disease; inhibitor screening"
   },
   {
@@ -1046,7 +1046,7 @@
     "medicine": "Factor IX concentrate 25–50 IU/kg (on demand) OR Emicizumab SC (if inhibitors)",
     "frequency": "2–3x/week prophylaxis",
     "time": "8:00 AM (Morning) (on prophylaxis days, 2–3x weekly)",
-    "duration_days": "",
+    "duration_days": "Lifelong",
     "precautions": "Same precautions as Hemophilia A; emicizumab is SC once weekly/fortnightly alternative"
   },
   {
@@ -1056,7 +1056,7 @@
     "medicine": "Hydroxyurea 500–1000mg + Aspirin 75mg + Phlebotomy (target Hct <45%)",
     "frequency": "1–2x/day (Hydroxyurea) / 1x/day (Aspirin)",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "Lifelong",
     "precautions": "Monitor CBC regularly; adequate hydration; avoid iron supplements; JAK inhibitor (Ruxolitinib) if refractory"
   },
   {
@@ -1066,7 +1066,7 @@
     "medicine": "Hydroxyurea 500mg + Aspirin 75mg (low-risk may need only aspirin)",
     "frequency": "2x/day (Hydroxyurea) / 1x/day (Aspirin)",
     "time": "8:00 AM (Morning) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "Lifelong",
     "precautions": "Monitor platelet count; cardiovascular risk factor control; avoid pregnancy on Hydroxyurea"
   },
   {
@@ -1076,7 +1076,7 @@
     "medicine": "Prednisolone 1mg/kg/day (first-line) OR IVIG 1g/kg (acute/severe)",
     "frequency": "1x/day (Prednisolone) / Single course IV (IVIG)",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "4–6 weeks (then taper) / 2 days",
     "precautions": "Avoid NSAIDs; fall/trauma precautions; monitor platelet count; rituximab/splenectomy if chronic refractory"
   },
   {
@@ -1086,7 +1086,7 @@
     "medicine": "Hydroxocobalamin 1mg IM (loading) then maintenance + Folic acid 5mg",
     "frequency": "Loading: alternate days x6 / Maintenance: every 3 months (IM)",
     "time": "8:00 AM (Morning) (on scheduled dosing day)",
-    "duration_days": "",
+    "duration_days": "Lifelong",
     "precautions": "Vegan diet supplementation; monitor neurological status; gastric cancer risk – endoscopy screening"
   },
   {
@@ -1096,7 +1096,7 @@
     "medicine": "Prednisolone 1–2mg/kg/day (autoimmune) + Folic acid 5mg",
     "frequency": "1x/day each",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "Varies (4–6 weeks prednisolone, lifelong folate)",
     "precautions": "Identify and treat underlying cause; avoid triggers (G6PD: oxidant drugs); Rituximab if refractory"
   },
   {
@@ -1106,7 +1106,7 @@
     "medicine": "Ramipril 5–10mg + Furosemide 40mg + Sevelamer 800mg (phosphate binder) + Erythropoietin (if anemic)",
     "frequency": "1x/day / 1–2x/day / 3x/day with meals",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "Lifelong",
     "precautions": "Protein restriction (0.8g/kg/day), low potassium/phosphate diet, fluid restriction, BP <130/80, smoking cessation"
   },
   {
@@ -1116,7 +1116,7 @@
     "medicine": "IV Fluids (crystalloid) + Furosemide 40–80mg IV (if fluid overload) + treat underlying cause",
     "frequency": "Continuous IV / As needed",
     "time": "As needed (PRN) — typically Morning or Night when symptoms occur",
-    "duration_days": "",
+    "duration_days": "Hospital-based (days to weeks)",
     "precautions": "Monitor urine output hourly; strict I/O chart; avoid nephrotoxins (NSAIDs, contrast, aminoglycosides)"
   },
   {
@@ -1126,7 +1126,7 @@
     "medicine": "Prednisolone 60mg/m² (or 1mg/kg) + Furosemide 40mg + Atorvastatin 20mg",
     "frequency": "1x/day / 1–2x/day / 1x/day",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "8–16 weeks (Prednisolone taper) / Long-term others",
     "precautions": "Low-salt low-fat diet; albumin IV if severe; anticoagulation if albumin <20g/L; infection vigilance"
   },
   {
@@ -1136,7 +1136,7 @@
     "medicine": "Furosemide 40mg + Prednisolone (if immune-mediated) + Amlodipine 5mg (BP control)",
     "frequency": "1–2x/day / 1x/day",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "Short-term (diuretic) / 4–8 weeks (steroid)",
     "precautions": "Identify cause (post-streptococcal, IgA, ANCA); renal biopsy may be needed; restrict salt/fluid"
   },
   {
@@ -1146,7 +1146,7 @@
     "medicine": "Diclofenac 75mg OR Ketorolac 30mg (analgesia) + Tamsulosin 0.4mg (alpha-blocker for passage)",
     "frequency": "2x/day (Diclofenac) / 1x/day (Tamsulosin)",
     "time": "8:00 AM (Morning) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "3–7 (analgesic) / 4 weeks (Tamsulosin)",
     "precautions": "High fluid intake (>2.5L/day); dietary oxalate restriction (calcium oxalate stones); citrate supplements"
   },
   {
@@ -1156,7 +1156,7 @@
     "medicine": "Nitrofurantoin 100mg (modified release) OR Trimethoprim 200mg",
     "frequency": "2x/day / 2x/day",
     "time": "8:00 AM (Morning) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "3–5 (women) / 7 (men)",
     "precautions": "Increase fluid intake; post-coital voiding; wipe front to back; avoid spermicides; cranberry as adjunct"
   },
   {
@@ -1166,7 +1166,7 @@
     "medicine": "Ciprofloxacin 500mg OR Co-amoxiclav 625mg (oral, outpatient) / Ceftriaxone 1g IV (inpatient)",
     "frequency": "2x/day (Cipro) / 3x/day (Co-amox)",
     "time": "8:00 AM (Morning) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "10–14",
     "precautions": "High fluid intake; urine culture-guided therapy; imaging if no improvement in 48–72 hrs"
   },
   {
@@ -1176,7 +1176,7 @@
     "medicine": "Amitriptyline 25–75mg (at night) + Pentosan polysulfate 100mg",
     "frequency": "1x/day (night) / 3x/day",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "3–6 months",
     "precautions": "Bladder training; avoid trigger foods (caffeine, acidic foods, alcohol); stress management; pelvic floor physio"
   },
   {
@@ -1186,7 +1186,7 @@
     "medicine": "Duloxetine 40mg (pharmacological) — first-line is pelvic floor exercises",
     "frequency": "2x/day (if medication used)",
     "time": "8:00 AM (Morning) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "3 months (then reassess)",
     "precautions": "Pelvic floor (Kegel) exercises (gold standard – 3 sets x 10 daily); weight loss; caffeine reduction; bladder diary"
   },
   {
@@ -1196,7 +1196,7 @@
     "medicine": "Calcium gluconate 10% IV (cardiac protection) + Insulin + Dextrose (shift K⁺) + Sodium zirconium cyclosilicate 10g",
     "frequency": "Stat IV / Stat IV / 3x/day (oral binder)",
     "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night) (primary medicine); see notes for others",
-    "duration_days": "",
+    "duration_days": "Acute: hospital hours / Maintenance: varies",
     "precautions": "STOP ACE inhibitors/ARBs/potassium-sparing diuretics; low-potassium diet; avoid NSAIDs; dialysis if severe"
   },
   {
@@ -1206,7 +1206,7 @@
     "medicine": "No specific drug approved — Vitamin E 800IU (non-diabetic NASH) + Lifestyle modification",
     "frequency": "1x/day",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "Long-term",
     "precautions": "Weight loss (>5–10%), exercise 150 min/week, avoid alcohol, control diabetes/lipids"
   },
   {
@@ -1216,7 +1216,7 @@
     "medicine": "Vitamin E 800IU + Pioglitazone 30mg (if T2DM) + Semaglutide (off-label, emerging)",
     "frequency": "1x/day each",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "Long-term",
     "precautions": "Same as fatty liver; biopsy-confirmed staging guides therapy; statin safe for lipids"
   },
   {
@@ -1226,7 +1226,7 @@
     "medicine": "Spironolactone 100mg + Furosemide 40mg (ascites) + Propranolol 40mg (varices prophylaxis) + Lactulose 15ml (encephalopathy)",
     "frequency": "1x/day / 1x/day / 2x/day / 2–3x/day",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "Lifelong",
     "precautions": "Absolute alcohol abstinence; low-sodium diet (<2g/day); monitor for HCC (US every 6 months); vaccination (Hep A/B)"
   },
   {
@@ -1236,7 +1236,7 @@
     "medicine": "Prednisolone 40mg (induction) + Azathioprine 50mg (maintenance/steroid-sparing)",
     "frequency": "1x/day each",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "Lifelong (most cases)",
     "precautions": "Monitor LFTs and CBC; avoid alcohol; screen for osteoporosis (long-term steroid); check TPMT before Azathioprine"
   },
   {
@@ -1246,7 +1246,7 @@
     "medicine": "Ursodeoxycholic acid (UDCA) 13–15mg/kg/day + Obeticholic acid 5mg (if inadequate UDCA response)",
     "frequency": "1–2x/day (UDCA) / 1x/day (OCA)",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "Lifelong",
     "precautions": "Fat-soluble vitamin supplementation (A,D,E,K); cholestyramine for pruritus; bone density monitoring"
   },
   {
@@ -1256,7 +1256,7 @@
     "medicine": "No proven disease-modifying drug; UDCA 15–20mg/kg (controversial) + Ciprofloxacin (cholangitis episodes)",
     "frequency": "1–2x/day (UDCA) / 2x/day (Cipro during episodes)",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "Lifelong / 7–10 (Cipro)",
     "precautions": "Annual colonoscopy (IBD/CRC risk); MRCP surveillance; liver transplant evaluation; cholangiocarcinoma screening"
   },
   {
@@ -1266,7 +1266,7 @@
     "medicine": "Ursodeoxycholic acid 8–10mg/kg (for small cholesterol stones – dissolution) + Diclofenac 75mg (analgesia for colic)",
     "frequency": "2x/day (UDCA) / 2x/day (PRN pain)",
     "time": "8:00 AM (Morning) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "6–24 months (dissolution) / PRN",
     "precautions": "Low-fat diet; surgical cholecystectomy preferred for symptomatic stones; avoid rapid weight loss"
   },
   {
@@ -1276,7 +1276,7 @@
     "medicine": "Co-amoxiclav 625mg OR Ciprofloxacin 500mg + Metronidazole 500mg (antibiotics)",
     "frequency": "3x/day / 2x/day + 3x/day",
     "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "7–10 (antibiotics pre-op)",
     "precautions": "NPO initially; IV fluids; cholecystectomy (definitive); avoid fatty foods; analgesia with diclofenac"
   },
   {
@@ -1286,7 +1286,7 @@
     "medicine": "Lactulose 30–60ml (titrate to 2–3 soft stools/day) + Rifaximin 550mg",
     "frequency": "2–4x/day (Lactulose) / 2x/day (Rifaximin)",
     "time": "8:00 AM (Morning) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "Acute: days / Rifaximin: Long-term",
     "precautions": "Identify precipitants (infection, GI bleed, constipation, diuretics); protein-adequate diet; monitor ammonia"
   },
   {
@@ -1296,7 +1296,7 @@
     "medicine": "D-Penicillamine 250–500mg (initial chelation) OR Trientine 300–400mg (if intolerant) + Zinc acetate 50mg (maintenance)",
     "frequency": "4x/day (D-Penicillamine) / 2–3x/day (Trientine) / 3x/day (Zinc)",
     "time": "8:00 AM (Morning), 1:00 PM (Afternoon), 6:00 PM (Evening) & 10:00 PM (Night, before bed)",
-    "duration_days": "",
+    "duration_days": "Lifelong",
     "precautions": "Low copper diet (avoid shellfish, liver, chocolate, nuts); monitor 24hr urine copper; eye exams; pyridoxine with D-Penicillamine"
   },
   {
@@ -1306,7 +1306,7 @@
     "medicine": "Artificial tears (lubricant drops) — no medication reverses cataracts; surgical extraction is definitive",
     "frequency": "4–6x/day (lubricants PRN)",
     "time": "8:00 AM (Morning), 1:00 PM (Afternoon), 6:00 PM (Evening) & 10:00 PM (Night, before bed)",
-    "duration_days": "",
+    "duration_days": "Until surgery",
     "precautions": "Strong reading glasses, anti-glare lenses, adequate lighting; avoid driving at night; plan surgical referral"
   },
   {
@@ -1316,7 +1316,7 @@
     "medicine": "Chloramphenicol 0.5% drops (bacterial) OR Olopatadine 0.1% (allergic) / Viral: supportive only",
     "frequency": "4x/day (bacterial) / 2x/day (allergic)",
     "time": "8:00 AM (Morning), 1:00 PM (Afternoon), 6:00 PM (Evening) & 10:00 PM (Night, before bed)",
-    "duration_days": "",
+    "duration_days": "7 (bacterial) / 2 weeks (allergic)",
     "precautions": "Hand hygiene (highly contagious); avoid contact lenses; do not share towels/pillowcases"
   },
   {
@@ -1326,7 +1326,7 @@
     "medicine": "Carboxymethylcellulose 0.5% drops (artificial tears) + Cyclosporine 0.05% drops (Restasis, chronic)",
     "frequency": "4–6x/day (drops) / 2x/day (Cyclosporine)",
     "time": "8:00 AM (Morning), 1:00 PM (Afternoon), 6:00 PM (Evening) & 10:00 PM (Night, before bed)",
-    "duration_days": "",
+    "duration_days": "Long-term",
     "precautions": "Screen breaks (20-20-20 rule), humidifier, omega-3 supplements, avoid smoky environments"
   },
   {
@@ -1336,7 +1336,7 @@
     "medicine": "Prednisolone acetate 1% eye drops + Cyclopentolate 1% (mydriatic to prevent synechiae)",
     "frequency": "Hourly (acute) tapering / 3x/day",
     "time": "Every hour as directed (acute phase) — then taper",
-    "duration_days": "",
+    "duration_days": "4–6 weeks (taper)",
     "precautions": "Urgent ophthalmic referral; systemic workup for underlying cause (HLA-B27, TB, sarcoid, syphilis)"
   },
   {
@@ -1346,7 +1346,7 @@
     "medicine": "Ofloxacin 0.3% drops (bacterial) OR Natamycin 5% (fungal) OR Acyclovir eye ointment (HSV)",
     "frequency": "Hourly initially then taper (bacterial) / 6x/day",
     "time": "Every hour as directed (acute phase) — then taper",
-    "duration_days": "",
+    "duration_days": "14–21 (bacterial) / 21–42 (fungal)",
     "precautions": "Ophthalmologic emergency; stop contact lens use; avoid steroid drops until cause confirmed"
   },
   {
@@ -1356,7 +1356,7 @@
     "medicine": "Lid hygiene (warm compress + lid scrubs) + Chloramphenicol ointment 1% (if bacterial) + Artificial tears",
     "frequency": "2x/day (hygiene routine)",
     "time": "8:00 AM (Morning) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "Long-term (hygiene lifelong)",
     "precautions": "Warm compresses 5–10 min daily followed by lid massage and lid scrubs; omega-3 supplements help"
   },
   {
@@ -1366,7 +1366,7 @@
     "medicine": "Ranibizumab/Bevacizumab intravitreal injections (DME/PDR) + strict glycemic control",
     "frequency": "Monthly injections (loading) then PRN",
     "time": "8:00 AM (Morning) (monthly dose)",
-    "duration_days": "",
+    "duration_days": "Long-term",
     "precautions": "Strict HbA1c <7%, BP <130/80; annual dilated fundoscopy; laser photocoagulation; stop smoking"
   },
   {
@@ -1376,7 +1376,7 @@
     "medicine": "Ranibizumab 0.5mg OR Aflibercept 2mg intravitreal injections (wet AMD); Supplements: AREDS2 (dry AMD)",
     "frequency": "Monthly injections (wet) / Daily supplements (dry)",
     "time": "8:00 AM (Morning) (monthly dose)",
-    "duration_days": "",
+    "duration_days": "Long-term",
     "precautions": "Amsler grid self-monitoring; smoking cessation (major risk factor); sunglasses with UV protection; low vision aids"
   },
   {
@@ -1386,7 +1386,7 @@
     "medicine": "Latanoprost 0.005% drops (first-line prostaglandin analogue)",
     "frequency": "1x/day (evening)",
     "time": "6:00 PM (Evening)",
-    "duration_days": "",
+    "duration_days": "Long-term",
     "precautions": "Regular IOP monitoring (every 6 months); visual field testing annually; compliance is critical"
   },
   {
@@ -1396,7 +1396,7 @@
     "medicine": "Ranibizumab/Bevacizumab intravitreal injections (macular edema) + treat systemic risk factors",
     "frequency": "Monthly loading injections then PRN",
     "time": "8:00 AM (Morning) (monthly dose)",
-    "duration_days": "",
+    "duration_days": "Long-term (injections) / Lifelong (systemic risk factor treatment)",
     "precautions": "Control BP, diabetes, hyperlipidemia; aspirin 75mg; screen for thrombophilia; no proven acute treatment"
   },
   {
@@ -1406,7 +1406,7 @@
     "medicine": "Amoxicillin 500mg (if bacterial) / Watchful waiting first 48–72hrs in mild cases + Paracetamol",
     "frequency": "3x/day / PRN analgesia",
     "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "5–7 (antibiotic if needed)",
     "precautions": "Analgesia first; avoid water entry; decongestants not recommended in children; referral if recurrent (>3/6 months)"
   },
   {
@@ -1416,7 +1416,7 @@
     "medicine": "Acetic acid 2% spray OR Sofradex drops (dexamethasone + framycetin + gramicidin)",
     "frequency": "3–4x/day",
     "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "7–10",
     "precautions": "Keep ear dry (cotton wool with Vaseline when showering); avoid cotton buds; ear wick if canal swollen"
   },
   {
@@ -1426,7 +1426,7 @@
     "medicine": "Betahistine 16mg (prophylaxis) + Prochlorperazine 5mg (acute attack)",
     "frequency": "3x/day (Betahistine) / 3x/day PRN (Prochlorperazine)",
     "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "Betahistine: long-term / Prochlorperazine: short-term PRN",
     "precautions": "Low-salt diet (<1.5g/day); avoid caffeine/alcohol; vestibular rehab; fall safety during attacks"
   },
   {
@@ -1436,7 +1436,7 @@
     "medicine": "No curative drug; Betahistine 8–16mg (trial) + Melatonin 2mg (sleep) + Cognitive support",
     "frequency": "3x/day (Betahistine) / 1x/day at night (Melatonin)",
     "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "Trial 3 months (Betahistine)",
     "precautions": "Sound therapy (white noise); TRT (Tinnitus Retraining Therapy); hearing aids if hearing loss; avoid loud noise"
   },
   {
@@ -1446,7 +1446,7 @@
     "medicine": "Supportive: Paracetamol 500mg + steam inhalation; Omeprazole if LPR related",
     "frequency": "3–4x/day (Paracetamol)",
     "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "7–10",
     "precautions": "Voice rest (do not whisper); stay hydrated; avoid irritants (smoking, alcohol); humidified air; ENT if >3 weeks"
   },
   {
@@ -1456,7 +1456,7 @@
     "medicine": "Amoxicillin 500mg (bacterial/Group A Strep) OR Clarithromycin (if penicillin allergic) + Paracetamol",
     "frequency": "3x/day / 2x/day / PRN",
     "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "10 (antibiotic) / PRN (Paracetamol)",
     "precautions": "AVOID Ampicillin/Amoxicillin if mononucleosis suspected (causes rash); tonsillectomy if recurrent (≥7/yr)"
   },
   {
@@ -1466,7 +1466,7 @@
     "medicine": "Paracetamol 500mg + Benzydamine spray (topical analgesic) / Amoxicillin if Centor score ≥3",
     "frequency": "3–4x/day / 3x/day",
     "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "5–7 (antibiotic only if bacterial)",
     "precautions": "Gargle warm salt water; adequate hydration; throat swab to guide antibiotic use (avoid overuse)"
   },
   {
@@ -1476,7 +1476,7 @@
     "medicine": "Mometasone furoate nasal spray 200mcg/day + Dupilumab 300mg SC (if biologic eligible)",
     "frequency": "2 sprays/nostril 1x/day / Biweekly injection",
     "time": "8:00 AM (Morning) (once weekly)",
-    "duration_days": "",
+    "duration_days": "Long-term (spray) / 16+ weeks (Dupilumab)",
     "precautions": "Avoid aspirin/NSAIDs (if NSAID-exacerbated respiratory disease); saline irrigation; surgical polypectomy if unresponsive"
   },
   {
@@ -1486,7 +1486,7 @@
     "medicine": "Ceftriaxone 2g IV + Dexamethasone 0.1–0.6mg/kg IV (airway protection)",
     "frequency": "1–2x/day IV",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "7–10 (IV antibiotics in ICU)",
     "precautions": "DO NOT examine throat without airway support; secure airway first; Hib vaccine prevention"
   },
   {
@@ -1496,7 +1496,7 @@
     "medicine": "Prochlorperazine 5mg (acute vestibular sedative) + Prednisolone 50mg (early, if within 72hrs)",
     "frequency": "3x/day (Prochlorperazine short-term) / 1x/day (Prednisolone tapering)",
     "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "3–5 days (vestibular sedative); 3 weeks (Prednisolone taper)",
     "precautions": "Vestibular rehabilitation exercises (Cawthorne-Cooksey); early mobilization; fall precautions; avoid driving during acute phase"
   },
   {
@@ -1506,7 +1506,7 @@
     "medicine": "Metronidazole 0.75% gel + Azelaic acid 15% gel (topical) / Doxycycline 40mg (papulopustular)",
     "frequency": "2x/day (topical) / 1x/day (Doxycycline)",
     "time": "8:00 AM (Morning) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "8–12 weeks",
     "precautions": "Sun protection (SPF50+ daily); avoid triggers (heat, alcohol, spicy food); gentle skincare; laser for erythema/telangiectasia"
   },
   {
@@ -1516,7 +1516,7 @@
     "medicine": "Ketoconazole 2% shampoo/cream + Hydrocortisone 1% cream (face, short-term)",
     "frequency": "2–3x/week (shampoo) / 2x/day (cream)",
     "time": "8:00 AM (Morning) & 9:00 PM (Night) (primary medicine); see notes for others",
-    "duration_days": "",
+    "duration_days": "4 weeks (then maintenance)",
     "precautions": "Maintenance use 1–2x/month to prevent recurrence; avoid harsh soaps; stress management"
   },
   {
@@ -1526,7 +1526,7 @@
     "medicine": "Tacrolimus 0.1% ointment (face/folds) OR Clobetasol 0.05% cream (body) + Ruxolitinib 1.5% cream (newer topical JAK-i)",
     "frequency": "2x/day",
     "time": "8:00 AM (Morning) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "3–6 months (assess response)",
     "precautions": "Strict sun protection of depigmented areas (burn easily); cosmetic camouflage; NB-UVB phototherapy; psychological support"
   },
   {
@@ -1536,7 +1536,7 @@
     "medicine": "Clindamycin 1% lotion (topical, mild) + Doxycycline 100mg (oral, moderate) / Adalimumab 40mg (severe, biologic)",
     "frequency": "2x/day (topical) / 2x/day (Doxy) / Biweekly SC (Adalimumab)",
     "time": "8:00 AM (Morning) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "Long-term",
     "precautions": "Weight loss; stop smoking (significant trigger); warm compresses; antiseptic washes; surgical drainage if abscess"
   },
   {
@@ -1546,7 +1546,7 @@
     "medicine": "Fusidic acid 2% cream (localized) OR Flucloxacillin 500mg (extensive/systemic)",
     "frequency": "3x/day (topical) / 4x/day (oral)",
     "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "5–7",
     "precautions": "Keep lesions covered; good hand hygiene; avoid school/work until crusts cleared; clean shared items"
   },
   {
@@ -1556,7 +1556,7 @@
     "medicine": "Flucloxacillin 500mg (mild-moderate) OR Amoxicillin-Clavulanate 625mg / Benzylpenicillin IV (severe)",
     "frequency": "4x/day / 3x/day",
     "time": "8:00 AM (Morning), 1:00 PM (Afternoon), 6:00 PM (Evening) & 10:00 PM (Night, before bed)",
-    "duration_days": "",
+    "duration_days": "7–14 (oral) / 5–7 (IV then step down)",
     "precautions": "Mark erythema border to monitor spread; elevate limb; moisturize to prevent fissures; treat tinea pedis as portal"
   },
   {
@@ -1566,7 +1566,7 @@
     "medicine": "Permethrin 5% cream (from neck down) + Oral Ivermectin 200mcg/kg (if extensive/crusted)",
     "frequency": "Single application (repeat at 7 days) / Single dose (repeat at 14 days)",
     "time": "8:00 AM (Morning) (application, repeat as scheduled)",
-    "duration_days": "",
+    "duration_days": "Two applications 1 week apart",
     "precautions": "Treat all household contacts simultaneously; wash all clothing/bedding at 60°C; vacuum furniture"
   },
   {
@@ -1576,7 +1576,7 @@
     "medicine": "Cetirizine 10mg OR Fexofenadine 180mg (non-sedating first-line) / Omalizumab 300mg (chronic refractory)",
     "frequency": "1x/day / Monthly SC (Omalizumab)",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "Acute: short-term; Chronic: long-term",
     "precautions": "Identify and avoid triggers; adrenaline auto-injector if risk of anaphylaxis; avoid aspirin/NSAIDs/ACE-inhibitors"
   },
   {
@@ -1586,7 +1586,7 @@
     "medicine": "Hydrocortisone 1% cream (mild) OR Betamethasone valerate 0.1% (moderate-severe) + Emollient",
     "frequency": "2x/day (steroid) / 3–4x/day (emollient)",
     "time": "8:00 AM (Morning) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "1–2 weeks (steroid) / Long-term (emollient)",
     "precautions": "Identify and avoid causative allergen/irritant; patch testing; protective gloves; barrier cream"
   },
   {
@@ -1596,7 +1596,7 @@
     "medicine": "Intralesional Triamcinolone 10mg/mL (patches) OR Topical Minoxidil 5% + Baricitinib 4mg (severe)",
     "frequency": "Every 4–6 weeks (injection) / 2x/day (Minoxidil) / 1x/day (Baricitinib)",
     "time": "8:00 AM (Morning) (on scheduled dosing day)",
-    "duration_days": "",
+    "duration_days": "6–12 months (then reassess)",
     "precautions": "Psychological support; wigs/hairpieces; avoid mechanical trauma; spontaneous remission possible in 50%"
   },
   {
@@ -1606,7 +1606,7 @@
     "medicine": "Combined OCP (continuous) OR Norethindrone acetate 5mg / Dienogest 2mg + NSAID (pain)",
     "frequency": "1x/day (hormonal) / PRN (NSAID)",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "Long-term",
     "precautions": "Laparoscopic diagnosis/treatment; pain diary; physiotherapy; surgical excision for severe disease/infertility"
   },
   {
@@ -1616,7 +1616,7 @@
     "medicine": "Tranexamic acid 1g (menorrhagia) + Ulipristal acetate (Esmya) 5mg OR GnRH agonist (Leuprorelin) pre-surgery",
     "frequency": "3x/day during menses / 1x/day (3 months)",
     "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "5 days (Tranexamic) / 3 months (hormonal)",
     "precautions": "Iron supplementation for anemia; NSAIDs for pain; myomectomy/hysterectomy if severe; uterine artery embolization"
   },
   {
@@ -1626,7 +1626,7 @@
     "medicine": "Ceftriaxone 500mg IM (single) + Doxycycline 100mg + Metronidazole 400mg",
     "frequency": "Single IM / 2x/day + 2x/day",
     "time": "8:00 AM (Morning) & 9:00 PM (Night) (primary medicine); see notes for others",
-    "duration_days": "",
+    "duration_days": "14 days (Doxycycline + Metronidazole)",
     "precautions": "Treat partner; avoid sex until course completed; IUCD removal if not settling; check for chlamydia/gonorrhea"
   },
   {
@@ -1636,7 +1636,7 @@
     "medicine": "Tranexamic acid 1g + Mefenamic acid 500mg (during menses) / Levonorgestrel-IUS (Mirena) long-term",
     "frequency": "3x/day each (during period) / IUS long-term",
     "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "5 days per cycle / 5 years (Mirena)",
     "precautions": "Iron supplementation; treat underlying cause (fibroids, PCOS, coagulation disorders); endometrial biopsy if >40yrs"
   },
   {
@@ -1646,7 +1646,7 @@
     "medicine": "Sertraline 50mg (continuous or luteal phase only) OR Combined OCP (Drospirenone-containing)",
     "frequency": "1x/day",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "Cyclical or long-term",
     "precautions": "Symptom diary (2+ cycles to confirm); regular exercise; calcium 1200mg/day supplements; CBT"
   },
   {
@@ -1656,7 +1656,7 @@
     "medicine": "Metronidazole 400mg (BV) OR Clotrimazole pessary (Candida) OR Doxycycline (atrophic: Estradiol cream)",
     "frequency": "2x/day (Metro) / Single dose (Clotrimazole)",
     "time": "8:00 AM (Morning) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "7 (BV) / Single (Candida)",
     "precautions": "Microscopy/pH testing to confirm cause; avoid douching; cotton underwear; treat partner for Trichomonas"
   },
   {
@@ -1666,7 +1666,7 @@
     "medicine": "Clotrimazole 500mg pessary (single) OR Fluconazole 150mg oral",
     "frequency": "Single dose (pessary or oral)",
     "time": "8:00 AM (Morning) (one-time dose)",
-    "duration_days": "",
+    "duration_days": "1–3 days",
     "precautions": "Avoid tight synthetic clothing; control blood sugar (diabetics); probiotics; recurrent (>4/yr) needs prophylactic fluconazole"
   },
   {
@@ -1676,7 +1676,7 @@
     "medicine": "HRT: Estradiol patch 50mcg + Norethisterone 1mg (if uterus intact) / Vagifem vaginal tablets",
     "frequency": "Twice weekly patch + 1x/day oral / Vagifem 1x/day initially",
     "time": "8:00 AM (Morning) (once weekly)",
-    "duration_days": "",
+    "duration_days": "Long-term (review annually)",
     "precautions": "Annual breast exam/mammogram; bone density monitoring; SSRIs (Venlafaxine) if HRT contraindicated; lifestyle measures"
   },
   {
@@ -1686,7 +1686,7 @@
     "medicine": "Ibuprofen 400mg OR Mefenamic acid 500mg (start 1–2 days before period)",
     "frequency": "3x/day (with food)",
     "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "3–5 days per cycle",
     "precautions": "Heat application (hot water bottle); regular exercise; exclude secondary causes (endometriosis, fibroids); OCP effective for primary dysmenorrhea"
   },
   {
@@ -1696,7 +1696,7 @@
     "medicine": "Clomifene citrate 50–100mg (ovulation induction – PCOS/anovulation) OR Letrozole 2.5–5mg",
     "frequency": "1x/day on days 2–6 of cycle (Clomifene) / 1x/day (Letrozole)",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "5 days per cycle, up to 6 cycles",
     "precautions": "Optimize BMI; treat thyroid/hormonal disorders; folate 400mcg/day; lifestyle modification; referral for IUI/IVF"
   },
   {
@@ -1706,7 +1706,7 @@
     "medicine": "Supportive: Paracetamol/Ibuprofen (fever/pain) + Oral gel (e.g., Lidocaine gel) for oral ulcers",
     "frequency": "3–4x/day as needed",
     "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "5–7",
     "precautions": "Isolate from school/daycare; hand hygiene; cool fluids/ice lollies; monitor hydration; no specific antiviral"
   },
   {
@@ -1716,7 +1716,7 @@
     "medicine": "Dexamethasone 0.15–0.6mg/kg oral (single dose) + Nebulized Budesonide (moderate-severe) / Nebulized Adrenaline (severe)",
     "frequency": "Single dose (Dexa) / Once (Budesonide) / Repeat PRN (Adrenaline)",
     "time": "8:00 AM (Morning) (one-time dose)",
-    "duration_days": "",
+    "duration_days": "1–3",
     "precautions": "Cool mist/night air; calm the child (agitation worsens stridor); emergency if severe respiratory distress"
   },
   {
@@ -1726,7 +1726,7 @@
     "medicine": "Supportive: Nasal saline drops + Suction + Paracetamol + Oxygen if SpO2 <92%",
     "frequency": "PRN feeds/suctioning / 4x/day Paracetamol",
     "time": "As needed (PRN) — typically Morning or Night when symptoms occur",
-    "duration_days": "",
+    "duration_days": "5–10",
     "precautions": "Palivizumab prophylaxis for high-risk infants; hand hygiene; breastfeeding protective; no bronchodilators in infants"
   },
   {
@@ -1736,7 +1736,7 @@
     "medicine": "Amoxicillin 50mg/kg/day OR Phenoxymethylpenicillin + Paracetamol (fever)",
     "frequency": "3x/day (Amoxicillin) / PRN (Paracetamol)",
     "time": "8:00 AM (Morning), 1:00 PM (Afternoon) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "10",
     "precautions": "Notifiable disease; exclude from school for 24 hrs after starting antibiotics; treat to prevent rheumatic fever/glomerulonephritis"
   },
   {
@@ -1746,7 +1746,7 @@
     "medicine": "Mebendazole 100mg (>2yrs) OR Albendazole 400mg (single dose; repeat at 2 weeks)",
     "frequency": "Single dose (x2, 2 weeks apart)",
     "time": "8:00 AM (Morning) (one-time dose)",
-    "duration_days": "",
+    "duration_days": "2 doses",
     "precautions": "Treat ALL household members simultaneously; wash bedding/underwear daily; cut fingernails short; hand hygiene"
   },
   {
@@ -1756,7 +1756,7 @@
     "medicine": "IVIG 2g/kg IV (single infusion) + Aspirin 30–50mg/kg/day (high dose, then reduce)",
     "frequency": "Single infusion (IVIG) / 4x/day (Aspirin) then taper",
     "time": "8:00 AM (Morning), 1:00 PM (Afternoon), 6:00 PM (Evening) & 10:00 PM (Night, before bed) (primary medicine); see notes for others",
-    "duration_days": "",
+    "duration_days": "IVIG: Single / Aspirin: 6–8 weeks",
     "precautions": "Echocardiogram to assess coronary aneurysms; monitor ESR/CRP; long-term cardiology follow-up if coronary involvement"
   },
   {
@@ -1766,7 +1766,7 @@
     "medicine": "Naproxen 5–10mg/kg/dose (NSAIDs) + Methotrexate 10–15mg/m² (disease-modifying) + Etanercept (biologic if refractory)",
     "frequency": "2x/day (Naproxen) / Weekly (MTX) / Weekly SC (Etanercept)",
     "time": "8:00 AM (Morning) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "Long-term",
     "precautions": "Annual slit-lamp exam (uveitis screening); physiotherapy; occupational therapy; school accommodations; growth monitoring"
   },
   {
@@ -1776,7 +1776,7 @@
     "medicine": "Diazepam rectal 5–10mg (if seizure >5 min) / Midazolam buccal 0.3mg/kg + Paracetamol (fever management)",
     "frequency": "PRN (Diazepam – rescue only) / PRN (Paracetamol)",
     "time": "As needed (PRN) — typically Morning or Night when symptoms occur",
-    "duration_days": "",
+    "duration_days": "PRN",
     "precautions": "Lay child on side (recovery position); do NOT restrain; fever management; LP to exclude meningitis if <18 months; parental education"
   },
   {
@@ -1786,7 +1786,7 @@
     "medicine": "Macrogol (PEG 4000) 0.5–1g/kg (disimpaction) then maintenance dose + Lactulose 1–3ml/kg",
     "frequency": "1–2x/day (Macrogol) / 2x/day (Lactulose)",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "Disimpaction 7 days then maintenance 3–6 months",
     "precautions": "High-fiber diet, adequate fluids (for age), regular toilet routine after meals, positive reinforcement; exclude Hirschsprung's"
   },
   {
@@ -1796,7 +1796,7 @@
     "medicine": "Salbutamol 100mcg inhaler (2–4 puffs via spacer, PRN) + Beclomethasone 50–100mcg (preventer)",
     "frequency": "PRN (Salbutamol) / 2x/day (Beclomethasone)",
     "time": "As needed (PRN) — typically Morning or Night when symptoms occur",
-    "duration_days": "",
+    "duration_days": "Preventer: Long-term",
     "precautions": "Use spacer always; written asthma action plan; trigger avoidance; annual review; influenza vaccine"
   },
   {
@@ -1806,7 +1806,7 @@
     "medicine": "Tamoxifen 20mg (premenopausal, hormone receptor +ve) OR Letrozole 2.5mg (postmenopausal) + Chemotherapy (as per protocol)",
     "frequency": "1x/day (endocrine) / Cyclical IV (chemo)",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "5–10 years (endocrine) / 6 cycles (chemo)",
     "precautions": "Breast self-examination; annual mammography; genetic testing (BRCA); bone density monitoring on AI; adherence critical"
   },
   {
@@ -1816,7 +1816,7 @@
     "medicine": "Erlotinib/Osimertinib (EGFR+) OR Pembrolizumab (high PD-L1) / Carboplatin + Paclitaxel (chemo)",
     "frequency": "1x/day (oral targeted) / 3-weekly IV cycles",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "Lifelong (targeted) / 4–6 cycles (chemo)",
     "precautions": "Smoking cessation; palliative care integration; nutritional support; CT surveillance; molecular testing before treatment"
   },
   {
@@ -1826,7 +1826,7 @@
     "medicine": "Capecitabine 1250mg/m² (adjuvant oral) OR FOLFOX/FOLFIRI (IV regimen) + Bevacizumab (metastatic)",
     "frequency": "2x/day days 1–14 (Cape) / 2-weekly IV cycles",
     "time": "8:00 AM (Morning) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "6 months (adjuvant) / Continuous until progression",
     "precautions": "Colonoscopy surveillance post-resection; high-fiber diet; CEA monitoring; genetic testing (Lynch syndrome)"
   },
   {
@@ -1836,7 +1836,7 @@
     "medicine": "Enzalutamide 160mg OR Abiraterone 1000mg + Prednisolone 5mg (CRPC) / Leuprorelin 3-monthly SC (ADT)",
     "frequency": "1x/day (Enza) / 1x/day (Abira) / 3-monthly injection",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "Long-term",
     "precautions": "Bone protection (Zoledronic acid, Denosumab); monitor PSA; bone density; cardiovascular risk on ADT"
   },
   {
@@ -1846,7 +1846,7 @@
     "medicine": "Imatinib 400mg (CML) / ATRA + Arsenic trioxide (APL) / R-CHOP (B-cell) / Daunorubicin + Cytarabine (AML induction)",
     "frequency": "1x/day (Imatinib) / Protocol-based IV cycles",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "Lifelong (CML) / Protocol-dependent (others)",
     "precautions": "Infection prevention (neutropenic precautions); mouth care; blood product support; fertility preservation before chemo"
   },
   {
@@ -1856,7 +1856,7 @@
     "medicine": "R-CHOP (rituximab+cyclophosphamide+doxorubicin+vincristine+prednisolone) / ABVD (Hodgkin's)",
     "frequency": "3-weekly cycles (6 cycles standard)",
     "time": "8:00 AM (Morning) (once weekly)",
-    "duration_days": "",
+    "duration_days": "6 cycles (~18 weeks)",
     "precautions": "Infection prevention; G-CSF support; cardiac monitoring (anthracyclines); surveillance PET-CT; fertility preservation"
   },
   {
@@ -1866,7 +1866,7 @@
     "medicine": "Bortezomib + Lenalidomide + Dexamethasone (VRd) induction / Daratumumab-based (newer)",
     "frequency": "Weekly SC (Bortezomib) + Daily (Len) + Weekly (Dexa) – 4-week cycles",
     "time": "8:00 AM (Morning) (Daily dose); 9:00 PM (Night) (Weekly doses on cycle days)",
-    "duration_days": "",
+    "duration_days": "4–6 cycles then maintenance (Lenalidomide)",
     "precautions": "Bone protection (Zoledronic acid); VTE prophylaxis on Lenalidomide; infection prophylaxis; hydration for renal protection"
   },
   {
@@ -1876,7 +1876,7 @@
     "medicine": "Carboplatin AUC5 + Paclitaxel 175mg/m² IV + Bevacizumab (advanced) / Olaparib (BRCA mutated maintenance)",
     "frequency": "3-weekly IV cycles / 1x/day (Olaparib maintenance)",
     "time": "8:00 AM (Morning) (once weekly)",
-    "duration_days": "",
+    "duration_days": "6 cycles / 2 years (Olaparib)",
     "precautions": "CA-125 and CT monitoring; genetic counseling (BRCA); secondary surgical cytoreduction; nutritional support"
   },
   {
@@ -1886,7 +1886,7 @@
     "medicine": "Levothyroxine (TSH suppression: 0.1–0.5 mU/L) post-thyroidectomy / Radioactive iodine (I-131) ablation",
     "frequency": "1x/day (Levothyroxine – lifelong)",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "Lifelong",
     "precautions": "Post-RAI diet (low iodine before); annual thyroglobulin and neck ultrasound; Cabozantinib/Sorafenib for advanced"
   },
   {
@@ -1896,7 +1896,7 @@
     "medicine": "Pembrolizumab 200mg IV (adjuvant/advanced) OR BRAF+: Dabrafenib + Trametinib (targeted therapy)",
     "frequency": "3-weekly IV / 2x/day + 1x/day (targeted)",
     "time": "8:00 AM (Morning) (once weekly)",
-    "duration_days": "",
+    "duration_days": "1 year (adjuvant Pemb) / Until progression (targeted)",
     "precautions": "Sun protection (SPF50+ always); annual full-body skin exam; dermatoscopy surveillance; sentinel lymph node biopsy"
   },
   {
@@ -1906,7 +1906,7 @@
     "medicine": "Losartan 25–100mg OR Atenolol 25–100mg (aortic root protection)",
     "frequency": "1x/day (Losartan) / 1x/day (Atenolol)",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "Lifelong",
     "precautions": "Annual echo (aortic root monitoring); avoid contact sports/strenuous exercise; ophthalmology follow-up; genetic counseling"
   },
   {
@@ -1916,7 +1916,7 @@
     "medicine": "Tetrabenazine 12.5–25mg (chorea) + Sertraline (depression) + Clonazepam (anxiety/sleep)",
     "frequency": "2–3x/day / 1x/day / 1x/day (at night)",
     "time": "8:00 AM (Morning) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "Lifelong",
     "precautions": "No disease-modifying treatment yet; multidisciplinary team care; genetic counseling for family; speech therapy; physiotherapy; advance care planning"
   },
   {
@@ -1926,7 +1926,7 @@
     "medicine": "Riluzole 50mg + Edaravone 60mg IV (infusion cycles) + symptomatic (Baclofen for spasticity)",
     "frequency": "2x/day (Riluzole) / 14-day cycles then 14 days off (Edaravone)",
     "time": "8:00 AM (Morning) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "Lifelong (Riluzole)",
     "precautions": "Multidisciplinary team; PEG (feeding) when dysphagia severe; NIV for respiratory support; advance directives early; palliative care"
   },
   {
@@ -1936,7 +1936,7 @@
     "medicine": "Agalsidase beta (Fabrazyme) 1mg/kg IV infusion OR Migalastat 123mg (if amenable mutation)",
     "frequency": "Every 2 weeks (IV) / Every other day (Migalastat)",
     "time": "8:00 AM (Morning) (on scheduled dosing day)",
-    "duration_days": "",
+    "duration_days": "Lifelong",
     "precautions": "Analgesics (carbamazepine) for pain crises; renal monitoring; cardiology; avoid triggers (heat, exercise); genetic counseling"
   },
   {
@@ -1946,7 +1946,7 @@
     "medicine": "Imiglucerase (Cerezyme) IV infusion 60U/kg OR Eliglustat 84mg oral (substrate reduction therapy)",
     "frequency": "Every 2 weeks (IV) / 2x/day (oral)",
     "time": "8:00 AM (Morning) (on scheduled dosing day)",
-    "duration_days": "",
+    "duration_days": "Lifelong",
     "precautions": "Monitor CBC, ferritin, chitotriosidase; orthopedic management (bone crises); splenectomy rarely needed now; genetic counseling"
   },
   {
@@ -1956,7 +1956,7 @@
     "medicine": "Zoledronic acid 5mg IV (single infusion – highly effective) OR Risedronate 30mg oral (alternative)",
     "frequency": "Single IV infusion / 1x/day",
     "time": "8:00 AM (Morning) (primary medicine); see notes for others",
-    "duration_days": "",
+    "duration_days": "Single dose (Zoledronic) / 2 months (Risedronate)",
     "precautions": "Calcium 1000mg + Vitamin D 800IU supplementation; hearing assessment (skull involvement); monitor ALP to assess response"
   },
   {
@@ -1966,7 +1966,7 @@
     "medicine": "Prednisolone 20–40mg (symptomatic disease) + Methotrexate 10–15mg/week (steroid-sparing)",
     "frequency": "1x/day (Prednisolone) / Weekly (MTX)",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "6–24 months (most remit)",
     "precautions": "Many cases remit spontaneously; avoid calcium/vitamin D supplementation (hypercalcemia risk); organ-specific monitoring (lungs, eyes, heart)"
   },
   {
@@ -1976,7 +1976,7 @@
     "medicine": "Colchicine 0.5–1mg (oral ulcers/arthritis) + Azathioprine 2.5mg/kg/day (systemic) / Infliximab (severe)",
     "frequency": "2x/day (Colchicine) / 1x/day (Azathioprine)",
     "time": "8:00 AM (Morning) & 9:00 PM (Night)",
-    "duration_days": "",
+    "duration_days": "Long-term",
     "precautions": "Topical steroids for oral/genital ulcers; ophthalmology for uveitis; anticoagulation for vascular disease; avoid pathergy triggers"
   },
   {
@@ -1986,7 +1986,7 @@
     "medicine": "No curative drug; Low-dose Amitriptyline 10–25mg (sleep/pain) + Melatonin 2mg + Fludrocortisone 0.1mg (if POTS component)",
     "frequency": "1x/day at night (Amitriptyline) / 1x/day (Melatonin) / 1x/day (Fludrocortisone)",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "Long-term (individualized)",
     "precautions": "Pacing (energy management – most important); avoid boom-bust cycle; graded activity (not aggressive GET); cognitive support; MDT approach; psychological support"
   },
   {
@@ -1996,7 +1996,7 @@
     "medicine": "Duloxetine 60mg + Pregabalin 75–150mg + Low-dose Amitriptyline 10–25mg (at night)",
     "frequency": "1x/day (Duloxetine) / 2x/day (Pregabalin) / 1x/day at night (Amitriptyline)",
     "time": "8:00 AM (Morning)",
-    "duration_days": "",
+    "duration_days": "Long-term",
     "precautions": "Aerobic exercise (most evidence-based intervention); CBT; sleep hygiene; patient education; avoid opioids; multidisciplinary pain management"
   }
 ]

@@ -48,16 +48,45 @@ class AnalysisResult {
   });
 
   factory AnalysisResult.fromMap(Map<String, dynamic> map) {
+  // If data comes from FastAPI
+  if (map.containsKey('disease')) {
+    final medicineName = map['medicine'] ?? '';
+
+    final medicines = [
+      MedicineModel(
+        name: medicineName,
+        dosage: map['frequency'] ?? '',
+        instruction: map['duration']?['label'] ?? '',
+        timeOfDay: (map['schedule'] != null &&
+                (map['schedule'] as List).isNotEmpty)
+            ? map['schedule'][0]['label'].toString().toLowerCase()
+            : 'morning',
+        notes: map['precautions'] ?? '',
+      )
+    ];
+
     return AnalysisResult(
-      likelyCondition: map['likelyCondition'] ?? '',
+      likelyCondition: map['disease'] ?? '',
       confidence: (map['confidence'] ?? 0.0).toDouble(),
-      medicines: (map['medicines'] as List? ?? [])
-          .map((m) => MedicineModel.fromMap(m))
-          .toList(),
-      generalAdvice: List<String>.from(map['generalAdvice'] ?? []),
+      medicines: medicines,
+      generalAdvice: [
+        map['precautions'] ?? '',
+      ],
       disclaimer: map['disclaimer'],
     );
   }
+
+  // Old Claude format
+  return AnalysisResult(
+    likelyCondition: map['likelyCondition'] ?? '',
+    confidence: (map['confidence'] ?? 0.0).toDouble(),
+    medicines: (map['medicines'] as List? ?? [])
+        .map((m) => MedicineModel.fromMap(m))
+        .toList(),
+    generalAdvice: List<String>.from(map['generalAdvice'] ?? []),
+    disclaimer: map['disclaimer'],
+  );
+}
 
   Map<String, dynamic> toMap() => {
     'likelyCondition': likelyCondition,

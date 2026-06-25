@@ -86,7 +86,7 @@ for _, row in df.iterrows():
         "medicine":    str(row["Primary Medicine(s)"]).strip(),
         "frequency":   str(row["Frequency per Day"]).strip(),
         "schedule":    parse_schedule(row["Time"]),
-        "duration":    parse_duration(row["Duration (Days)"]),
+        "duration":    parse_duration(row["Duration(Days)"]),
         "precautions": str(row["Precautions / Notes"]).strip(),
     }
 

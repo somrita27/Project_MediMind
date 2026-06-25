@@ -1,4 +1,4 @@
-#,Category,Disease,Key Symptoms,Primary Medicine(s),Frequency per Day,Time,Duration (Days),Precautions / Notes
+#,Category,Disease,Key Symptoms,Primary Medicine(s),Frequency per Day,Time,Duration(Days),Precautions / Notes
 1,Infectious Diseases,Influenza,"Fever, chills, body aches, fatigue, cough, sore throat, runny nose",Oseltamivir (Tamiflu) 75mg,2x/day,8:00 AM (Morning) & 9:00 PM (Night),5,"Rest, hydration, avoid contact with others; annual flu vaccine recommended"
 2,Infectious Diseases,COVID-19,"Fever, dry cough, fatigue, loss of taste/smell, breathlessness",Nirmatrelvir/Ritonavir (Paxlovid) 300mg/100mg,2x/day,8:00 AM (Morning) & 9:00 PM (Night),5,"Isolation, mask use, hydration, monitor O2 saturation; vaccination strongly advised"
 3,Infectious Diseases,Tuberculosis,"Persistent cough >3 weeks, hemoptysis, night sweats, weight loss, fever",Isoniazid + Rifampicin + Pyrazinamide + Ethambutol (HRZE),1x/day,8:00 AM (Morning),180 (6 months),Complete full course; DOT (Directly Observed Therapy) recommended; avoid alcohol

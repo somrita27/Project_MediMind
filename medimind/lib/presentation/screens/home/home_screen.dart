@@ -29,19 +29,44 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
     _loadData();
   }
 
-  Future<void> _loadData() async {
+  // Future<void> _loadData() async {
+  //   final user = await _authService.getCurrentUserModel();
+  //   if (user != null) {
+  //     final sessions = await _healthService.getUserSessions(user.uid);
+  //     if (mounted) {
+  //       setState(() {
+  //         _user = user;
+  //         _recentSessions = sessions.take(3).toList();
+  //         _loading = false;
+  //       });
+  //     }
+  //   }
+  // }
+Future<void> _loadData() async {
+  try {
     final user = await _authService.getCurrentUserModel();
+
     if (user != null) {
       final sessions = await _healthService.getUserSessions(user.uid);
+
       if (mounted) {
         setState(() {
           _user = user;
           _recentSessions = sessions.take(3).toList();
-          _loading = false;
         });
       }
     }
+  } catch (e) {
+    print(e);
+  } finally {
+    if (mounted) {
+      setState(() {
+        _loading = false;
+      });
+    }
   }
+}
+
 
   @override
   Widget build(BuildContext context) {
