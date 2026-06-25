@@ -7,7 +7,8 @@ class AIService {
   // static const String _baseUrl = 'https://api.anthropic.com/v1/messages';
   // // Store your API key securely — use flutter_dotenv or --dart-define in production
   // static const String _apiKey = 'YOUR_ANTHROPIC_API_KEY';
-  static const String _baseUrl = 'http://10.0.2.2:8000';
+  // static const String _baseUrl = 'http://10.0.2.2:8000';
+  static const String _baseUrl = 'http://10.135.54.175:8000';
 
 //   static const String _systemPrompt = '''
 // You are MediMind, an AI health assistant. When a user describes symptoms, analyze them carefully and respond ONLY with a valid JSON object in this exact structure:
@@ -53,30 +54,29 @@ class AIService {
 
   //   return _callClaude(prompt);
   // }
-static Future<AnalysisResult> analyzeSymptoms({
-  required String symptoms,
-  List<String> allergies = const [],
-}) async {
-  final response = await http.post(
-    Uri.parse('$_baseUrl/predict'),
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    body: jsonEncode({
-      'symptoms': symptoms,
-    }),
-  );
-
-  if (response.statusCode == 200) {
-    final data = jsonDecode(response.body);
-    return AnalysisResult.fromMap(data);
-  } else {
-    throw Exception(
-      'Prediction failed: ${response.statusCode}\n${response.body}',
+  static Future<AnalysisResult> analyzeSymptoms({
+    required String symptoms,
+    List<String> allergies = const [],
+  }) async {
+    final response = await http.post(
+      Uri.parse('$_baseUrl/predict'),
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: jsonEncode({
+        'symptoms': symptoms,
+      }),
     );
-  }
-}
 
+    if (response.statusCode == 200) {
+      final data = jsonDecode(response.body);
+      return AnalysisResult.fromMap(data);
+    } else {
+      throw Exception(
+        'Prediction failed: ${response.statusCode}\n${response.body}',
+      );
+    }
+  }
 
   /// Analyze symptoms with an image
   // static Future<AnalysisResult> analyzeSymptomsWithImage({
@@ -128,19 +128,18 @@ static Future<AnalysisResult> analyzeSymptoms({
 
   //   return _parseResponse(response);
   // }
-static Future<AnalysisResult> analyzeSymptomsWithImage({
-  required String symptoms,
-  required File imageFile,
-  List<String> allergies = const [],
-}) async {
-  // Image analysis will be added later.
-  // For now, use text-based prediction.
-  return analyzeSymptoms(
-    symptoms: symptoms,
-    allergies: allergies,
-  );
-}
-
+  static Future<AnalysisResult> analyzeSymptomsWithImage({
+    required String symptoms,
+    required File imageFile,
+    List<String> allergies = const [],
+  }) async {
+    // Image analysis will be added later.
+    // For now, use text-based prediction.
+    return analyzeSymptoms(
+      symptoms: symptoms,
+      allergies: allergies,
+    );
+  }
 
   // static Future<AnalysisResult> _callClaude(String userMessage) async {
   //   final response = await http.post(

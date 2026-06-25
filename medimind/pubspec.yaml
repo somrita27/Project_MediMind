@@ -59,6 +59,7 @@ dev_dependencies:
   flutter_lints: ^3.0.0
   build_runner: ^2.4.8
   riverpod_generator: ^2.4.0
+  flutter_launcher_icons: ^0.14.3
 
 flutter:
   uses-material-design: true
@@ -66,3 +67,11 @@ flutter:
     - assets/images/
     - assets/animations/
     - assets/icons/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/app_logo_medimind.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/icons/app_logo_medimind.png"
+  remove_alpha_ios: true

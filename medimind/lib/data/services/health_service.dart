@@ -21,9 +21,8 @@ class HealthService {
 
     // Upload image if provided
     if (imageFile != null) {
-      final ref = _storage
-          .ref()
-          .child('symptom_images/$userId/${DateTime.now().millisecondsSinceEpoch}.jpg');
+      final ref = _storage.ref().child(
+          'symptom_images/$userId/${DateTime.now().millisecondsSinceEpoch}.jpg');
       await ref.putFile(imageFile);
       imageUrl = await ref.getDownloadURL();
     }
@@ -62,15 +61,19 @@ class HealthService {
   }
 
   Future<List<HealthSession>> getUserSessions(String userId) async {
-    final snap = await _db
-        .collection('sessions')
-        .where('userId', isEqualTo: userId)
-        .orderBy('createdAt', descending: true)
-        .get();
+    try {
+      final snap = await _db
+          .collection('sessions')
+          .where('userId', isEqualTo: userId)
+          .orderBy('createdAt', descending: true)
+          .get();
 
-    return snap.docs
-        .map((d) => HealthSession.fromMap(d.data(), d.id))
-        .toList();
+      return snap.docs
+          .map((d) => HealthSession.fromMap(d.data(), d.id))
+          .toList();
+    } catch (e) {
+      rethrow;
+    }
   }
 
   Future<HealthSession?> getSession(String sessionId) async {
@@ -136,7 +139,7 @@ class HealthService {
         .toList();
   }
 
-  // ── Reminders ─────────────────────────────────────────────
+  // Reminders
 
   Future<List<ReminderModel>> getTodayReminders(String userId) async {
     final today = DateTime.now();
@@ -146,18 +149,20 @@ class HealthService {
     final snap = await _db
         .collection('reminders')
         .where('userId', isEqualTo: userId)
-        .where('scheduledAt', isGreaterThanOrEqualTo: startOfDay.toIso8601String())
+        .where('scheduledAt',
+            isGreaterThanOrEqualTo: startOfDay.toIso8601String())
         .where('scheduledAt', isLessThan: endOfDay.toIso8601String())
         .orderBy('scheduledAt')
         .get();
 
-    return snap.docs
-        .map((d) => ReminderModel.fromMap(d.data(), d.id))
-        .toList();
+    return snap.docs.map((d) => ReminderModel.fromMap(d.data(), d.id)).toList();
   }
 
   Future<void> updateReminderStatus(String reminderId, String status) async {
-    await _db.collection('reminders').doc(reminderId).update({'status': status});
+    await _db
+        .collection('reminders')
+        .doc(reminderId)
+        .update({'status': status});
   }
 
   /// Generate reminder documents for a schedule (called after saving schedule)
@@ -170,8 +175,11 @@ class HealthService {
         final timeStr = schedule.timingTimes[timing] ?? '08:00 AM';
         final timeParts = _parseTime(timeStr);
         final scheduledAt = DateTime(
-          current.year, current.month, current.day,
-          timeParts[0], timeParts[1],
+          current.year,
+          current.month,
+          current.day,
+          timeParts[0],
+          timeParts[1],
         );
 
         final ref = _db.collection('reminders').doc();
@@ -195,7 +203,8 @@ class HealthService {
 
   List<int> _parseTime(String timeStr) {
     // "08:00 AM" -> [8, 0]
-    final parts = timeStr.replaceAll(' AM', '').replaceAll(' PM', '').split(':');
+    final parts =
+        timeStr.replaceAll(' AM', '').replaceAll(' PM', '').split(':');
     int hour = int.parse(parts[0]);
     int minute = int.parse(parts[1]);
     if (timeStr.contains('PM') && hour != 12) hour += 12;
