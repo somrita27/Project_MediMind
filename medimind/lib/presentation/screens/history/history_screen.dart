@@ -28,7 +28,11 @@ class _HistoryScreenState extends State<HistoryScreen> {
     final user = await AuthService().getCurrentUserModel();
     if (user == null) return;
     final sessions = await HealthService().getUserSessions(user.uid);
-    if (mounted) setState(() { _sessions = sessions; _loading = false; });
+    if (mounted)
+      setState(() {
+        _sessions = sessions;
+        _loading = false;
+      });
   }
 
   @override
@@ -59,7 +63,7 @@ class _HistoryScreenState extends State<HistoryScreen> {
                         itemCount: _sessions.length,
                         itemBuilder: (_, i) => _HistoryTile(
                           session: _sessions[i],
-                          onTap: () => context.go(
+                          onTap: () => context.push(
                             AppRoutes.historyDetail,
                             extra: _sessions[i],
                           ),
@@ -148,7 +152,8 @@ class _HistoryTile extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.end,
               children: [
                 Container(
-                  padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+                  padding:
+                      const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
                   decoration: BoxDecoration(
                     color: AppColors.primary.withOpacity(0.1),
                     borderRadius: BorderRadius.circular(20),

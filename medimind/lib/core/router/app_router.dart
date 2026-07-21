@@ -11,6 +11,7 @@ import '../../presentation/screens/analysis/analysis_result_screen.dart';
 import '../../presentation/screens/schedule/set_schedule_screen.dart';
 import '../../presentation/screens/reminders/reminders_screen.dart';
 import '../../presentation/screens/history/history_detail_screen.dart';
+import '../../presentation/screens/reminders/medicine_alarm_screen.dart';
 
 final router = GoRouter(
   initialLocation: AppRoutes.splash,
@@ -70,6 +71,19 @@ final router = GoRouter(
     GoRoute(
       path: AppRoutes.profile,
       builder: (_, __) => const MainScaffold(initialIndex: 3),
+    ),
+    GoRoute(
+      path: AppRoutes.medicineAlarm,
+      builder: (context, state) {
+        final data = state.extra as Map<String, dynamic>? ?? const {};
+        return MedicineAlarmScreen(
+          reminderId: data['reminderId'] as String? ?? '',
+          medicineName: data['medicineName'] as String? ?? 'Medicine',
+          dosage: data['dosage'] as String? ?? '',
+          instruction: data['instruction'] as String? ?? '',
+          time: data['time'] as String? ?? '',
+        );
+      },
     ),
   ],
   errorBuilder: (context, state) => Scaffold(

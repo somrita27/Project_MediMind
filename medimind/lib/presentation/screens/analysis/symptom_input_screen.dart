@@ -27,9 +27,11 @@ class _SymptomInputScreenState extends State<SymptomInputScreen> {
   void initState() {
     super.initState();
     if (widget.initialSource == 'camera') {
-      WidgetsBinding.instance.addPostFrameCallback((_) => _pickImage(fromCamera: true));
+      WidgetsBinding.instance
+          .addPostFrameCallback((_) => _pickImage(fromCamera: true));
     } else if (widget.initialSource == 'gallery') {
-      WidgetsBinding.instance.addPostFrameCallback((_) => _pickImage(fromCamera: false));
+      WidgetsBinding.instance
+          .addPostFrameCallback((_) => _pickImage(fromCamera: false));
     }
   }
 
@@ -64,19 +66,21 @@ class _SymptomInputScreenState extends State<SymptomInputScreen> {
 
       final session = await HealthService().analyzeAndSave(
         userId: user.uid,
-        symptoms: text.isEmpty ? 'Photo uploaded — please analyze the image' : text,
+        symptoms:
+            text.isEmpty ? 'Photo uploaded — please analyze the image' : text,
         imageFile: _pickedImage,
         allergies: user.allergies,
       );
 
       if (mounted) {
-        context.go(AppRoutes.analysisResult, extra: session);
+        context.push(AppRoutes.analysisResult, extra: session);
       }
     } catch (e) {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
-            content: Text('Analysis failed: ${e.toString().replaceAll('Exception: ', '')}'),
+            content: Text(
+                'Analysis failed: ${e.toString().replaceAll('Exception: ', '')}'),
             backgroundColor: AppColors.error,
             behavior: SnackBarBehavior.floating,
           ),
@@ -101,7 +105,7 @@ class _SymptomInputScreenState extends State<SymptomInputScreen> {
         title: const Text('Check Symptoms'),
         leading: IconButton(
           icon: const Icon(Icons.arrow_back_ios_new, size: 18),
-          onPressed: () => context.go(AppRoutes.home),
+          onPressed: () => context.pop(),
         ),
       ),
       body: SafeArea(
@@ -110,7 +114,8 @@ class _SymptomInputScreenState extends State<SymptomInputScreen> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              const Text('Describe your symptoms', style: AppTextStyles.titleLarge),
+              const Text('Describe your symptoms',
+                  style: AppTextStyles.titleLarge),
               const SizedBox(height: 12),
 
               // Symptom text input
@@ -144,7 +149,8 @@ class _SymptomInputScreenState extends State<SymptomInputScreen> {
               ),
               const SizedBox(height: 24),
 
-              const Text('Upload a photo (optional)', style: AppTextStyles.titleLarge),
+              const Text('Upload a photo (optional)',
+                  style: AppTextStyles.titleLarge),
               const SizedBox(height: 4),
               const Text(
                 'Upload image of rash, wound, eye condition etc.',
@@ -185,7 +191,8 @@ class _SymptomInputScreenState extends State<SymptomInputScreen> {
                 isLoading: _loading,
                 icon: _loading
                     ? null
-                    : const Icon(Icons.search_rounded, color: Colors.white, size: 20),
+                    : const Icon(Icons.search_rounded,
+                        color: Colors.white, size: 20),
               ),
 
               const SizedBox(height: 16),
@@ -198,7 +205,8 @@ class _SymptomInputScreenState extends State<SymptomInputScreen> {
                 ),
                 child: Row(
                   children: [
-                    Icon(Icons.info_outline, size: 16, color: AppColors.warning),
+                    Icon(Icons.info_outline,
+                        size: 16, color: AppColors.warning),
                     const SizedBox(width: 8),
                     const Expanded(
                       child: Text(

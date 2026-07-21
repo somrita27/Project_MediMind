@@ -21,7 +21,7 @@ class HistoryDetailScreen extends StatelessWidget {
         title: const Text('History Details'),
         leading: IconButton(
           icon: const Icon(Icons.arrow_back_ios_new, size: 18),
-          onPressed: () => context.go(AppRoutes.history),
+          onPressed: () => context.pop(),
         ),
         actions: [
           IconButton(
@@ -71,7 +71,8 @@ class HistoryDetailScreen extends StatelessWidget {
                                   style: TextStyle(
                                       color: AppColors.primary, fontSize: 16)),
                               Expanded(
-                                  child: Text(a, style: AppTextStyles.bodyLarge)),
+                                  child:
+                                      Text(a, style: AppTextStyles.bodyLarge)),
                             ],
                           ),
                         ),
@@ -115,7 +116,8 @@ class HistoryDetailScreen extends StatelessWidget {
             value,
             style: AppTextStyles.bodyLarge.copyWith(
               color: valueColor,
-              fontWeight: valueColor != null ? FontWeight.w600 : FontWeight.w400,
+              fontWeight:
+                  valueColor != null ? FontWeight.w600 : FontWeight.w400,
             ),
           ),
         ],
@@ -153,8 +155,8 @@ class HistoryDetailScreen extends StatelessWidget {
           ),
           TextButton(
             onPressed: () => Navigator.pop(ctx, true),
-            child: const Text('Delete',
-                style: TextStyle(color: AppColors.error)),
+            child:
+                const Text('Delete', style: TextStyle(color: AppColors.error)),
           ),
         ],
       ),

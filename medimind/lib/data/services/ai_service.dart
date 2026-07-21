@@ -8,7 +8,8 @@ class AIService {
   // // Store your API key securely — use flutter_dotenv or --dart-define in production
   // static const String _apiKey = 'YOUR_ANTHROPIC_API_KEY';
   // static const String _baseUrl = 'http://10.0.2.2:8000';
-  static const String _baseUrl = 'http://10.135.54.175:8000';
+  // static const String _baseUrl = 'http://10.135.54.175:8000';
+  static const String _baseUrl = 'http://172.17.3.146:8000';
 
 //   static const String _systemPrompt = '''
 // You are MediMind, an AI health assistant. When a user describes symptoms, analyze them carefully and respond ONLY with a valid JSON object in this exact structure:

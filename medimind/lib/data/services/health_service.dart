@@ -158,6 +158,23 @@ class HealthService {
     return snap.docs.map((d) => ReminderModel.fromMap(d.data(), d.id)).toList();
   }
 
+  Future<List<ReminderModel>> getRemindersForDate(
+      String userId, DateTime date) async {
+    final startOfDay = DateTime(date.year, date.month, date.day);
+    final endOfDay = startOfDay.add(const Duration(days: 1));
+
+    final snap = await _db
+        .collection('reminders')
+        .where('userId', isEqualTo: userId)
+        .where('scheduledAt',
+            isGreaterThanOrEqualTo: startOfDay.toIso8601String())
+        .where('scheduledAt', isLessThan: endOfDay.toIso8601String())
+        .orderBy('scheduledAt')
+        .get();
+
+    return snap.docs.map((d) => ReminderModel.fromMap(d.data(), d.id)).toList();
+  }
+
   Future<void> updateReminderStatus(String reminderId, String status) async {
     await _db
         .collection('reminders')
@@ -165,10 +182,14 @@ class HealthService {
         .update({'status': status});
   }
 
-  /// Generate reminder documents for a schedule (called after saving schedule)
-  Future<void> generateReminders(MedicineSchedule schedule) async {
+  /// Generate reminder documents for a schedule (called after saving schedule).
+  /// Returns the created reminders so callers (e.g. local notification
+  /// scheduling) can reference their real Firestore document IDs.
+  Future<List<ReminderModel>> generateReminders(
+      MedicineSchedule schedule) async {
     final batch = _db.batch();
     var current = schedule.startDate;
+    final created = <ReminderModel>[];
 
     while (current.isBefore(schedule.endDate)) {
       for (final timing in schedule.timings) {
@@ -183,7 +204,7 @@ class HealthService {
         );
 
         final ref = _db.collection('reminders').doc();
-        batch.set(ref, {
+        final data = {
           'userId': schedule.userId,
           'scheduleId': schedule.id,
           'medicineName': schedule.medicineName,
@@ -193,12 +214,15 @@ class HealthService {
           'time': timeStr,
           'scheduledAt': scheduledAt.toIso8601String(),
           'status': 'Upcoming',
-        });
+        };
+        batch.set(ref, data);
+        created.add(ReminderModel.fromMap(data, ref.id));
       }
       current = current.add(const Duration(days: 1));
     }
 
     await batch.commit();
+    return created;
   }
 
   List<int> _parseTime(String timeStr) {

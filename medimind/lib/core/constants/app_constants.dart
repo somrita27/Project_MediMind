@@ -15,7 +15,8 @@ class AppConstants {
   // Notification channels
   static const String medicineChannelId = 'medicine_reminders';
   static const String medicineChannelName = 'Medicine Reminders';
-  static const String medicineChannelDesc = 'Reminders for taking your medicines';
+  static const String medicineChannelDesc =
+      'Reminders for taking your medicines';
 
   // Duration options
   static const List<int> durationOptions = [1, 2, 3, 5, 7, 10, 14, 30];
@@ -50,6 +51,7 @@ class AppRoutes {
   static const String history = '/history';
   static const String historyDetail = '/history-detail';
   static const String profile = '/profile';
+  static const String medicineAlarm = '/medicine-alarm';
 }
 
 class AppStrings {

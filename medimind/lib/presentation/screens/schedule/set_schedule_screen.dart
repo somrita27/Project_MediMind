@@ -42,10 +42,7 @@ class _SetScheduleScreenState extends State<SetScheduleScreen> {
   MedicineModel get _selectedMedicine => _medicines[_selectedMedicineIndex];
 
   List<String> get _selectedTimings =>
-      _timingSelected.entries
-          .where((e) => e.value)
-          .map((e) => e.key)
-          .toList();
+      _timingSelected.entries.where((e) => e.value).map((e) => e.key).toList();
 
   @override
   void dispose() {
@@ -59,7 +56,8 @@ class _SetScheduleScreenState extends State<SetScheduleScreen> {
     final parts = _timingControllers[timing]!.text.split(RegExp(r'[: ]'));
     int hour = int.parse(parts[0]);
     final minute = int.parse(parts[1]);
-    if (_timingControllers[timing]!.text.contains('PM') && hour != 12) hour += 12;
+    if (_timingControllers[timing]!.text.contains('PM') && hour != 12)
+      hour += 12;
     if (_timingControllers[timing]!.text.contains('AM') && hour == 12) hour = 0;
 
     final picked = await showTimePicker(
@@ -105,10 +103,10 @@ class _SetScheduleScreenState extends State<SetScheduleScreen> {
       );
 
       // Generate reminder docs
-      await HealthService().generateReminders(schedule);
+      final reminders = await HealthService().generateReminders(schedule);
 
-      // Schedule local notifications
-      await NotificationService().scheduleRemindersForSchedule(schedule);
+      // Schedule local notifications tied to the real reminder IDs
+      await NotificationService().scheduleRemindersForReminders(reminders);
 
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
@@ -143,7 +141,7 @@ class _SetScheduleScreenState extends State<SetScheduleScreen> {
         title: const Text('Set Medicine Schedule'),
         leading: IconButton(
           icon: const Icon(Icons.arrow_back_ios_new, size: 18),
-          onPressed: () => context.go(AppRoutes.analysisResult, extra: widget.session),
+          onPressed: () => context.pop(),
         ),
       ),
       body: SafeArea(
@@ -171,7 +169,9 @@ class _SetScheduleScreenState extends State<SetScheduleScreen> {
                           padding: const EdgeInsets.symmetric(
                               horizontal: 16, vertical: 10),
                           decoration: BoxDecoration(
-                            color: selected ? AppColors.primary : AppColors.surface,
+                            color: selected
+                                ? AppColors.primary
+                                : AppColors.surface,
                             borderRadius: BorderRadius.circular(22),
                             border: Border.all(
                               color: selected
@@ -182,8 +182,9 @@ class _SetScheduleScreenState extends State<SetScheduleScreen> {
                           child: Text(
                             _medicines[i].name,
                             style: TextStyle(
-                              color:
-                                  selected ? Colors.white : AppColors.textSecondary,
+                              color: selected
+                                  ? Colors.white
+                                  : AppColors.textSecondary,
                               fontSize: 13,
                               fontWeight: FontWeight.w500,
                             ),
@@ -246,7 +247,8 @@ class _SetScheduleScreenState extends State<SetScheduleScreen> {
                   timing: timing,
                   timeText: _timingControllers[timing]!.text,
                   selected: _timingSelected[timing]!,
-                  onToggle: (val) => setState(() => _timingSelected[timing] = val),
+                  onToggle: (val) =>
+                      setState(() => _timingSelected[timing] = val),
                   onEditTime: () => _pickTime(timing),
                 ),
               ),
@@ -282,8 +284,7 @@ class _SetScheduleScreenState extends State<SetScheduleScreen> {
                       items: AppConstants.durationOptions
                           .map((d) => DropdownMenuItem(
                                 value: d,
-                                child: Text(
-                                    '$d ${d == 1 ? 'Day' : 'Days'}'),
+                                child: Text('$d ${d == 1 ? 'Day' : 'Days'}'),
                               ))
                           .toList(),
                       onChanged: (v) => setState(() => _durationDays = v!),

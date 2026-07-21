@@ -21,11 +21,12 @@ class AnalysisResultScreen extends StatelessWidget {
         title: const Text('Analysis Result'),
         leading: IconButton(
           icon: const Icon(Icons.arrow_back_ios_new, size: 18),
-          onPressed: () => context.go(AppRoutes.home),
+          onPressed: () => context.pop(),
         ),
         actions: [
           IconButton(
-            icon: const Icon(Icons.verified_user_outlined, color: AppColors.primary),
+            icon: const Icon(Icons.verified_user_outlined,
+                color: AppColors.primary),
             onPressed: () {},
             tooltip: 'Verified AI response',
           ),
@@ -49,7 +50,8 @@ class AnalysisResultScreen extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const Text('Likely Condition', style: AppTextStyles.labelLarge),
+                    const Text('Likely Condition',
+                        style: AppTextStyles.labelLarge),
                     const SizedBox(height: 6),
                     Text(
                       result.likelyCondition,
@@ -89,7 +91,8 @@ class AnalysisResultScreen extends StatelessWidget {
               const SizedBox(height: 20),
 
               // Recommended medicines
-              const Text('Recommended Medicines', style: AppTextStyles.titleLarge),
+              const Text('Recommended Medicines',
+                  style: AppTextStyles.titleLarge),
               const SizedBox(height: 12),
               ...result.medicines.map((m) => MedicineCard(medicine: m)),
 
@@ -119,7 +122,8 @@ class AnalysisResultScreen extends StatelessWidget {
                                       fontSize: 16,
                                       fontWeight: FontWeight.bold)),
                               Expanded(
-                                child: Text(advice, style: AppTextStyles.bodyLarge),
+                                child: Text(advice,
+                                    style: AppTextStyles.bodyLarge),
                               ),
                             ],
                           ),
@@ -138,12 +142,14 @@ class AnalysisResultScreen extends StatelessWidget {
                   decoration: BoxDecoration(
                     color: AppColors.warning.withOpacity(0.08),
                     borderRadius: BorderRadius.circular(10),
-                    border: Border.all(color: AppColors.warning.withOpacity(0.2)),
+                    border:
+                        Border.all(color: AppColors.warning.withOpacity(0.2)),
                   ),
                   child: Row(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Icon(Icons.info_outline, size: 16, color: AppColors.warning),
+                      Icon(Icons.info_outline,
+                          size: 16, color: AppColors.warning),
                       const SizedBox(width: 8),
                       Expanded(
                         child: Text(
@@ -164,7 +170,8 @@ class AnalysisResultScreen extends StatelessWidget {
               // Action buttons
               GradientButton(
                 text: 'Set Schedule',
-                onPressed: () => context.go(AppRoutes.setSchedule, extra: session),
+                onPressed: () =>
+                    context.push(AppRoutes.setSchedule, extra: session),
                 icon: const Icon(Icons.calendar_today_outlined,
                     color: Colors.white, size: 18),
               ),
