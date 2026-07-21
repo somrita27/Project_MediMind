@@ -4,6 +4,8 @@ import '../../../core/constants/app_constants.dart';
 import '../../../core/theme/app_theme.dart';
 import '../../../data/models/user_model.dart';
 import '../../../data/services/auth_service.dart';
+import 'edit_profile_screen.dart';
+import 'about_screen.dart';
 
 class ProfileScreen extends StatefulWidget {
   const ProfileScreen({super.key});
@@ -28,6 +30,30 @@ class _ProfileScreenState extends State<ProfileScreen> {
     if (mounted) setState(() { _user = user; _loading = false; });
   }
 
+Future<void> _openEditProfile() async {
+  if (_user == null) return;
+
+  final updated = await Navigator.push<bool>(
+    context,
+    MaterialPageRoute(
+      builder: (_) => EditProfileScreen(user: _user!),
+    ),
+  );
+
+  if (updated == true) {
+    await _loadUser();
+
+    if (mounted) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text("Profile updated successfully"),
+          backgroundColor: AppColors.success,
+        ),
+      );
+    }
+  }
+}
+
   Future<void> _signOut() async {
     final confirmed = await showDialog<bool>(
       context: context,
@@ -49,72 +75,177 @@ class _ProfileScreenState extends State<ProfileScreen> {
     }
   }
 
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: AppColors.background,
-      appBar: AppBar(
-        title: const Text('Profile'),
-        automaticallyImplyLeading: false,
-      ),
-      body: SafeArea(
-        child: _loading
-            ? const Center(child: CircularProgressIndicator())
-            : SingleChildScrollView(
-                child: Column(
-                  children: [
-                    _buildHeader(),
-                    const SizedBox(height: 24),
-                    _buildMenuItems(),
-                  ],
+@override
+Widget build(BuildContext context) {
+  return Scaffold(
+    backgroundColor: AppColors.background,
+    body: _loading
+        ? const Center(
+            child: CircularProgressIndicator(),
+          )
+        : Stack(
+            children: [
+
+              /// Green Header
+              Container(
+                height: 250,
+                width: double.infinity,
+                decoration: const BoxDecoration(
+                  gradient: AppGradients.card,
                 ),
               ),
-      ),
-    );
-  }
+
+              /// White Curved Body
+              Positioned(
+                top: 170,
+                left: 0,
+                right: 0,
+                bottom: 0,
+                child: Container(
+                  decoration: const BoxDecoration(
+                    color: AppColors.background,
+                    borderRadius: BorderRadius.only(
+                      topLeft: Radius.circular(38),
+                      topRight: Radius.circular(38),
+                    ),
+                  ),
+                ),
+              ),
+
+              /// Scroll Content
+              SafeArea(
+                child: SingleChildScrollView(
+                  physics: const BouncingScrollPhysics(),
+                  child: Column(
+                    children: [
+
+                      const SizedBox(height: 105),
+                      _buildHeader(),
+
+                      const SizedBox(height: 28),
+                      _buildMenuItems(),
+
+                      const SizedBox(height: 40),
+                    ],
+                  ),
+                ),
+              ),
+            ],
+          ),
+  );
+}
 
   Widget _buildHeader() {
-    return Container(
-      width: double.infinity,
-      padding: const EdgeInsets.symmetric(vertical: 32),
-      decoration: const BoxDecoration(gradient: AppGradients.card),
-      child: Column(
+  return Column(
+    children: [
+
+      // Profile Avatar
+      Stack(
+        clipBehavior: Clip.none,
+        alignment: Alignment.center,
         children: [
-          CircleAvatar(
-            radius: 44,
-            backgroundColor: Colors.white.withOpacity(0.3),
-            child: Text(
-              _user?.fullName.isNotEmpty == true
-                  ? _user!.fullName[0].toUpperCase()
-                  : '?',
-              style: const TextStyle(
-                fontSize: 32,
-                fontWeight: FontWeight.w700,
-                color: Colors.white,
+
+          Container(
+            width: 112,
+            height: 112,
+            decoration: BoxDecoration(
+              shape: BoxShape.circle,
+              color: Colors.white,
+              boxShadow: [
+                BoxShadow(
+                  color: Colors.black.withOpacity(0.10),
+                  blurRadius: 20,
+                  offset: const Offset(0, 8),
+                ),
+              ],
+            ),
+
+            child: Padding(
+              padding: const EdgeInsets.only(
+                left: 20,
+                right: 20,
+                top: 20,
+              ),
+              child: CircleAvatar(
+                backgroundColor: AppColors.surfaceVariant,
+                backgroundImage:
+                    (_user?.photoUrl != null &&
+                            _user!.photoUrl!.isNotEmpty)
+                        ? NetworkImage(_user!.photoUrl!)
+                        : null,
+                child: (_user?.photoUrl == null ||
+                        _user!.photoUrl!.isEmpty)
+                    ? Text(
+                        _user?.fullName.isNotEmpty == true
+                            ? _user!.fullName[0].toUpperCase()
+                            : "?",
+                        style: const TextStyle(
+                          fontSize: 38,
+                          fontWeight: FontWeight.bold,
+                          color: AppColors.primary,
+                        ),
+                      )
+                    : null,
               ),
             ),
           ),
-          const SizedBox(height: 12),
-          Text(
-            _user?.fullName ?? 'User',
-            style: const TextStyle(
-              fontSize: 22,
-              fontWeight: FontWeight.w700,
-              color: Colors.white,
-            ),
-          ),
-          const SizedBox(height: 4),
-          Text(
-            _user?.email ?? '',
-            style: TextStyle(
-              fontSize: 14,
-              color: Colors.white.withOpacity(0.85),
+
+          Positioned(
+            bottom: 2,
+            right: 2,
+            child: Material(
+              color: Colors.transparent,
+              child: InkWell(
+                borderRadius: BorderRadius.circular(30),
+                onTap: () {
+                  // Upload profile image later
+                },
+                child: Container(
+                  width: 34,
+                  height: 34,
+                  decoration: BoxDecoration(
+                    color: AppColors.primary,
+                    shape: BoxShape.circle,
+                    border: Border.all(
+                      color: Colors.white,
+                      width: 3,
+                    ),
+                  ),
+                  child: const Icon(
+                    Icons.camera_alt_rounded,
+                    color: Colors.white,
+                    size: 17,
+                  ),
+                ),
+              ),
             ),
           ),
         ],
       ),
-    );
-  }
+
+      const SizedBox(height: 22),
+
+      Text(
+        _user?.fullName ?? "User",
+        style: const TextStyle(
+          fontSize: 28,
+          fontWeight: FontWeight.w700,
+          color: AppColors.textPrimary,
+        ),
+      ),
+
+      const SizedBox(height: 6),
+
+      Text(
+        _user?.email ?? "",
+        style: const TextStyle(
+          fontSize: 15,
+          color: AppColors.textSecondary,
+        ),
+      ),
+    ],
+  );
+}
 
   Widget _buildMenuItems() {
     return Padding(
@@ -126,7 +257,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
               icon: Icons.person_outline,
               label: 'Personal Information',
               trailing: const Icon(Icons.chevron_right, color: AppColors.textHint),
-              onTap: () {},
+              onTap: _openEditProfile,
             ),
             _ProfileTile(
               icon: Icons.warning_amber_outlined,
@@ -165,7 +296,14 @@ class _ProfileScreenState extends State<ProfileScreen> {
               icon: Icons.info_outline,
               label: 'About MediMind',
               trailing: const Icon(Icons.chevron_right, color: AppColors.textHint),
-              onTap: () {},
+              onTap: () {
+  Navigator.push(
+    context,
+    MaterialPageRoute(
+      builder: (_) => const AboutScreen(),
+    ),
+  );
+},
             ),
           ]),
           const SizedBox(height: 12),
@@ -185,31 +323,46 @@ class _ProfileScreenState extends State<ProfileScreen> {
   }
 
   Widget _buildSection(List<Widget> tiles) {
-    return Container(
-      decoration: BoxDecoration(
-        color: AppColors.surface,
-        borderRadius: BorderRadius.circular(16),
-        border: Border.all(color: AppColors.cardBorder),
+  return Container(
+    margin: const EdgeInsets.symmetric(horizontal: 18),
+    decoration: BoxDecoration(
+      color: Colors.white,
+      borderRadius: BorderRadius.circular(22),
+      boxShadow: [
+        BoxShadow(
+          color: Colors.black.withOpacity(0.04),
+          blurRadius: 18,
+          offset: const Offset(0, 6),
+        ),
+      ],
+      border: Border.all(
+        color: AppColors.cardBorder.withOpacity(.5),
       ),
+    ),
+    child: ClipRRect(
+      borderRadius: BorderRadius.circular(22),
       child: Column(
         children: tiles
             .asMap()
             .entries
-            .map((entry) => Column(
-                  children: [
-                    entry.value,
-                    if (entry.key < tiles.length - 1)
-                      const Divider(
-                        height: 1,
-                        indent: 56,
-                        color: AppColors.cardBorder,
-                      ),
-                  ],
-                ))
+            .map(
+              (entry) => Column(
+                children: [
+                  entry.value,
+                  if (entry.key != tiles.length - 1)
+                    const Divider(
+                      indent: 58,
+                      endIndent: 18,
+                      height: 1,
+                    ),
+                ],
+              ),
+            )
             .toList(),
       ),
-    );
-  }
+    ),
+  );
+}
 
   Future<void> _showChangePassword() async {
     final ctrl = TextEditingController();
@@ -269,23 +422,52 @@ class _ProfileTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return InkWell(
-      onTap: onTap,
-      borderRadius: BorderRadius.circular(16),
-      child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
-        child: Row(
-          children: [
-            Icon(icon, size: 20, color: iconColor ?? AppColors.textSecondary),
-            const SizedBox(width: 14),
-            Expanded(
-              child: Text(
-                label,
-                style: AppTextStyles.titleMedium.copyWith(color: labelColor),
+    return Material(
+      color: Colors.transparent,
+      child: InkWell(
+        onTap: onTap,
+        child: Padding(
+          padding: const EdgeInsets.symmetric(
+            horizontal: 18,
+            vertical: 18,
+          ),
+          child: Row(
+            children: [
+
+              Container(
+                width: 38,
+                height: 38,
+                decoration: BoxDecoration(
+                  color: AppColors.surfaceVariant,
+                  borderRadius: BorderRadius.circular(12),
+                ),
+                child: Icon(
+                  icon,
+                  size: 20,
+                  color: iconColor ?? AppColors.primary,
+                ),
               ),
-            ),
-            if (trailing != null) trailing!,
-          ],
+
+              const SizedBox(width: 16),
+
+              Expanded(
+                child: Text(
+                  label,
+                  style: TextStyle(
+                    fontSize: 16,
+                    fontWeight: FontWeight.w600,
+                    color: labelColor ?? AppColors.textPrimary,
+                  ),
+                ),
+              ),
+
+              trailing ??
+                  const Icon(
+                    Icons.chevron_right_rounded,
+                    color: AppColors.textHint,
+                  ),
+            ],
+          ),
         ),
       ),
     );
